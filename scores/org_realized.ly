@@ -5,10 +5,10 @@
 
 \book {
   \bookpart {
-    \section "1" "Praeludium 1:mum"
-    % \addTocEntry
+    \section "1" "Præludium 1:mum"
+    \addTocEntry
     \paper { indent = 2\cm }
-    \score {
+    \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "Organo"
@@ -20,7 +20,7 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

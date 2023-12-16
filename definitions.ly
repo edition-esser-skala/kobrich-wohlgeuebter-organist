@@ -6,5 +6,8 @@
 \include "ees_articulate.ly"
 
 
+pedale = \markup \remark "Pedale"
+
+
 \include "notes/chords.ly"
 \include "notes/org.ly"
