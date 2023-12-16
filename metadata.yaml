@@ -1,0 +1,23 @@
+composer:
+  last: Kobrich
+  first: Johann Anton
+title: Wohlgeübter Organist
+subtitle: 1st and 2nd part
+genre: preludes, fugues
+scoring: org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: none
+    rism: 990033863
+    license: public domain
+    principal: true
+    notes: entitled “Wohlgeübter Organiſt; | Das iſt | Vier und zwanzig große PRÆLVDIA | für die Orgel | aufgeſezt | von | Herrn Johann Anton Kobrich, | Stadt=Pfarr=Organiſt in Landsberg. | In Verlag Johann Ulrich Haffners, Lauteniſten in Nürnberg. | Nro CXIII Pag XXXI.”
+  B2:
+    siglum: A-RB
+    shelfmark: none
+    rism: 990033864
+    license: public domain
+    notes: entitled “Wohlgeübter Organiſt; | Beſtehend | aus einer Sammlung | Fugen für die Orgel | aufgeſezt | von | Herrn Johann Anton Kobrich, | Stadt=Pfarr=Organiſt in Landsberg. | In Verlag Johann Ulrich Haffners, Lauteniſten in Nürnberg. | Nro CXXVIII Pag XXIV. | G. Stettner. sc. Norib”
+imslp:
