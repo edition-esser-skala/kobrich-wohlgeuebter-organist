@@ -88,3 +88,90 @@ PraeludiumIOrgano = {
     <c e g>\fermata \bar "|." %50 finis
   }
 }
+
+PraeludiumIIOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4
+    << {
+      c'2 h
+      b a
+      <f d>1
+    } \\ {
+      c1~
+      c~
+      c
+    } >>
+    c,32 c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c]
+    c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] %5
+    <c c,>2. r4
+    R1*2
+    f,32 f' e f f,[ f' e f] f, f' e f f,[ f' e f] f, f' e f f,[ f' e f] f, f' e f f,[ f' e f]
+    f, f' e f f,[ f' e f] f, f' e f f,[ f' e f] f, f' e f f,[ f' e f] f, f' e f f,[ f' e f] %10
+    g,2. r4
+    r16 g'32[ a] h16 g d' g, f' g, e'4 c
+    r16 g32[ a] h16 g d' g, f' g, e'4 c
+    s1
+    s2 r16 c32[ h] c16 g e c e g %15
+    r c,,32[ c'] d, d' e, e' << { f8 } \\ { f, } >> r r16 c32[ c'] d, d' e, e' << { f8 } \\ { f, } >> r
+    r16 d32[ d'] e, e' fis, fis' << { g8 } \\ { g, } >> r r16 d32[ d'] e, e' fis, fis' << { g8 } \\ { g, } >> r
+    r16 e32[ e'] fis, fis' gis, gis' << { a8 } \\ { a, } >> r r16 e32[ e'] fis, fis' gis, gis' << { a8 } \\ { a, } >> r
+    d f g g, c e f f,
+    h d e h e,32 e' e, e' e,[ e' e, e'] e, e' e, e' e,[ e' e, e'] %20
+    e, e' e, e' e,[ e' e, e'] e, e' e, e' e,[ e' e, e'] << {
+      a2~
+      a g~
+      g f
+    } \\ {
+      a,4 cis
+      <d f>2 g,4 h
+      <c! e>2 r4 f,
+    } >>
+    g32 g' g, g' g,[ g' g, g'] g, g' g, g' g,[ g' g, g'] g, g' g, g' g,[ g' g, g'] g, g' g, g' g,[ g' g, g']
+    c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] %25
+    c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c] c, c' h c c,[ c' h c]
+    << {
+      <c g>2 s
+      r4 f r8 f e c
+      h d c8. e16 d8 f e c
+      h d s4 r8 g f d %30
+      cis e d8. f16 e8 g f d
+      cis[ e]
+    } \\ {
+      e,2 \oneVoice r4 e8 c \voiceTwo
+      f2 g~
+      g1~
+      g4 c8 c, a'2~ %30
+      a1~
+      a4
+    } >> d8 d, r16 g b g c c, e c
+    r f a f b b, d b r e g e a a, cis a
+    r d f d g g, h g r c e c f8 f,
+    g32 g' fis g g,[ g' fis g] g, g' fis g g,[ g' fis g] g, g' fis g g,[ g' fis g] g, g' fis g g,[ g' fis g] %35
+    r16 g, h d r h d g r c, e g r c, e c
+    << {
+      r4 f'~ f8 d e c
+      h c d e h c d e
+      d e d8. h16
+    } \\ {
+      f2 g~
+      g1~
+      g2
+    } >> c16 c, e g c g e c
+    << {
+      b'8 c, b' c, a' c, a' c, %40
+      b' c, b' c, a' c, a' c,
+      <c d f h>1
+      <c e g>~
+      <c d f>
+      <c e g>
+    } \\ {
+      c,1~-\pedale %40
+      c~
+      c~
+      c~
+      c
+      c\fermata
+    } >> \bar "|." %45 finis
+  }
+}
