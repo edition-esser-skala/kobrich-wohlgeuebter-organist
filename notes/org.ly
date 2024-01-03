@@ -175,3 +175,73 @@ PraeludiumIIOrgano = {
     } >> \bar "|." %45 finis
   }
 }
+
+PraeludiumIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4
+    <d fis a>1~
+    <d e g cis>
+    <d fis a>
+    <d e g cis>
+    <d fis a> %5
+    <c c'>
+    << {
+      r2 h'
+      a~ a
+      g c,
+      r4 d
+    } \\ {
+      h1
+      r4 a d fis
+      r g, r c,
+      d2
+    } >> e'4 e, %10
+    <d d'>2. r4
+    c''16 d \hA c d \hA c d \hA c d h d h d h d h d
+    fis, d' a d fis, d' a d g, d' h d g, d' h d
+    c d \hA c d \hA c d \hA c d h d h d h d h d
+    fis, d' a d fis, d' a d g, d' h d g, d' h d %15
+    g, a g a g a g a fis a fis a fis a fis a
+    cis,! a' e a cis, a' e a d, a' fis a d, a' fis a
+    g a g a g a g a fis a fis a fis a fis a
+    cis, a' e a cis, a' e a d, a' fis a d, a' fis a
+    d,2 d, %20
+    <c c'>2. r4
+    R1
+    <h' fis'>2. r4
+    s1*14 %37
+    a'8 fis g e <d d,>4 r
+    a'8 fis g e r16 d fis a d a fis d
+    c'16 d \hA c d \hA c d \hA c d h d h d h d h d %40
+    fis, d' a d fis, d' a d g, d' h d g, d' h d
+    c d \hA c d \hA c d \hA c d h d h d h d h d
+    fis, d' a d fis, d' a d g, d' h d g, d' h d
+    g, a g a g a g a fis a fis a fis a fis a
+    cis,! a' e a cis, a' e a d, a' fis a d, a' fis a %45
+    g a g a g a g a fis a fis a fis a fis a
+    cis, a' e a cis, a' e a d, a' fis a d, a' fis a
+    <h h,>2 r
+    << { <gis h>4 } \\ { e } >> r << { <gis h> } \\ { e } >> r
+    <a, a'> r r2 %50
+    s4 s16 g' e cis a cis e g s4
+    <d d,>1
+    << { <a' c>2 } \\ { fis } >> r
+    <a a,>1~
+    q~ %55
+    q2 << {
+      e
+      r8 fis g gis a2
+      <fis a>
+    } \\ {
+      a,2
+      a a
+      d
+    } >> c'16 d \hA c d \hA c d \hA c d
+    h d h d h d h d fis, d' a d fis, d' a d
+    g, d' h d g, d' h d c d \hA c d \hA c d \hA c d %60
+    h d h d h d h d fis, d' a d fis, d' a d
+    g, d' h d g, d' h d << { <cis! g e>2 } \\ { d, } >>
+    <d fis a>1\fermata \bar "|." %63 finis
+  }
+}

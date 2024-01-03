@@ -6,6 +6,9 @@
 \include "ees_articulate.ly"
 
 
+hA = \once \override Accidental.stencil = ##f
+
+
 pedale = \markup \remark "Pedale"
 
 

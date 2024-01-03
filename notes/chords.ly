@@ -205,3 +205,110 @@ PraeludiumIIChords = {
     <c e>1\fermata \bar "|." %45 finis
   }
 }
+
+PraeludiumIIIChords = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4
+    <fis a d>1
+    r8 e g cis e g fis16 e d cis
+    d8 fis16 d a8 d16 a fis8 a16 fis d8 fis
+    r e g cis e g fis16 e d cis
+    d8 fis16 d a8 d16 a fis8 a16 fis d8 fis %5
+    <d fis a>1
+    g16 d e fis g a h c d h a g g' d c h
+    << {
+      r16 a' c h a g fis e s4 a
+      r16 a g fis g4 s e
+      r16 e d cis! d4 r16 d e d cis8.\trill h32 cis %10
+      <a d>2.
+    } \\ {
+      c2 fis16 g a g fis e d c
+      h4 r16 d c h a c e d c h a g
+      fis4 r16 a g fis g2 %10
+      fis2.
+    } >> r8 d'
+    d fis, fis fis g4 r8 d'
+    << { d c c c h4 } \\ { s8 a a a g4 } >> r8 d'
+    d fis, fis fis g4 r8 d'
+    << { d c c c h4 } \\ { s8 a a a g4 } >> r %15
+    a8 cis,! cis cis d4 r8 a'
+    << { a g g g fis4 } \\ { s8 e e e d4 } >> r8 a'
+    a cis, cis cis d4 r8 a'
+    << { a g g g fis4 } \\ { s8 e e e d4 } >> r
+    fis16 d e fis g a h cis d a h cis d e fis g %20
+    << { <fis a>2. } \\ { d } >>r16 fis a fis
+    dis fis dis c a dis c a fis c' a fis dis a' fis dis
+    <dis a>2. r8 h''
+    << {
+      h dis, dis dis e4 r8 h'
+      h <fis a> q q <e g>4 r8 h' %25
+      h dis, dis dis e4 r8 h'
+      h <fis a> q q <e g>4 r
+      a8 cis, cis cis d!4 r8 a'
+      a <e g> q q <d fis>4 r8 a'
+      a8 cis, cis cis d4 r8 a' %30
+      a <e g> q q <d fis>4 r
+      h'16 e, dis e \hA dis e \hA dis e h' e, \hA dis e \hA dis e \hA dis e
+      a d, cis d cis d cis d a' d, cis d cis d cis d
+      g c, h \hA c h \hA c h \hA c g' \hA c, h \hA c h \hA c h \hA c
+      fis h, ais h \hA ais h \hA ais h fis' h, \hA ais h \hA ais h \hA ais h %35
+      e a, gis a \hA gis a \hA gis a e' a, \hA gis a \hA gis a \hA gis a
+      d g, fis g fis g fis g d' g, fis g fis g fis g
+    } \\ {
+      a16 h a h a h a h g h g h g h g h
+      dis, h' fis h dis, h' fis h e, h' g h e, h' g h %25
+      a h a h a h a h g h g h g h g h
+      dis, h' fis h dis, h' fis h e, h' g h e, h' g h
+      g a g a g a g a fis a fis a fis a fis a
+      cis, a' e a cis, a' e a d, a' fis a d, a' fis a
+      g a g a g a g a fis a fis a fis a fis a %30
+      cis, a' e a cis, a' e a d, a' fis a d, a' fis a
+      <g h>8 q q q q q q q
+      <fis a> q q q q q q q
+      <e g> q q q q q q q
+      <d fis> q q q q q q q %35
+      <c e> q q q q q q q
+      <h d> q q q q q q q
+    } >>
+    c'16 h c a h a h g fis d g e a fis h g
+    c h c a h a h g << { a4 } \\ { fis } >> r8 d'
+    d fis, fis fis g4 r8 d' %40
+    << { d c c c h4 } \\ { s8 a a a g4 } >> r8 d'
+    d fis, fis fis g4 r8 d'
+    << { d c c c h4 } \\ { s8 a a a g4 } >> r
+    a8 cis,! cis cis d4 r8 a'
+    << { a g g g fis4 } \\ { s8 e e e d4 } >> r8 a' %45
+    a cis, cis cis d4 r8 a'
+    << { a g g g fis4 } \\ { s8 e e e d4 } >> r4
+    << { gis2 } \\ { d } >>r16 gis h gis d' h gis' d
+    h' d, cis d e d cis d h' d, cis d e d cis d
+    e g! cis, e a, g' e cis d fis a, d fis, a d, fis %50
+    e g e cis a8 s4. a16 cis e g
+    d a fis' d a' fis d' a fis' d a' fis e d cis d
+    << { <a c>2 } \\ { <d, fis> } >> ais'16( h) dis( e) g( e) h'( g)
+    fis a fis d a fis' d a fis d' a fis e cis' e g,
+    fis d' fis a, g e' g h, \tuplet 3/2 8 { a fis' a, g[ e' g,] fis d' fis, e[ cis' e,] %55
+    d h' d, cis[ a' cis,] } h g' e cis << {
+      cis2
+      fis r4 r8 g
+    } \\ {
+      g,2
+      d' d4 cis
+    } \\ {
+      s2
+      s e
+    } >>
+    << { fis4. } \\ { d } >> d'8 d fis, fis fis
+    g4 r8 d' << { d c c c h4 } \\ { s8 a a a g4 } >>
+    r8 d' d fis, fis fis
+    g4 r8 d' << {
+      d c c c
+      h4 h g4.\trill fis16 g
+    } \\ {
+      s8 a a a
+      g4 g e2
+    } >>
+    <d fis>1\fermata \bar "|."
+  }
+}

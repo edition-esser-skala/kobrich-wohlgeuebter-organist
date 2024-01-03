@@ -4,8 +4,9 @@
 \include "score_settings/org-realized.ly"
 
 \book {
+  % \part "one" "Erſter Theil"
   % \bookpart {
-  %   \section "1" "Præludium 1:mum"
+  %   \section "1.1" "Præludium I:mum"
   %   \addTocEntry
   %   \paper { indent = 2\cm }
   %   \score { %\articulate
@@ -23,20 +24,36 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.2" "Præludium II:dum"
+  %   \addTocEntry
+  %   \paper { page-count = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumIIChords }
+  %         \new Staff { \PraeludiumIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "1" "Præludium 2:dum"
-    \addTocEntry
+    \section "1.3" "Præludium III:tium"
+    % \addTocEntry
     \paper { page-count = #3 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumIIChords }
-          \new Staff { \PraeludiumIIOrgano }
+          \new Staff { \PraeludiumIIIChords }
+          \new Staff { \PraeludiumIIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }
