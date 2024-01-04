@@ -245,3 +245,93 @@ PraeludiumIIIOrgano = {
     <d fis a>1\fermata \bar "|." %63 finis
   }
 }
+
+PraeludiumIVOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4
+    <d fis a>1
+    a'2 a,
+    h g'
+    a fis
+    g e %5
+    << { <e a> <fis a> } \\ { cis d } >>
+    a' a,
+    << { r h' a } \\ { h,1 cis8 a h cis } >>
+    d4 d,
+    r8 d' e fis g e fis r %10
+    r d e fis g e fis r
+    r d e fis g a h cis
+    d4 cis h a8 cis
+    d4 cis h a8 fis'
+    g4 fis e8 a, d fis %15
+    g4 fis e8 a, d cis
+    d4 << { d cis } \\ { h a } >> r
+    r8 a h cis d h cis r
+    r a h cis d h cis r
+    r a h cis d4 r %20
+    << { e2. dis4 } \\ { gis, a e fis } >>
+    r8 e fis gis a fis gis r
+    r e fis gis a fis gis r
+    r e fis gis a e a, r
+    r e' fis gis a e a, r %25
+    r d e fis g! d g, r
+    r d' e fis g d g, h
+    c c, d d' e e, fis fis'
+    g g, d''\rest s d,,2~-\pedale
+    d1~ %30
+    d~
+    d
+    s1*3 %35
+    a''8 fis g g, d' r r4
+    r16 h' ais h h, dis fis h r h ais h h, dis fis h
+    r e, dis e g e h' g e' e, g h e h g e
+    r a gis a a, cis e a r a gis a a, cis e a
+    r d,! cis d fis d a' fis d' d, fis a d a fis d %40
+    g4 g, g' gis
+    a,16 a' gis a a, a' gis a a, a' gis a a, a' gis a
+    a, a' gis a a, a' gis a a, a' gis a a, a' gis a
+    a,8 r r4 r2
+    r8 d e fis g e fis r %45
+    r d e fis g e fis r
+    r d e fis g d g, r
+    r d' e fis g d g, r
+    r e' fis gis a fis gis r
+    r e fis gis a fis gis r %50
+    r e fis gis a e a, r
+    r e' fis gis a e a, r
+    r a' h cis d h cis r
+    r a h cis d h cis r
+    r a h cis d a d, r %55
+    r a' h cis d a d, fis
+    g g, a a' h h, cis cis'
+    d a h g << { a4 } \\ { a, } >> r
+    << {
+      s1
+      s4 cis'16 h a g fis a h cis s4 %60
+      s2 r8 a a a
+      r a a a r g fis4
+      a4\rest r8 g fis2
+    } \\ {
+      a,1~
+      a~ %60
+      a~
+      a
+      a2 d
+    } \\ {
+      s1
+      s %60
+      s
+      s
+      \once \override NoteColumn.force-hshift = #1 e2 s
+    } >>
+    r16 c' h c a c a fis d fis a c s4
+    r16 g fis g h g d' h g d h g h d g h %65
+    r c h c a c a fis d fis a c s4
+    r16 g fis g h g d' h g d h g h d g h
+    << { <g cis!>2 <fis a>~ q } \\ { e d~ d } >>
+    r
+    r g16 fis e d << { <e g>4 } \\ { d\fermata } >> %70
+    <d fis a>1\fermata \bar "|." %71 finis
+  }
+}

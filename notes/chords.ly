@@ -312,3 +312,148 @@ PraeludiumIIIChords = {
     <d fis>1\fermata \bar "|."
   }
 }
+
+PraeludiumIVChords = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4
+    << {
+      fis2 <a d>~
+      d cis~
+      cis h~
+      h a~
+      a g~ %5
+      g fis
+      r a~
+      a gis
+      a s
+      d2~ d4. r8 %10
+      d2~ d4. r8
+    } \\ {
+      d,2 fis
+      <e a>1
+      d
+      cis
+      h %5
+      e2 d
+      d cis
+      d1
+      e8 cis d e fis d16 fis a8 fis16 a
+      r8 fis g! a h g16 h a8 d, %10
+      r fis g a h g16 h a8 d,
+    } \\ {
+      s1*6 %6
+      e1
+    } >>
+    d'8 fis, g a h cis d e
+    fis a,16 fis' e8 a,16 e' e( d) h d cis8 e
+    fis16 a, d fis e a, cis e d e, h' d cis8 a
+    h d16 h a8 d16 a a8( g) fis a %15
+    h16 d cis d a d cis d a8 g\trill fis e
+    fis d16 e fis8 gis a h16 cis d e fis gis
+    << {
+      a2~ a4. r8
+      a2~ a4. r8
+      a2 s %20
+    } \\ {
+      r8 cis, d e fis d16 fis e8 a,
+      r cis d e fis d16 fis e8 a,
+      r cis d e fis d16 fis e8 cis16 e %20
+    } >>
+    d8 h16 d cis8 a16 cis h8 gis16 h a8 fis16 a
+    << {
+      e'2~ e4. r8
+      e2~ e4. r8
+      d2 s
+      d s %25
+      c s
+      c s
+      r8 a16 g r8 h16 a r8 c16 h r8 d16 c
+      h8 d g g g fis16 g a8 fis
+      g d r g \appoggiatura a16 g8 fis16 g a8 fis %30
+      g d r h' \appoggiatura c?16 h8 a16 h c8 a
+      h g r h \appoggiatura c?16 h8 a16 h c8 a
+      h dis, e h' a cis, d a'
+      g h, c g' fis ais, h fis'
+      e gis, a e' d fis, g d' %35
+      s2 a8 d d d
+    } \\ {
+      r8 gis, a h cis a16 cis h8 e,
+      r gis a h cis a16 cis h8 e,
+      h' gis a h \oneVoice \appoggiatura d16 cis8 h16 cis a8 e \voiceTwo
+      h' gis a h \oneVoice \appoggiatura d16 cis8 h16 cis a8 d, \voiceTwo %25
+      a' fis g a \oneVoice \appoggiatura c?16 h8 a16 h g8 d \voiceTwo
+      a' fis g a \oneVoice \appoggiatura c?16 h8 a16 h g8 g16 fis \voiceTwo
+      e4 fis g a
+      g8 h s h d, c' d, c'
+      d, h' d, h' d, c' d, c' %30
+      d, h' d, g d fis d fis
+      d h' d, g d fis d fis
+      g16 h g h g h g h fis a fis a fis a fis a
+      e g e g e g e g d fis d fis d fis d fis
+      c e \hA c e \hA c e \hA c e h d h d h d h d %35
+      c' a e' c h g d' h fis8 r r4
+    } >>
+    << { <a dis>4 } \\ { fis } >> r << { <a dis> } \\ { fis } >> r
+    << { <h e> } \\ { g } >> r << { <h e> } \\ { g } >> r
+    << { <g cis!> } \\ { e } >> r << { <g cis> } \\ { e } >> r
+    << { <a d!> } \\ { fis } >> r << { <a d> } \\ { fis } >> r %40
+    h16 d cis h e dis g fis h a g fis e d? cis h
+    << {
+      s8 a' g fis e fis e d
+      cis a' g fis e fis e d
+    } \\ {
+      a8 fis' e d cis d cis h
+      a fis' e d cis d cis h
+    } >>
+    cis16 a e' cis g'! e cis a g e cis a fis' d a' fis
+    << {
+      d'2~ d4. r8 %45
+      d2~ d4. r8
+      c2 s
+      c s
+      e~ e4. r8
+      e2~ e4. r8 %50
+      d2 s
+      d s
+      a'~ a4. s8
+      a2~ a4. s8
+      g!2 s %55
+      g s
+    } \\ {
+      r8 fis, g a h g16 h a8 d, %45
+      r8 fis g a h g16 h a8 d,
+      a' fis g a \oneVoice \appoggiatura c16 h8 a16 h g8 d \voiceTwo
+      a' fis g a \oneVoice \appoggiatura c16 h8 a16 h g8 dis' \voiceTwo
+      r gis, a h cis a16 cis h8 e,
+      r gis a h cis a16 cis h8 e, %50
+      h' gis a h \oneVoice \appoggiatura d16 cis8 h16 cis a8 e \voiceTwo
+      h' gis a h \oneVoice \appoggiatura d16 cis8 h16 cis a8 gis' \voiceTwo
+      r cis, d e fis d16 fis e8 a,
+      r cis d e fis d16 fis e8 a,
+      e' cis d e \oneVoice \appoggiatura g16 fis8 e16 fis d8 a \voiceTwo %55
+      e' cis d e \oneVoice \appoggiatura g16 fis8 e16 fis d8 d16 cis \voiceTwo
+    } >>
+    h8 e16 d cis8 fis16 e d8 g16 fis e8 a16 g
+    fis8 cis d e16 d cis a gis a cis a e' g,
+    fis a d a fis' d a' fis d fis a, d fis, a d, fis
+    a fis e d s2 d16 e fis g %60
+    a d, e fis g a h cis << {
+      d4 r8 cis
+      h4 r8 a g4 r8 d
+      d4 cis d2
+    } \\ {
+      r8 fis e4
+      r8 d cis4 r8 h a4
+      a2 a
+    } >>
+    << { <fis' a>4 } \\ { d } >> r << { \oneVoice r2 } \\ { s4 fis16 d a' fis } >>
+    << { h4 } \\ { g } >> r r2 %65
+    << { <fis a>4 } \\ { d } >> r << { \oneVoice r2 } \\ { s4 fis16 d a' fis } >>
+    << { h4 } \\ { g } >> r r2
+    << { g4.\trill fis16 g } \\ { e2 } >> fis16 a h cis d e fis g
+    a fis e d cis h a g fis g a g fis e d cis
+    d a h cis d cis h a r4 << { <e' g>\fermata } \\ { cis } >> %70
+    <d fis>1\fermata \bar "|." %71 finis
+  }
+}

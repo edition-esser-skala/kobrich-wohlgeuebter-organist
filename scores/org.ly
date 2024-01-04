@@ -40,16 +40,32 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.3" "Præludium III:tium"
+  %   \addTocEntry
+  %   \paper { page-count = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumIIIChords }
+  %         \new Staff { \PraeludiumIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.3" "Præludium III:tium"
-    % \addTocEntry
+    \section "1.4" "Præludium IV:tum"
+    \addTocEntry
     \paper { page-count = #3 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumIIIChords }
-          \new Staff { \PraeludiumIIIOrgano }
+          \new Staff { \PraeludiumIVChords }
+          \new Staff { \PraeludiumIVOrgano }
         >>
       >>
       \layout { }
