@@ -56,16 +56,31 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.4" "Præludium IV:tum"
+  %   \addTocEntry
+  %   \paper { page-count = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumIVChords }
+  %         \new Staff { \PraeludiumIVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.4" "Præludium IV:tum"
+    \section "1.5" "Præludium V:tum"
     \addTocEntry
-    \paper { page-count = #3 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumIVChords }
-          \new Staff { \PraeludiumIVOrgano }
+          \new Staff { \PraeludiumVChords }
+          \new Staff { \PraeludiumVOrgano }
         >>
       >>
       \layout { }

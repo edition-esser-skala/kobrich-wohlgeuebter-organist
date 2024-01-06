@@ -335,3 +335,71 @@ PraeludiumIVOrgano = {
     <d fis a>1\fermata \bar "|." %71 finis
   }
 }
+
+PraeludiumVOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4
+    << { <g' b>2 r4 es' } \\ { es,2~ es } >>
+    <es es'>1
+    r8 es g as b4 b,
+    r8 c es f g4 g,
+    r8 as' c d es es, g es %5
+    f es d b es f g as
+    << {
+      d4 d c c
+      b b a a
+      g g f f
+    } \\ {
+      b b a a
+      g g f f
+      es es d d
+    } >>
+    c8 c' b c f,4 a %10
+    b,8 b' a b es,4 g
+    a,8 a' g a d,4 f
+    g,8 g' f g c,4 es
+    f,8 f' f, f' f, f' f, f'
+    f, f' f, f' f, f' f, f' %15
+    f, f' f, f' f, f' f, f'
+    f, f' f, f' r b d es
+    f4 f, r8 g b c
+    d4 d, r8 es g a
+    b b, d b c c' a f %20
+    r b, d es << { a2 } \\ { f4 fis } >>
+    g8 b, c cis d d'16 es d8 c
+    << { d2 } \\ { b4 r16 g a b } >> c,8 c'16 d c8 b
+    << { c2 } \\ { a4 r16 f g a } >> b,8 b'16 c b8 a
+    << { b2 } \\ { g4 r16 es f g } >> a,8 a'16 b a8 g %25
+    << {
+      a2 g
+      r4 c r a
+      b2 r
+      f
+    } \\ {
+      fis4 r16 d e fis r4 b,
+      c2 f
+      r4 b, es c
+      r f,
+    } >> b d
+    es g as! a %30
+    << { b2 } \\ { r4 d, } >> es r
+    \clef treble r8 es' g as b4 b,
+    r8 c es f g4 g,
+    \clef bass r8 as c d es4 es,
+    f8 es d b es f g as %35
+    << { b2 } \\ { r4 b, } >> c c,
+    << {
+      r b'' r8 es, g as
+      b1
+      b4 des c2
+      <f, as>1 %40
+    } \\ {
+      b,1
+      b
+      <es g>2~ es
+      es1 %40
+    } >>
+    <es g b>1\fermata \bar "|." %41 finis
+  }
+}

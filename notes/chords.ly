@@ -457,3 +457,85 @@ PraeludiumIVChords = {
     <d fis>1\fermata \bar "|." %71 finis
   }
 }
+
+PraeludiumVChords = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4
+    << {
+      g'2 as4 b
+      c2 <as d>
+      <b es>~ es4 d~
+      d c2 b4
+      c2 b %5
+      as g
+    } \\ {
+      es2 f4 g
+      as2 f
+      g f4. g16 f
+      es2 d4. es16 d
+      as'2~ as4 g~ %5
+      g f2 es4
+    } >>
+    r8 b' d es f f, g f
+    r g b c d d, es d
+    r es g a b b, c b
+    es2 << {
+      c'~ %10
+      c b~
+      b a~
+      a g
+      c,4 es d f
+      es g f b %15
+      a c b d
+      c es d2
+      c4. d16 c b2
+      a4. b16 as g2
+      f es %20
+      d
+    } \\ {
+      r8 es f es %10
+      d2 r8 d es d
+      c2 r8 c d c
+      b2 r8 b c b
+      a4 c b d
+      c es d d %15
+      c es d b'
+      a c b2~
+      b4 a2 g4~
+      g f2 es4~
+      es d2 c4~ %20
+      c b
+    } >> c8 es' d c
+    << { b d c b a2 } \\ { g8 b a g fis2 } >>
+    g8 g'16 as! g8 f! << { es2 } \\ { c } >>
+    f,8 f'16 g f8 es << { d2 } \\ { b } >>
+    es,8 es'16 f es8 d << { c2 } \\ { a } >> %25
+    d,8 d'16 es d8 c << { b g' d g } \\ { g, s4. } >>
+    es'!8 g16 f es d c b a8 f' c f
+    d f16 es d c b as g8 g'16 f es d c b
+    a8 c16 b a g f es d8 b' f as
+    g es' b des c f c es %30
+    d b' f as << {
+      g s4.
+      g2 f4. g16 f
+      es2 d4. es16 d
+      c2 b4. c16 b
+      as2 g %35
+      f4 b2 a4
+      b <as f> g2
+    } \\ {
+      es'8 es, g b
+      es2. d4~
+      d c2 b4~
+      b as2 g4~
+      g f2 es4 %35
+      d2 es
+      d es
+    } >>
+    << { r2 r4 as } \\ { es2 d } \\ { f1 } >>
+    << { g2 as } \\ { es es } >>
+    <d! f as>1 %40
+    <es g>\fermata \bar "|." %41 finis
+  }
+}
