@@ -72,15 +72,30 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.5" "Præludium V:tum"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumVChords }
+  %         \new Staff { \PraeludiumVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.5" "Præludium V:tum"
+    \section "1.6" "Præludium VI:tum"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumVChords }
-          \new Staff { \PraeludiumVOrgano }
+          \new Staff { \PraeludiumVIChords }
+          \new Staff { \PraeludiumVIOrgano }
         >>
       >>
       \layout { }

@@ -539,3 +539,61 @@ PraeludiumVChords = {
     <es g>\fermata \bar "|." %41 finis
   }
 }
+
+PraeludiumVIChords = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4
+    <es g>1
+    d16 es f g as b c d es8 b g es
+    d16 es f g as b c d es8 b g es
+    << { <a c>4 } \\ { f } >> r << { <a c> } \\ { es } >> r
+    b'16 f g a b c d es f8 d b f %5
+    << { <a c>4 } \\ { f } >> r << { <a c> } \\ { es } >> r
+    b'16 f g a b c d es f8 d b f
+    es'16 f es f es f es f << { r8 c'16 b c4 } \\ { es,4 r16 es f es } >>
+    d es d es d es d es << { r8 b'16 a b4 } \\ { d,4 r16 d es d } >>
+    c d c d c d c d << { r8 a'16 g a4 } \\ { c, r16 c d c } >> %10
+    b c b c b c b c << { r8 g'16 f g4 } \\ { b, r16 b c b } >>
+    a8 f << {
+      b4~ b8 as!16 g \once \tieDashed as4~
+      as8 g16 as b8 as g2
+      f4. g16 f e8 c f4~
+      f8 es16 d es8 as!16 g f8 g16 as b8 as %15
+      g16 as b c des b as g as es f g as4
+      r16 as ges f ges des' c des c des es des c des c b
+      \appoggiatura b a8 g16 f b4~ b8 as16 g as8 d16 c
+      h8 g c4~ c8 b16 a b8 es16 d
+      c8 d16 es f g es f d8 f16 es d d c b %20
+    } \\ {
+      f2.~
+      f2~ f4 es~
+      es8 des16 c des4 s c~
+      c s2 f4 %15
+      s2. es4~
+      es s2.
+      s4 f2 s4
+      s g2 s4
+      s as2. %20
+    } >>
+    << {
+      es'2 f~
+      f16 b, c d es4~ es16 c d c d4~
+      d16 b c b c4~ c16 c b as g g f es
+    } \\ {
+      g8 b16 as g g f es d2
+      g4~ g16 b as g f4~ f16 as g f
+      es4~ es16 g f es d4 r
+    } \\ {
+      \stemDown s2 c'16\rest es d c b c as b
+      s1
+      s
+    } >>
+    d,4 es f8 b16 as << { g4 } \\ { es } >>
+    << { \once \override Rest.X-offset = #3 d'4\rest d8\rest as g2 } \\ { es8 d16 c d4 es2 } \\ { f s } >> %25
+    d16 es f g as b c d es8 b g es
+    d16 es f g as b c d es8 b g es
+    <d f as>1
+    <es g>\fermata \bar "|." %29 finis
+  }
+}

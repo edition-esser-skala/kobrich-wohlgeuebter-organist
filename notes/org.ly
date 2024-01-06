@@ -403,3 +403,67 @@ PraeludiumVOrgano = {
     <es g b>1\fermata \bar "|." %41 finis
   }
 }
+
+PraeludiumVIOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4
+    <es g b>1
+    << {
+      <f as>2 <g b>
+      <f as> <g b>
+    } \\ {
+      es1
+      es
+    } >>
+    r16 es' f32[ es d es] c16 es a, c f, a c b a c32 a f16[ es]
+    d4 d' d, d' %5
+    r16 es f32[ es d es] c16 es a, c f, a c b a c32 a f16[ es]
+    d4 d' d, d'
+    c b << { <a c>2 } \\ { r4 f } >>
+    b a << { <g b>2 } \\ { r4 es } >>
+    a g << { <f a>2 } \\ { r4 d } >> %10
+    g f << {
+      g c~
+      c d c2
+      d s
+      b~ b4 a
+      g c2 des4~ %15
+      des2 c4 r16 c b as
+      b4 es2.~
+      es4 des8 es16 des c4 f~
+      f es8 f16 es d!4 g~
+      g s
+    } \\ {
+      es,4 c
+      f2~ f4. es8
+      d2 es8 f g as
+      r4 b, c2
+      c des %15
+      es1~
+      es
+      f
+      g
+      as!2
+    } >> b~ %20
+    b1
+    es,4 c' d b
+    c as << {
+      b es,
+      f8 b16 as g g f es d4 es8 g16 as
+      b2 <g b> %25
+      <f as> <g b>
+      <f as> <g b>
+      <f as>1
+      <g b>
+    } \\ {
+      b,2
+      b1
+      b2 es %25
+      es1
+      es~
+      es~
+      es\fermata
+    } >> \bar "|." %29 finis
+  }
+}
