@@ -467,3 +467,72 @@ PraeludiumVIOrgano = {
     } >> \bar "|." %29 finis
   }
 }
+
+PraeludiumVIIOrgano = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4
+    << { <gis' h>2 a } \\ { e fis } >>
+    <dis h'>1
+    e4 e' h h,
+    cis cis' gis gis,
+    a a' e e, %5
+    fis' h, e, e'
+    fis fis, gis gis'
+    a ais h,16 h' cis, h' dis, h' e, h'
+    h, h' cis, h' dis, h' e, h' fis h gis h a h fis h
+    gis4 e a cis %10
+    gis e a cis
+    ais fis h dis
+    ais fis h dis
+    dis h e gis
+    dis h e gis %15
+    a,16 \rh a' gis a \lh a, \rh a' gis a \voiceTwo <fis a>4 q \oneVoice
+    \lh gis,16 \rh gis' fis gis \lh gis, \rh gis' fis gis \voiceTwo <e gis>4 q \oneVoice
+    \lh fis,16 \rh fis' e fis \lh fis, \rh fis' e fis \voiceTwo <dis fis>4 q \oneVoice
+    \lh e,16 e' dis e e, e' dis e fis, e' dis e fis, e' dis e
+    gis, e' dis e gis, e' dis e a, e' dis e a, e' dis e %20
+    ais, e' dis e ais, e' dis e ais, e' dis e ais, e' dis e
+    h4 fis' h, fis'
+    h, fis' h, fis'
+    h, e h e
+    c e c e %25
+    cis e cis e
+    << {
+      h1
+      cis
+      h4 a gis gis
+      dis dis e e %30
+      fis a gis gis
+      dis dis e e
+    } \\ {
+      r4 dis e gis
+      a fis a ais
+      h,1~
+      h~ %30
+      h~
+      h
+    } >>
+    ais4 ais' \hA ais, \hA ais'
+    ais, ais' \hA ais, \hA ais'
+    << {
+      r a gis! fis %35
+      e dis cis a'~
+      a r16 gis fis e fis2
+      gis1
+      h4 cis h cis
+      <fis, a>2 <gis h> %40
+      q <fis a>
+      <gis h>1
+    } \\ {
+      h,1~ %35
+      h~
+      h
+      e
+      e~
+      e~ %40
+      e~
+      e\fermata
+    } >> \bar "|." %42 finis
+  }
+}

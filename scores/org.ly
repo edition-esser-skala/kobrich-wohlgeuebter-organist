@@ -87,15 +87,35 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.6" "Præludium VI:tum"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumVIChords }
+  %         \new Staff { \PraeludiumVIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.6" "Præludium VI:tum"
+    \section "1.7" "Præludium VII:mum"
     \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #14
+      system-system-spacing.minimum-distance = #14
+      systems-per-page = #7
+    }
     \score { %\articulate
       <<
-        \new PianoStaff <<
+        \new PianoStaff \with { \setGroupDistance #11 #11 } <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumVIChords }
-          \new Staff { \PraeludiumVIOrgano }
+          \new Staff = "RH" { \PraeludiumVIIChords }
+          \new Staff = "LH" { \PraeludiumVIIOrgano }
         >>
       >>
       \layout { }

@@ -597,3 +597,63 @@ PraeludiumVIChords = {
     <es g>\fermata \bar "|." %29 finis
   }
 }
+
+PraeludiumVIIChords = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4
+    << {
+      <h' e>2. dis4
+      fis1
+      r16 fis e dis e4 r16 e dis cis dis4
+      r16 dis cis h cis4 r16 cis h a h4
+      r16 h a gis a4 r16 a gis fis gis4 %5
+      r16 gis fis e fis4 r16 fis e dis e4
+      r16 fis e dis e4 r16 fis e dis e4
+      r16 gis fis e fis4
+    } \\ {
+      gis2 a
+      a1
+      gis4 r16 gis a gis fis4 r16 fis gis fis
+      e4 r16 e fis e dis4 r16 dis e dis
+      cis4 r16 cis dis cis h4 r16 h cis h %5
+      a4 r16 a h a gis4 r16 gis a gis
+      a4 r16 a h a h4 r16 h cis h
+      cis4 r16 cis dis e
+    } >> dis8 e fis gis
+    dis e fis gis a h cis dis
+    e16 e, fis e h' e, fis e cis' e, fis e e' e, fis e %10
+    e' e, fis e h' e, fis e cis' e, fis e e' e, fis e
+    fis' fis, gis fis cis' fis, gis fis dis' fis, gis fis fis' fis, gis fis
+    fis' fis, gis fis cis' fis, gis fis dis' fis, gis fis fis' fis, gis fis
+    h' h, cis h fis' h, cis h gis' h, cis h h' h, cis h
+    h' h, cis h fis' h, cis h gis' h, cis h h' h, cis h %15
+    \voiceOne cis4 cis r16 cis dis e fis gis a cis,
+    h4 h r16 h cis dis e fis gis h,
+    a4 a r16 a h cis dis e fis a,
+    \oneVoice gis4 gis a a
+    h h cis cis %20
+    <fis, cis' e> q q q
+    dis'16 h ais h dis h ais h dis h ais h dis h ais h
+    dis a gis a dis a gis a dis a gis a dis a gis a
+    gis e' dis e gis, e' dis e gis, e' dis e gis, e' dis e
+    a, e' dis e a, e' dis e a, e' dis e a, e' dis e %25
+    ais, e' cis e ais, e' cis e ais, e' cis e ais, e' cis e
+    dis e fis e dis cis h a gis h e dis cis h a gis
+    fis a cis h a gis fis gis fis gis a gis fis gis fis e
+    dis h cis h dis h fis' dis e h cis h e h gis' e
+    fis h, cis h fis' h, a' fis gis h, cis h gis' h, h' h, %30
+    dis h cis h dis h fis' dis e h cis h e h gis' e
+    fis h, cis h fis' h, a' fis gis h, cis h gis' h, h' h,
+    cis' g fis \hA g a \hA g fis \hA g r e dis! e fis e dis e
+    cis' g fis \hA g a \hA g fis \hA g r e dis! e fis e dis e
+    dis8 cis'4 cis8 h16 gis a h a fis gis a %35
+    gis e fis gis fis dis e fis e cis dis e fis e dis cis
+    dis h cis dis << { e4 r16 e dis cis dis4 } \\ { h4 s h8 a } >>
+    <h e>1
+    d16 gis h gis a e dis e d gis h gis a e dis e
+    dis e fis gis a h cis dis e e, gis h e h gis' e %40
+    h' gis e h gis' e h gis << { <fis a>2 } \\ { dis } >>
+    <e gis>1\fermata \bar "|." %42 finis
+  }
+}
