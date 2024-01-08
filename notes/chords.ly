@@ -657,3 +657,63 @@ PraeludiumVIIChords = {
     <e gis>1\fermata \bar "|." %42 finis
   }
 }
+
+PraeludiumVIIIChords = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4
+    <gis' h e>1
+    <fis a dis>
+    <e gis h d>
+    <e a cis>
+    <dis! fis a> %5
+    e'16 h cis dis e fis \tuplet 3/2 8 { dis[ e fis] } e h cis dis e fis \tuplet 3/2 8 { dis[ e fis] }
+    e h cis dis e fis gis a h gis fis e a fis e dis
+    e h cis dis e fis \tuplet 3/2 8 { dis[ e fis] } e h cis dis e fis \tuplet 3/2 8 { dis[ e fis] }
+    e h cis dis e fis gis a h gis fis e a fis e dis
+    << {
+      <e gis>1~ %10
+      q~
+      q2
+    } \\ {
+      h1~ %10
+      h~
+      h2
+    } >> <fis ais cis e>
+    <fis h dis>1
+    h16 fis gis ais h cis \tuplet 3/2 8 { ais[ h cis] } h fis gis ais h cis \tuplet 3/2 8 { ais[ h cis] }
+    h fis gis ais h cis dis e fis dis cis h e cis h ais %15
+    h16 fis gis ais h cis \tuplet 3/2 8 { ais[ h cis] } h fis gis ais h cis \tuplet 3/2 8 { ais[ h cis] }
+    h fis gis ais h cis dis e fis dis cis h e cis h ais
+    <fis h dis>1~
+    q
+    << { <h dis>2 <dis fis> } \\ { fis, h } >> %20
+    h'16 a! gis fis e dis cis his cis e dis e cis e dis e
+    a gis fis e dis cis h ais h dis cis dis h dis cis dis
+    gis fis e dis cis h a gis a cis h cis a cis h cis
+    fis e dis cis h a gis fis << {
+      r8 e' r dis
+      e4. dis8 e4. dis8 %25
+      <h e>2 <h d>
+    } \\ {
+      gis4 a
+      r8 gis a4 r8 gis a4 %25
+      gis2 e
+    } >>
+    cis'16 cis dis eis fis gis a gis fis gis a gis fis gis fis e?
+    dis e fis e dis cis h a gis e fis gis a h cis dis
+    e8 gis, e' gis, fis dis' fis, dis'
+    fis a, fis' a, gis e' gis, e' %30
+    gis h, gis' h, a fis' a, fis'
+    a cis, a' cis, h gis' h, gis'
+    fis a, fis' a, gis e' gis, e'
+    fis, e' fis, e' fis, dis' fis, dis'
+    e16 h cis dis e fis \tuplet 3/2 8 { dis[ e fis] } e h cis dis e fis \tuplet 3/2 8 { dis[ e fis] } %35
+    e h cis dis e fis gis a h gis fis e a fis e dis
+    e gis fis e dis cis h a gis e fis gis a h cis dis
+    << { <h e>2 <h d> } \\ { gis gis } >>
+    <a cis>1
+    <dis,! fis a> %40
+    <h e gis>\fermata \bar "|." %41 finis
+  }
+}

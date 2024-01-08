@@ -536,3 +536,101 @@ PraeludiumVIIOrgano = {
     } >> \bar "|." %42 finis
   }
 }
+
+PraeludiumVIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4
+    <e e,>1-\pedale
+    q
+    q
+    q
+    << {
+      <fis a> %5
+      <gis h>1~
+      q2. <fis a>4
+      \once \tieDashed <gis h>1~
+      q2. <fis a>4
+    } \\ {
+      <e e,>1 %5
+      e1~
+      e
+      \once \tieDashed e~
+      e
+    } >>
+    e16 h' cis dis e fis \tuplet 3/2 8 { dis[ e fis] } e h cis dis e fis \tuplet 3/2 8 { dis[ e fis] } %10
+    e h cis dis e gis, a h gis e fis gis a h cis dis
+    e4 cis << {
+      <cis e>2
+      h1
+      <h dis>
+      dis2. <cis e>4 %15
+      dis1
+      dis2. <cis e>4
+      r16 fis, gis ais h cis \tuplet 3/2 8 { ais[ h cis] } h fis gis ais h cis \tuplet 3/2 8 { ais[ h cis] }
+      h fis gis ais h dis, e fis dis h cis dis e fis gis ais
+     } \\ {
+      ais2
+      h,1~-\pedale
+      h~
+      h~
+      h~ %15
+      h~
+      h~
+      h
+    } \\ {
+      \voiceFour s2
+      s1
+      s
+      h'2.~ h4
+      h1 %15
+      h2.~ h4
+    } >>
+    h4 h, a! a' %20
+    gis8 e fis gis a a, a' a,
+    fis' dis e fis gis gis, gis' gis,
+    e' cis dis e fis fis, fis' fis,
+    dis' h cis dis e,16 e' dis e fis, fis' e fis
+    e, e' dis e fis, fis' e fis e, e' dis e fis, fis' e fis %25
+    << {
+      e2 h'
+      a4 \oneVoice r \voiceOne cis2
+      h1
+    } \\ {
+      e,,2 gis'
+      a,4 s a' ais
+      r2 h,
+    } >>
+    h16 h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h' %30
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    << {
+      <gis h>1 %35
+      q2. <fis a>4
+      <gis h>1
+      q2 e'
+      e1
+      <fis, a> %40
+      gis
+    } \\ {
+      e,1~-\pedale %35
+      e~
+      e~
+      e~
+      e~
+      e~ %40
+      e\fermata
+    } \\ {
+      \voiceFour e'1~ %35
+      e2.~ e4~
+      e1
+      e2 e
+      e1
+      e %40
+      e
+    } >> \bar "|." %41 finis
+  }
+}

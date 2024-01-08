@@ -102,20 +102,35 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.7" "Præludium VII:mum"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #14
+  %     system-system-spacing.minimum-distance = #14
+  %     systems-per-page = #7
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff \with { \setGroupDistance #11 #11 } <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumVIIChords }
+  %         \new Staff = "LH" { \PraeludiumVIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.7" "Præludium VII:mum"
+    \section "1.8" "Præludium VIII:vum"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #14
-      system-system-spacing.minimum-distance = #14
-      systems-per-page = #7
-    }
     \score { %\articulate
       <<
-        \new PianoStaff \with { \setGroupDistance #11 #11 } <<
+        \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumVIIChords }
-          \new Staff = "LH" { \PraeludiumVIIOrgano }
+          \new Staff { \PraeludiumVIIIChords }
+          \new Staff { \PraeludiumVIIIOrgano }
         >>
       >>
       \layout { }
