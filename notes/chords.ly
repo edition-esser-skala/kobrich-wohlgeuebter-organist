@@ -717,3 +717,60 @@ PraeludiumVIIIChords = {
     <h e gis>\fermata \bar "|." %41 finis
   }
 }
+
+PraeludiumIXChords = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4
+    <c f a>1
+    << { b'2 <g b> } \\ { d e } >>
+    <f a>1
+    r16 f b d f d b d r f, b d f d b d
+    e!16 b'32 a g16[ f] e g32 f e16[ d] e g32 e b16[ e] g, b e, g %5
+    << { a2 } \\ { f } >> r
+    r16 f g f a f c' f, f' f, a f c' f, a f
+    b f g f b f d' f, f' f, b f d' f, b f
+    c' f, g f a f c' f, f' f, c' f, es' f, c' f,
+    << { d'2 g } \\ { b, b } >> %10
+    e16 b! c b g b a g f d g d a' f e d
+    << { e4 } \\ { cis } >> r << { e } \\ { cis } >> r
+    e'16 g,! a g e' g, a g f d' cis d f, d' cis d
+    e g, a g e' g, a g f d' cis d f, d' cis d
+    << { b4 } \\ { g } >> r b16 b c b g' b, c b %15
+    a4 r a16 a b a f' a, b a
+    d c b a b g c a d c b a g f e d
+    r c d c e c g' c, c' c, e c g' c, e c
+    f c d c f c a' c, c' c, f c a' c, f c
+    g' c, d c e c g' c, c' c, g' c, b' c, g' c, %20
+    << { a'4 } \\ { f } >> r << { a } \\ { f } >> r
+    << { a } \\ { f } >> r << { a } \\ { f } >> r
+    << { a } \\ { f } >> r << { a } \\ { f } >> r
+    << { as } \\ { f } >> r << { \oneVoice r2 } \\ { s4 as16 f h as } >>
+    << { <g b>4 } \\ { e } >> r r8 a16 f b! g c a %25
+    << { d2 c } \\ { b b4 a } >>
+    b16 g' b, g' b, g' b, g' c, d e f g e c b
+    a f' a, f' a, f' a, f' b, c d e f d b a
+    g e' g, e' g, e' g, e' a, b c d e c a g
+    f d' f, d' f, d' f, d' g, a b c d b g f %30
+    e4 r << { g } \\ { e } >> r
+    b'!16 g e' c g' e c b a f c' a f' c a f
+    << { g4 } \\ { e } >> r << { g } \\ { e } >> r
+    b'!16 g e' c g' e c b a f c' a f' c a f
+    << {
+      d'2 d %35
+      <b e> q
+    } \\ {
+      b b %35
+      g g
+    } >>
+    << { f'2 s } \\ { d,8\rest a' b c b4 s } \\ { b8\rest c d es d f16 e f d c b } >>
+    a f' a, f' g, e' g, e' f, d' f, d' e, c' e, c'
+    d, b' d, b' c, a' c, a' b, g' b, g' a, f' a, f'
+    << { f2 e } \\ { c b } >> %40
+    r16 f' g f a f c' f, f' f, a f c' f, a f
+    b f g f b f d' f, f' f, b f d' f, b f
+    c' f, g f a f c' f, f' f, c' f, es' f, c' f,
+    << { d'2 <g, b> } \\ { b e,! } >>
+    <c f a>1\fermata \bar "|." %45 finid
+  }
+}

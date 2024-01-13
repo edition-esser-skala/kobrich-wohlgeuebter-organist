@@ -122,15 +122,31 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.8" "Præludium VIII:vum"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumVIIIChords }
+  %         \new Staff { \PraeludiumVIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.8" "Præludium VIII:vum"
+    \section "1.8" "Præludium IX:num"
     \addTocEntry
+    \paper { page-count = #2 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumVIIIChords }
-          \new Staff { \PraeludiumVIIIOrgano }
+          \new Staff { \PraeludiumIXChords }
+          \new Staff { \PraeludiumIXOrgano }
         >>
       >>
       \layout { }
