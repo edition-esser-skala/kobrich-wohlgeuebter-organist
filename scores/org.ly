@@ -137,20 +137,36 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.9" "Præludium IX:num"
+  %   \addTocEntry
+  %   \paper { page-count = #2 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumIXChords }
+  %         \new Staff { \PraeludiumIXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.8" "Præludium IX:num"
+    \section "1.10" "Præludium X:mum"
     \addTocEntry
     \paper { page-count = #2 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumIXChords }
-          \new Staff { \PraeludiumIXOrgano }
+          \new Staff { \PraeludiumXChords }
+          \new Staff { \PraeludiumXOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

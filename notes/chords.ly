@@ -774,3 +774,67 @@ PraeludiumIXChords = {
     <c f a>1\fermata \bar "|." %45 finid
   }
 }
+
+PraeludiumXChords = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4
+    << { a'2 } \\ { f } >> r16 a c a g( f) e( f)
+    e g b g e' c g' b, a32 g' f e f c d b c a b g a f g e
+    <f a>1~
+    q
+    r16 g fis g h g d' g, f' g, fis g h32 g d' h f' d c h %5
+    r16 g fis g c g e' c g' g, fis g c32 g e' c g' e d c
+    r16 a gis a cis a e' a, g' a, gis a cis32 a e' cis g' e d cis
+    r16 a gis a d a f' a, a' a, gis a d32 a f' d a' f e d
+    << {
+      b'2 a
+      g
+    } \\ {
+      b,,16\rest g' b! g c!8 c, b16\rest f' a f b8 b,
+      b16\rest e g e a8 a,
+    } \\ {
+      b'4\rest b'16\rest e, g e b4\rest a'16\rest d, f d
+      b4\rest g'16\rest cis, e cis
+    } >>
+    << {
+      f,32 d' e d g,16[ d'] a d g, d' %10
+      f,32 d' e d g,16[ d'] a d g, d' r a b8~ b16 g a8~
+      a16 f g8
+    } \\ {
+      d8 e f e %10
+      d e f e f8. d16 e8. c16
+      d8. e16
+    } >> cis8 b'! a16 d, a' f a e a g
+    f b!8 a16~ a gis8 a16 g fis8 g16 f e8 f16
+    e d8 e16 d c!8 d16 c b!8 c16 << {
+      a8 a'
+      g c f,16 g a h
+    } \\ {
+      s8 f
+      e4 d
+    } >> c'16 c, g' e \tuplet 3/2 8 { f[ c f] } c' a %15
+    b g a b c g c b << {
+      r8 f'4 e8~
+      e d4 c b a8
+    } \\ {
+      a4 g
+      f e d c
+    } >>
+    b'16 g c b \tuplet 3/2 8 { a[ f a] } b a \tuplet 3/2 8 { g[ e g] } a g \tuplet 3/2 8 { f[ d f] } g f
+    e c' e, c' f, c' a c b c b c a c a f
+    e c' e, c' f, c' a c b c b c a c a f %20
+    r d cis d g d b' g d' fis, g a b c d b
+    << { <as d>4 } \\ { f } >> r << { <as d> } \\ { f } >> r
+    r2 r16 e g c, e c g' e
+    b' g e' c g' e c b a c f e f c d a
+    b g a b c g a e f d c h c f e b' %25
+    a d c f e c' d,32[ b' a b] c,16 a' b, g' a,32[ f' e f] g, e' d e
+    f,16 d' e, c' d,32[ b' a b] c,16 a' b, g' a, f' g, f' e d
+    e4.\trill d16 e << { <f a>2 } \\ { c } >>
+    << { c'4 } \\ { es, } >> a8 c b16 f g f b f d' b
+    << { c4 } \\ { es, } >> a8 c b16 f g f b f d' b %30
+    r g' b g e![ g32 e] c16 e32 c b16[ c32 b] g16 b32 g e16[ g32 e] c16 g'32 e
+    << { <f a>2 q\fermata } \\ { c c } >> \bar "|." %32 finis
+  }
+}

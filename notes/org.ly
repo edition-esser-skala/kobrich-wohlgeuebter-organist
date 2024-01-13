@@ -693,3 +693,60 @@ PraeludiumIXOrgano = {
     <f f,>1\fermata \bar "|." %45 finis
   }
 }
+
+PraeludiumXOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4
+    << { <a' c>2. } \\ { f } >> r4
+    << { <g b>2 <a c>4 } \\ { f2 f4 } >> r
+    r16 a c a g( f) e( f) c f a, c a32 f g a b c d e
+    f16 c a f a f a c f a32 b c16[ a] f-! e-! d-! c-!
+    << { <d g>2. } \\ { h } >> r4 %5
+    << { <e g>2. } \\ { c } >> r4
+    << { <e a>2. } \\ { cis } >> r4
+    << { <f a>2. } \\ { d } >> r4
+    s1*2 %10
+    s2 d'8 g,16 b c8 f,16 a
+    b8 e,16 g a, a' a, g' f8 d cis a
+    << {
+      r4 e'' d c
+      b a g
+    } \\ {
+      d8 d'4 c! b! a8~
+      a g4 f e8
+    } >> f16 f, a b
+    c8 c, d d' << { r b'! a f } \\ { c2 } >> %15
+    g'8 f e c f16 g a b c b c c,
+    d e f g a g a a, b c d e f e f f,
+    << {
+      r4 f' e d
+      r8 b' a f g e f a
+      r b a f g e f a %20
+    } \\ {
+      g,8 e'4 d c b8
+      c1~
+      c
+    } >> %20
+    <b b'>4 r q r
+    r16 h' d h as h f as r h d h as h f as
+    d, as' f as d,[ f32 d] h16 d32 h <b b'>4 r
+    r2 << {
+      r4 c~
+      c1~ %25
+      c~
+      c
+      <e g b>2 a
+    } \\ {
+      c,,2~
+      c1~ %25
+      c~
+      c
+      c'2 f
+    } >>
+    r16 f a f c' f, es' f, << { d'2 } \\ { f, } >>
+    r16 f a f c' f, es' f, << { d'2 } \\ { f, } >> %30
+    <f g b>1
+    r16 f e! f c f a, f' <f c a f>2\fermata \bar "|." %32 finis
+  }
+}
