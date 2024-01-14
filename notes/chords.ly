@@ -838,3 +838,267 @@ PraeludiumXChords = {
     << { <f a>2 q\fermata } \\ { c c } >> \bar "|." %32 finis
   }
 }
+
+PraeludiumXIChords = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4
+    << { h'2. } \\ { g } >>
+    c2 a4
+    h2 g4
+    << { <a c>2. } \\ { fis } >>
+    g4 \tuplet 3/2 4 { h8 a h c h c } %5
+    d4 a8 fis d h'
+    c4 \tuplet 3/2 4 { g8 fis g a g a }
+    h4 fis8 e g fis
+    a4 e8 d e fis
+    g4 d g %10
+    g8 \tuplet 3/2 8 { fis16 g a } << {
+      d,8 fis a c
+      c4 h g
+      g8 \tuplet 3/2 8 { fis16 g a } d,8 fis a c
+      c4 h8 d g fis
+    } \\ {
+      s4. a,8
+      a4 g r
+      s2 s8 a
+      a4 g8 r r4
+    } >>
+    e'8 d c h a g %15
+    << {
+      fis2 e4
+      e2 r8 d~
+      d2 cis4~
+      cis2 h4~
+      h2 r8 a~ %20
+      a2.
+    } \\ {
+      d2.
+      cis
+      h
+      a
+      g2. %20
+      g2 fis4
+    } >>
+    g8 a16 h cis8 d e g,
+    a h16 cis d8 e fis a,
+    h cis16 d e8 fis g h,
+    cis d16 e fis8 g a cis, %25
+    d e16 fis g8 a h d,
+    << { fis4 e } \\ { d cis } >> r
+    c'!8 \tuplet 3/2 8 { a16 h c } << {
+      d,8 fis a c
+      \appoggiatura d8 c4 h \oneVoice r
+      \appoggiatura d8 c \tuplet 3/2 8 { a16 h c } \voiceOne d,8 fis a c %30
+      \appoggiatura d c4 h \oneVoice r
+      d8 \tuplet 3/2 8 { h16 cis d } \voiceOne e,8 gis h d
+      \appoggiatura e d4 cis \oneVoice  r
+      d8 \tuplet 3/2 8 { h16 cis d } \voiceOne e,8 gis h d
+      \appoggiatura e d4 cis \oneVoice r %35
+      g'!8 \tuplet 3/2 8 { e16 fis g } \voiceOne a,8 cis e g
+      \appoggiatura a g4 fis \oneVoice r
+      g8 \tuplet 3/2 8 { e16 fis g } \voiceOne a,8 cis e g
+      \appoggiatura a g4 fis e
+      e2 r8 d %40
+      d2 cis4~
+      cis2 h4~
+      h2 r8 a~
+      a2.
+    } \\ {
+      s4. a8
+      a4 g s
+      s2 s8 a %30
+      a4 g s
+      s2 s8 h
+      h4 a s
+      s2 s8 h
+      h4 a s %35
+      s2 s8 e'
+      e4 d s
+      s2 s8 e
+      e4 \voiceThree d2
+      cis2. \voiceTwo %40
+      h
+      a
+      g
+      g2 fis4
+    } >>
+    \appoggiatura a16 g8 fis16 g a8 g a g %45
+    \appoggiatura g16 fis8 e16 fis g8 fis g fis
+    \appoggiatura fis16 e8 d16 e fis8 e fis e
+    \appoggiatura e16 d8 cis16 d e8 d e d
+    << { r4 fis e } \\ { cis2. } >>
+    d %50
+    << {
+      <h' d>
+      g'
+      <e g>
+      q
+      q %55
+      fis~
+      fis
+      <d fis>~
+      q
+      e~ %60
+      e
+      <cis e>~
+      q
+    } \\ {
+      fis,
+      h
+      h
+      cis
+      cis~ %55
+      cis~
+      cis
+      h~
+      h
+      h~ %60
+      h
+      ais~
+      ais
+    } >>
+    h4 \tuplet 3/2 4 { d8 cis? d e d e }
+    fis4 cis8 ais fis d' %65
+    e4 \tuplet 3/2 4 { h8 a! h cis h cis }
+    d4 a d
+    \appoggiatura e8 d4 cis8 h a g
+    fis a d cis h a
+    h a g fis e d %70
+    cis a e' cis g' e
+    \tuplet 3/2 4 { fis d fis a fis a } d fis,
+    cis a e' cis g' e
+    fis d a' fis d' a
+    h g e' h g' h, %75
+    h g e' h g' h,
+    << {
+      cis2 h4~
+      h2 r8 a
+      a2 gis4~
+      gis2 fis4 %80
+      fis2 r8 e
+      e2 e4
+    } \\ {
+      a2.
+      gis
+      fis
+      e %80
+      d2 s4
+      cis2 cis4
+    } >>
+    d8 cis16 d e8 d cis h
+    << { cis2 } \\ { a } >> r4
+    << { <e' g!>2 } \\ { cis } >> r4 %85
+    d8 fis a d cis d
+    d, fis a d cis d
+    << { fis,2 } \\ { dis } >> r4
+    << { <fis a!>2 } \\ { dis } >> r4
+    e8 gis h e dis e %90
+    e, gis h e dis e
+    << { h2 } \\ { gis } >> r4
+    << { <h d!>2 } \\ { gis } >> r4
+    a8 cis e a gis a
+    a, cis e a gis a %95
+    << {
+      fis2 e4~
+      e2.
+      \appoggiatura e16 d8 cis16 d e8 d cis h
+      \appoggiatura d16 cis8 h16 cis d8 cis h a
+      \appoggiatura cis16 h8 a16 h cis8 h a gis %100
+      \appoggiatura h16 a8 gis16 a h8 a gis fis
+      gis e fis gis a e
+    } \\ {
+      d'2.
+      \voiceThree cis
+      \voiceTwo h4 gis e
+      a fis d
+      gis e cis %100
+      fis d h
+      e d cis
+    } >>
+    h'8 e, h' e, cis' e,
+    gis e fis gis a e
+    h' e, h' e, cis' e, %105
+    << {
+      d'2 d4
+      cis2 h4
+      h2.
+    } \\ {
+      fis4 e h'
+      a2.
+      gis
+    } >>
+    g'!8 e cis a g e
+    fis16[ d e fis g a h cis] d8 d, %110
+    g'8 e cis a g e
+    fis16[ d e fis g a h cis] d8 d,
+    h' a g fis e d
+    cis e a e cis e
+    d cis d e fis gis %115
+    << {
+      cis2 h4
+      h2 a4
+    } \\ {
+      a2.
+      g!
+    } >>
+    d'4 \tuplet 3/2 4 { fis8 e fis g fis g }
+    a4 e8 cis a fis'
+    g4 \tuplet 3/2 4 { d8 cis d e d e } %120
+    fis4 cis8 h d cis
+    e4 h8 a h cis
+    d4 a \tuplet 3/2 4 { d8 e fis }
+    e d cis h a g
+    \appoggiatura a g4\trill fis \tuplet 3/2 4 { d'8 e fis } %125
+    e d cis h a g
+    << {
+      \appoggiatura a g4 fis e~
+      e2 r8 d
+    } \\ {
+      e4 d2
+      c!2.
+    } >>
+    g'4 \tuplet 3/2 4 { h8 a h c! h c }
+    d4 a8 fis d h' %130
+    c!4 \tuplet 3/2 4 { g8 fis g a g a }
+    h4 fis8 e g fis
+    a4 e8 d e fis
+    g4 d g
+    e8 c' h a g fis %135
+    g c e c a g
+    fis4 d'16 c h a g fis e d
+    e8 a c a fis e
+    d g h16 a g fis e d c h
+    c8 fis a16 g fis e d c h a %140
+    h4 << {
+      h' h
+      h h h
+      h2
+    } \\ {
+      g4 g
+      g g g
+      g2
+    } >> a4
+    g d' c
+    h a g %145
+    a8 fis d4 c
+    h d g
+    e c e
+    fis d g
+    d8 a' c a h g %150
+    \appoggiatura g fis4 e8 d g4
+    d8 a' c a h g
+    g fis e d g4
+    << {
+      g fis2
+      g h4 %155
+      c2~ <a c>4
+      h2.
+    } \\ {
+      d,2.
+      d2 f4 %155
+      g2 fis4
+      g2.
+    } >> \bar "|." %157 finis
+  }
+}

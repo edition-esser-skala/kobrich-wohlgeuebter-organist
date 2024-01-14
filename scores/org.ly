@@ -153,20 +153,35 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.10" "Præludium X:mum"
+  %   \addTocEntry
+  %   \paper { page-count = #2 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff { \PraeludiumXChords }
+  %         \new Staff { \PraeludiumXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "1.10" "Præludium X:mum"
+    \section "1.11" "Præludium XI:mum"
     \addTocEntry
-    \paper { page-count = #2 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff { \PraeludiumXChords }
-          \new Staff { \PraeludiumXOrgano }
+          \new Staff = "RH" { \PraeludiumXIChords }
+          \new Staff = "LH" { \PraeludiumXIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

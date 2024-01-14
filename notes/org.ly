@@ -750,3 +750,271 @@ PraeludiumXOrgano = {
     r16 f e! f c f a, f' <f c a f>2\fermata \bar "|." %32 finis
   }
 }
+
+PraeludiumXIOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4
+    << {
+      <h' d>2.
+      e2 c4
+      d2 h4
+      <a c>2.
+      <h d>2 \oneVoice r4 \voiceOne %5
+      a2 r8 d
+      e2 c4
+      d2 h4
+      c2 a4
+      h
+    } \\ {
+      g2.~
+      g~
+      g~
+      g
+      g2 s4 %5
+      fis2.
+      e
+      d
+      c
+      h4
+    } >> r h8 c %10
+    d4 fis d
+    g g,8 a h c
+    d4 fis d
+    << { g2. } \\ { r4 g, h } >>
+    c e c %15
+    d \tuplet 3/2 4 { fis8 e fis g fis g }
+    a4 e8 cis a fis'
+    g4 \tuplet 3/2 4 { d8 cis d e d e }
+    fis4 cis8 h d cis
+    e4 h8 a h cis %20
+    << {
+      s2.
+      e
+      fis
+      g
+      a %25
+      h
+    } \\ {
+      d,4 a d~
+      d2 cis4
+      r r d
+      r r e
+      r r fis %25
+      r r g
+    } >>
+    a, a' g
+    << {
+      <fis a>2.
+      g
+      <fis a> %30
+      g
+      <gis h>
+      a
+      <gis h>
+      a %35
+      a
+    } \\ {
+      r4 r d,
+      r g,8 a h g
+      r4 r d' %30
+      r g,8 a h g
+      r4 r e'
+      r a,8 h cis a
+      r4 r e'
+      r a,8 h cis a %35
+      cis4 a cis
+    } >>
+    d, d'8 e fis d
+    << { a'2. } \\ { cis,4 a cis } >>
+    d8 \rh \voiceTwo d' \tuplet 3/2 4 { fis e fis g fis g }
+    a4 e8 cis a fis' %40
+    \lh \oneVoice g4 \tuplet 3/2 4 { d8 cis d e d e }
+    fis4 cis8 h d cis
+    e4 h8 a h cis
+    d4 a d
+    << {
+      e2. %45
+      d
+      cis
+      h
+    } \\ {
+      d2 cis4~ %45
+      cis2 h4~
+      h2 a4~
+      a2 gis4
+    } >>
+    a ais fis
+    h8 ais h fis d h %50
+    h' ais h fis d h
+    e dis e fis g fis
+    e dis e fis g e
+    a gis a e cis a
+    a' gis a e cis a %55
+    d cis d e fis e
+    d cis d e fis d
+    g fis g d h g
+    g' fis g d h g
+    cis h cis d e d %60
+    cis h cis d e cis
+    fis eis fis gis ais gis
+    fis eis fis gis ais fis
+    << {
+      d'2.
+      cis2 r8 h %65
+      h2.
+      a2 r4
+      a2.
+      <fis a>
+      g %70
+      e4 g cis,
+      d fis d
+      e g cis,
+      d fis d
+    } \\ {
+      h'2.
+      ais2 a4 %65
+      gis2 g4
+      fis4. e8 fis g
+      r4 a, cis
+      d2.
+      g, %70
+      a~
+      a~
+      a~
+      a
+    } >>
+    g4 g' g, %75
+    g' g, g'
+    a \tuplet 3/2 4 { cis8 h cis d cis d }
+    e4 h8 gis e cis'
+    d4 \tuplet 3/2 4 { a8 gis a h a h }
+    cis4 gis8 fis a gis %80
+    h4 fis8 e fis gis
+    a4 e a~
+    a gis e
+    a,8 cis e a gis a
+    a, cis e a gis a %85
+    << { <fis a>2 } \\ { d } >> r4
+    << { <fis a>2 } \\ { d } >> r4
+    h8 dis fis h ais h
+    h, dis fis h ais h
+    << { <gis h>2 } \\ { e } >> r4 %90
+    << { <gis h>2 } \\ { e } >> r4
+    e8 gis h e dis e
+    e, gis h e dis e
+    << { <cis e>2 } \\ { a } >> r4
+    << { <cis e>2 } \\ { a } >> r4 %95
+    d \rh \voiceTwo \tuplet 3/2 4 { fis8 e fis gis fis gis }
+    a4 e a \lh \oneVoice
+    s2.*5 %102
+    gis,4 e a
+    e' d cis
+    gis e a %105
+    h8 a gis fis e gis
+    a4 \tuplet 3/2 4 { cis,8 h cis d cis d }
+    e4 e, d'
+    cis a cis
+    d d, d' %110
+    cis a cis
+    d d, d'
+    g, g' gis
+    << {
+      a2.
+      <gis d> %115
+    } \\ {
+      a,
+      h %115
+    } >>
+    a4 \tuplet 3/2 4 { cis'8 h cis d cis d }
+    e4 h cis
+    << {
+      fis2 e4~
+      e2 r8 d~
+      d2 cis4~ %120
+      cis2 h4~
+      h2 a4~
+      <fis a>2.~
+      a
+    } \\ {
+      d2.
+      cis
+      h %120
+      a
+      g
+      r4 r d
+      cis a cis
+    } >>
+    d d, d' %125
+    cis a cis
+    d \tuplet 3/2 4 { fis8 e fis g fis g }
+    a4 e fis
+    << {
+      h2 a4
+      a2 r8 g~ %130
+      g2 fis4~
+      fis2 e4
+      e2 r8 d
+    } \\ {
+      g2.
+      fis %130
+      e
+      d
+      c!
+    } >>
+    h4 h' h,
+    c a d %135
+    e c c'
+    << {
+      d r h
+      c r a
+    } \\ {
+      r4 d,2
+      r4 c2
+    } >>
+    h'4 g h
+    << { a2. } \\ {r4 d, fis } >> %140
+    g h, c
+    h c cis
+    << {
+      r d' c!
+      h h a
+      g fis e %145
+    } \\ {
+      d2.~
+      d~
+      d2 r4 %145
+    } >>
+    d fis a
+    << {
+      g2.
+      g4 a2~
+      a h4
+      fis2 g4 %150
+      a c h
+      g a g
+      a c h
+      a2 c4
+      h2 d4 %155
+      e2 <c a>4
+      <h d>2.
+    } \\ {
+      r4 r h,
+      <c e>2.
+      d~
+      d~ %150
+      d~
+      d~
+      d~
+      d
+      g,~-\pedale %155
+      g
+      g\fermata
+    } \\ {
+      \voiceFour \shiftOff s2.*8 %154
+      \override Stem.length = #4 g'2.~ %155
+      g
+      g
+    } >> \bar "|." %157 finis
+  }
+}
