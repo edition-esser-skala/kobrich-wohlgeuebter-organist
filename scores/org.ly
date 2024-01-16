@@ -13,11 +13,11 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "Organo"
-  %         \new Staff {
+  %         \new Staff = "RH" {
   %           \incipit " " "soprano" #0 #-0.3
   %           \PraeludiumIChords
   %         }
-  %         \new Staff { \PraeludiumIOrgano }
+  %         \new Staff = "LH" { \PraeludiumIOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -32,8 +32,8 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumIIChords }
-  %         \new Staff { \PraeludiumIIOrgano }
+  %         \new Staff = "RH" { \PraeludiumIIChords }
+  %         \new Staff = "LH" { \PraeludiumIIOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -48,8 +48,8 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumIIIChords }
-  %         \new Staff { \PraeludiumIIIOrgano }
+  %         \new Staff = "RH" { \PraeludiumIIIChords }
+  %         \new Staff = "LH" { \PraeludiumIIIOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -64,8 +64,8 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumIVChords }
-  %         \new Staff { \PraeludiumIVOrgano }
+  %         \new Staff = "RH" { \PraeludiumIVChords }
+  %         \new Staff = "LH" { \PraeludiumIVOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -79,8 +79,8 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumVChords }
-  %         \new Staff { \PraeludiumVOrgano }
+  %         \new Staff = "RH" { \PraeludiumVChords }
+  %         \new Staff = "LH" { \PraeludiumVOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -94,8 +94,8 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumVIChords }
-  %         \new Staff { \PraeludiumVIOrgano }
+  %         \new Staff = "RH" { \PraeludiumVIChords }
+  %         \new Staff = "LH" { \PraeludiumVIOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -129,8 +129,8 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumVIIIChords }
-  %         \new Staff { \PraeludiumVIIIOrgano }
+  %         \new Staff = "RH" { \PraeludiumVIIIChords }
+  %         \new Staff = "LH" { \PraeludiumVIIIOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -145,8 +145,8 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumIXChords }
-  %         \new Staff { \PraeludiumIXOrgano }
+  %         \new Staff = "RH" { \PraeludiumIXChords }
+  %         \new Staff = "LH" { \PraeludiumIXOrgano }
   %       >>
   %     >>
   %     \layout { }
@@ -161,27 +161,42 @@
   %     <<
   %       \new PianoStaff <<
   %         \set PianoStaff.instrumentName = "org"
-  %         \new Staff { \PraeludiumXChords }
-  %         \new Staff { \PraeludiumXOrgano }
+  %         \new Staff = "RH" { \PraeludiumXChords }
+  %         \new Staff = "LH" { \PraeludiumXOrgano }
   %       >>
   %     >>
   %     \layout { }
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.11" "Præludium XI:mum"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXIChords }
+  %         \new Staff = "LH" { \PraeludiumXIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.11" "Præludium XI:mum"
+    \section "1.12" "Præludium XII:mum"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXIChords }
-          \new Staff = "LH" { \PraeludiumXIOrgano }
+          \new Staff = "RH" { \PraeludiumXIIChords }
+          \new Staff = "LH" { \PraeludiumXIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

@@ -1018,3 +1018,63 @@ PraeludiumXIOrgano = {
     } >> \bar "|." %157 finis
   }
 }
+
+PraeludiumXIIOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4
+    <g' h d>1
+    << {
+      <h d>2 <a c>4 <h d>
+      q2 <a c>4 <h d>
+    } \\ {
+      g2~ g
+      g g
+    } >>
+    r16 g, a h c d e fis g fis g g, g' fis g g,
+    g' g, a h c d e fis g4 fis %5
+    <e e,>1~
+    q
+    <d fis a>
+    r8 d16 e fis8 d r d16 e fis8 d
+    r d fis d r d fis d %10
+    g16 fis g a h8 c d d, fis d
+    e16 dis e fis g8 a h h, d h
+    c16 h c d e8 fis g g, h g
+    a4 a' r2
+    <g g,>1 %15
+    r2 h,16 h' ais h h, h' ais h
+    c, c' h c c, c' h c c, c' h c c, c' h c
+    d, d' cis d d, d' cis d d, d' cis d d, d' cis d
+    e, e' d e e, e' d e e, e' d e e, e' d e
+    fis, fis' e fis fis, fis' e fis fis, fis' e fis fis, fis' e fis %20
+    g,8 g'16 fis g8 fis e c16 d e c d e
+    fis,8 fis'16 e fis8 e d h16 c d h c d
+    e,8 e'16 d e8 d c a16 h c a h c
+    d,8 d'16 c d8 c h g16 a h g a h
+    c,8 c'16 h c8 h a fis16 g a fis g a %25
+    h,8 h'16 a h8 a g e16 fis g e fis g
+    a,8 a'16 g a8 g fis d16 e fis d e fis
+    << {
+      g1
+      r4 c c c~
+      c h fis g %30
+      a h fis g
+      a h c a
+      h g a fis
+      g h a2
+    } \\ {
+      r4 g, h g
+      c1
+      d~ %30
+      d~
+      d~
+      d~
+      d
+    } >>
+    <g g,>4 r q r %35
+    q q q q
+    q1
+    q\fermata \bar "|." %38 finis
+  }
+}

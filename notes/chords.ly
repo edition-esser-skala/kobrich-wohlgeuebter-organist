@@ -1102,3 +1102,86 @@ PraeludiumXIChords = {
     } >> \bar "|." %157 finis
   }
 }
+
+PraeludiumXIIChords = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4
+    <g' h>1
+    g'16 d d h h g g d << { <a' c>4 h } \\ { fis g } >>
+    g'16 d d h h g g d << { <a' c>4 h } \\ { fis g } >>
+    << {
+      <g h>1~
+      q2 q4 d' %5
+      d cis8 e \oneVoice g16 fis e d cis d e fis
+      g fis e d cis h a g \voiceOne g2\trill
+      fis1
+    } \\ {
+      d1~
+      d2 d4 a'
+      g2 s
+      s e
+      d1
+    } >>
+    << { <a' d>4 } \\ { fis } >> r << { <a d> } \\ { fis } >> r
+    << { <a c!> } \\ { <fis d> } >> r << { <a c> } \\ { <fis d> } >> r %10
+    << {
+      h2 a
+      g fis
+      e d
+    } \\ {
+      g g4. fis8
+      fis4 e~ e4. d8
+      d4 c~ c4. h8
+    } >>
+    c16 h c d e d e fis g fis g a h a h c
+    d g, a h c d e fis g fis e d c h a g %15
+    d' c h a g fis e d << {
+      d'2~
+      d4 c e2~
+      e4 d fis2~
+      fis4 e g2~
+      g4 fis a2~ %20
+      a g~
+      g fis~
+      fis e~
+      e d~
+      d c~ %25
+      c h~
+      h a~
+      a8 g16 fis g2.
+    } \\ {
+      r4 d
+      e2 r4 g
+      fis2 r4 a
+      g2 r4 h
+      a2 r4 c %20
+      h1
+      a
+      g
+      fis
+      e %25
+      d
+      c
+      h4 r8 h16 c d8 h f' d
+    } >>
+    e g16 fis e8 c'16 h a8 e'16 d c h a g
+    fis8 e16 d g4 a16 h c a h d h g %30
+    fis a fis d g8 d a'16 h c a h d h g
+    fis a fis d g4 << {
+      c2~
+      c4 h2 a4~
+      a g2 fis4
+      g f8 d e4 c' %35
+      c8 h4 a g fis8
+    } \\ {
+      e4. fis16 e
+      d4. e16 d c4. d16 c
+      h4 d2 r8 c
+      h4 d8 h c4 e %35
+      d c h a
+    } >>
+    <d fis a c>1
+    <d g h>\fermata \bar "|." %38 finis
+  }
+}
