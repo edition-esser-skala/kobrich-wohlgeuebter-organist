@@ -184,19 +184,34 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.12" "Præludium XII:mum"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXIIChords }
+  %         \new Staff = "LH" { \PraeludiumXIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "1.12" "Præludium XII:mum"
+    \section "1.13" "Præludium XIII:tium"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXIIChords }
-          \new Staff = "LH" { \PraeludiumXIIOrgano }
+          \new Staff = "RH" { \PraeludiumXIIIChords }
+          \new Staff = "LH" { \PraeludiumXIIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

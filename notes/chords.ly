@@ -1185,3 +1185,93 @@ PraeludiumXIIChords = {
     <d g h>\fermata \bar "|." %38 finis
   }
 }
+
+PraeludiumXIIIChords = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4
+    <e a cis>1
+    <fis a>
+    <e gis>
+    <e gis h>
+    a8 \tuplet 3/2 8 { e16 dis e a[ gis a] cis h cis } e cis h a e' cis h a %5
+    e'8 \tuplet 3/2 8 { a,16 gis a cis[ h cis] e d e } a e d cis a' e d cis
+    << { r8 gis'16 a h a gis fis gis8 h16 a gis fis e d } \\ { d2. s4 } >>
+    cis16 a' e g fis a d, fis e a cis, e d fis h, d
+    cis e e, g fis a d, fis e a cis, e d fis h, d
+    \tuplet 3/2 8 { cis a cis e[ cis e] a e a cis[ a cis] } << { e8 } \\ { cis } >> r << { e } \\ { cis } >> r %10
+    << { <cis e> } \\ { ais } >> r << { <cis e> } \\ { ais } >> r << { <cis e> } \\ { ais } >> r r4
+    r8 << { <cis e> q q } \\ { ais ais ais } >> r << { <cis e> q q } \\ { ais ais ais } >>
+    fis'16 fis, ais cis fis e d cis << { d4 d } \\ { h h } >>
+    e16 e, gis h e d cis h << { cis4 cis } \\ { a a } >>
+    r16 fis h fis d' h fis' a, gis e' gis, e' a, e' a, e' %15
+    h32 e fis e h[ e fis e] cis e fis e cis[ e fis e] gis,16 e' gis, e' a, e' a, e'
+    h32 e fis e h[ e fis e] cis e fis e cis[ e fis e] << { r8 h'16 h h8 h } \\ { d, d16 d d8 d } >>
+    h'16 d, e d h' d, e d << { r8 a'16 a a8 a } \\ { cis, cis16 cis cis8 cis } >>
+    a'16 cis, d cis a' cis, d cis << { r8 gis'16 gis gis8 gis } \\ { h, h16 h h8 h } >>
+    gis'16 h, cis h gis' h, cis h << { r8 fis'16 fis fis8 fis } \\ { a, a16 a a8 a } >> %20
+    fis'16 a, h a fis' a, h a gis e dis e e' e, d' e,
+    cis' e, dis e d' e, cis' e, h' e, dis e e' e, d' e,
+    cis' e, dis e d' e, cis' e, h' a gis fis e d cis h
+    << {
+      r4 a' r a
+      r a r a %25
+    } \\ {
+      cis, r8 cis d4 r8 d
+      e4 r8 e fis4 r8 fis %25
+    } >>
+    gis16 e' dis e gis, e' dis e a, e' dis e a, e' dis e
+    h e dis e h e dis e cis e dis e cis e dis e
+    << {
+      r4 h'~ h2~
+      h a~
+      a gis~ %30
+      gis fis
+      e1~
+      e~
+      e~
+      e %35
+    } \\ {
+      d!4 d r16 a' gis fis e d cis d
+      cis2 r16 gis' fis e d cis h cis
+      h2 r16 fis' e d cis h a h %30
+      a2 r16 e' d cis h a gis a
+      gis4 e a e
+      d' h8 d cis4 a
+      gis e a e
+      d' h8 d cis4 a %35
+    } >>
+    h gis8 h a4 fis
+    h gis8 h a4 fis
+    << {
+      gis cis h a
+      gis cis h a
+    } \\ {
+      eis a gis fis
+      eis a gis fis
+    } >>
+    <eis gis d'!>1 %40
+    fis'8 cis \appoggiatura e!16 d8 cis16 h << { a4 gis } \\ { fis eis } >>
+    fis'8 cis \appoggiatura e!16 d8 cis16 h << { a4 gis } \\ { fis eis } >>
+    << { a fis' fis cis } \\ { fis, a ais ais } >>
+    h16 ais h cis d cis d e! fis e d cis h a gis fis
+    << { gis4 e' e <gis, h> } \\ { e gis gis e } >> %45
+    a16 gis a h cis h cis d e d cis h a gis fis e
+    << {
+      r4 h' d fis
+      r h, d fis
+      a,2~ a4 gis
+      a2 g %50
+      fis1
+      <d gis!>2 <gis h d>
+    } \\ {
+      fis2 h
+      fis h
+      e,2~ e4. d8
+      cis2 e %50
+      d1
+      h2 e
+    } >>
+    <e a cis>1\fermata \bar "|." %53 finis
+  }
+}

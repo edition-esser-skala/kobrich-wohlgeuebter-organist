@@ -1078,3 +1078,75 @@ PraeludiumXIIOrgano = {
     q\fermata \bar "|." %38 finis
   }
 }
+
+PraeludiumXIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4
+    <a a'>1
+    <dis fis h>
+    <e gis h>
+    <d! d'!>
+    cis'4 r cis, r %5
+    cis' r cis, r
+    <h h'>2 << { h' } \\ { e,4. gis8 } >>
+    a4 r <a a,> r
+    q r q r
+    q r r16 a a, a' r g g, g' %10
+    r32 fis eis fis ais16[ fis] r32 fis eis fis ais16[ fis] r32 fis eis fis ais16[ fis] ais fis cis' fis,
+    e' fis, g' fis, e'! fis, cis' fis, ais fis g' fis, e' fis, cis' fis,
+    << { ais2 } \\ { r4 fis } >> h16 h, d fis h a gis! fis
+    << { gis2 } \\ { r4 e } >> a16 a, cis e a gis fis e
+    << {
+      d'2~ d4 cis %15
+      gis8 gis a a h h cis cis
+      gis gis a a \oneVoice h a gis fis
+      \voiceOne e'2 s
+      d s
+      cis s %20
+      h2~ h4 cis8 h
+      a4 h8 a gis4 cis8 h
+      a4 h8 a gis2
+    } \\ {
+      d2 e~ %15
+      e1~
+      e2 h'8 a gis fis
+      e4 gis a8 gis fis e
+      d4 fis gis8 fis e d
+      cis4 e fis8 e d cis %20
+      h4 d e2~
+      e1~
+      e
+    } >>
+    a,16 a' gis a a, a' gis a h, h' a h h, h' a h
+    cis, cis' h cis cis, cis' h cis d, d' cis d d, d' cis d %25
+    e,4 e, fis fis'
+    gis gis, a a'
+    h16 cis h cis a h a h << { gis2 } \\ { r4 r8 e } >>
+    a16 h a h gis a gis a << { fis2 } \\ { r4 r8 d } >>
+    gis16 a gis a fis gis fis gis << { e2 } \\ { r4 r8 cis } >> %30
+    fis16 gis fis gis e fis e fis << { d2 } \\ { r4 r8 h } >>
+    e16 h' gis h e, h' gis h e, cis' a cis e, cis' a cis
+    e, h' gis h e, h' gis h e, cis' a cis e, cis' a cis
+    e, h' gis h e, h' gis h e, cis' a cis e, cis' a cis
+    e, h' gis h e, h' gis h e, cis' a cis e, cis' a cis %35
+    eis, cis' gis cis eis, cis' gis cis fis, cis' a cis fis, cis' a cis
+    eis, cis' gis cis eis, cis' gis cis fis, cis' a cis fis, cis' a cis
+    cis, cis' his cis cis, cis' his cis cis, cis' his cis cis, cis' his cis
+    cis, cis' his cis cis, cis' his cis cis, cis' his cis cis, cis' his cis
+    <h! h,!>1 %40
+    a4 h cis cis,
+    a' h cis cis,
+    fis,16 fis' eis fis fis, fis' eis fis e, e' d e e, e' d e
+    <d d,>4 r r2
+    e,16 e' d e e, e' d e d, d' cis d d, d' cis d %45
+    <cis cis,>4 r r2
+    d16 d' cis d d, d' cis d d, d' cis d d, d' cis d
+    d, d' cis d d, d' cis d d, d' cis d d, d' cis d
+    << { cis2 h } \\ { e,~ e } >>
+    <a a,>1~ %50
+    q~
+    q~
+    q\fermata \bar "|." %53 finis
+  }
+}
