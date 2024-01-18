@@ -1275,3 +1275,117 @@ PraeludiumXIIIChords = {
     <e a cis>1\fermata \bar "|." %53 finis
   }
 }
+
+PraeludiumXIVChords = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4
+    <a' cis>1
+    <gis d'>
+    << { cis8[ cis] } \\ { a s } >> d-! \tuplet 3/2 8 { h16 cis d } cis8-! \tuplet 3/2 8 { a16 h cis } h8-! \tuplet 3/2 8 { gis16 a h }
+    a8 cis d16 h cis d cis a h cis h gis a h
+    a e fis gis a h cis d e a, h cis d e fis gis %5
+    << {
+      a8 e fis d cis e fis d
+      cis e a e cis e a e
+    } \\ {
+      cis8 cis d h a cis d h
+      a cis cis cis a cis cis cis
+    } >>
+    dis16 a fis a \hA dis a fis a \hA dis a fis a \hA dis a fis a
+    e' h gis h e h gis h e h gis h e h gis h
+    fis' dis h \hA dis fis \hA dis h \hA dis fis \hA dis h \hA dis fis \hA dis h \hA dis %10
+    gis e dis e gis e \hA dis e gis e \hA dis e gis e \hA dis e
+    gis d cis d gis d cis d gis d cis d gis d cis d
+    a' e cis e a e cis e a e cis e a e cis e
+    gis e dis e gis e \hA dis e gis e \hA dis e gis e \hA dis e
+    gis d cis d gis d cis d gis d cis d gis d cis d %15
+    a' e cis e a e cis e a e cis e a e cis e
+    a c, h \hA c a' \hA c, h \hA c a' \hA c, h \hA c a' \hA c, h \hA c
+    gis' e h e gis e h e gis e h e gis e h e
+    a e cis! a e' cis a e cis' a e cis a' e cis a
+    fis' d cis h ais h d h fis' d h' fis d' h fis' a, %20
+    gis a h a gis fis e gis h a gis fis e d cis h
+    << { cis8 a'd, a' e a fis a } \\ { a, r h r cis r d r } >>
+    \tuplet 3/2 4 { a cis a' h, d a' cis, e a d, fis a }
+    g16 e cis a r4 g'16 e cis a r4
+    fis'16 d e fis g a h cis d8 a fis d %25
+    g16 e cis a r4 g'16 e cis a r4
+    fis'16 d e fis g a h cis d8 a << {
+      r d
+      fis, d' g, d' a d h d
+    } \\ {
+      fis, d
+      d r e r fis r g r
+    } >>
+    \tuplet 3/2 4 { d fis d' e, g d' fis, a d g, h d }
+    c16 a fis d r4 c'16 a fis d r4 %30
+    h'16 g a h c d e fis g8 d h g
+    c16 a fis d r4 c'16 a fis d r4
+    h'16 g a h c d e fis g8 d h g
+    << { gis e' a, e' h e cis e } \\ { e, r fis r gis r a r } >>
+    \tuplet 3/2 4 { e gis e' fis, a e' gis, h e a, cis e } %35
+    d16 h gis e r4 d'16 h gis e r4
+    cis'16 a h cis d e fis gis a8 e cis a
+    d16 h gis e r4 d'16 h gis e r4
+    cis'16 a h cis d e fis gis a8 e cis a
+    << {
+      fis'4 fis fis fis %40
+      fis1
+      e4 e e e
+      e1
+      d4 d d d
+      d1 %45
+    } \\ {
+      d1 %40
+      r4 d h gis
+      cis1
+      r4 cis a fis
+      h1
+      r4 h gis e %45
+    } >>
+    cis'16 a gis a e a gis a cis a gis a e a gis a
+    r c a c dis c fis dis a' fis dis c c a fis dis
+    << { <h' e>4 } \\ { gis } >> r8 << { e' } \\ { gis, } >> a16 e' dis e cis e a, cis
+    << { <h e>4 } \\ { gis } >> r8 << { e' } \\ { gis, } >> a16 e' dis e cis e a, cis
+    h e dis e h d cis h cis a gis a e cis' h cis %50
+    d h gis e gis e h' gis a e fis gis a h cis d
+    e h cis d e d cis h cis a h cis d e fis gis
+    << {
+      a1
+      a
+    } \\ {
+      r4 e cis a
+      r e' cis a
+    } >>
+    fis'16 e d cis h a gis fis fis' e d cis h a gis fis %55
+    gis8-! \tuplet 3/2 8 { gis16 a h } a8-! \tuplet 3/2 8 { fis16 gis a } gis8-! \tuplet 3/2 8 { e16 fis gis } fis8-! \tuplet 3/2 8 { dis16 e fis }
+    e8 gis a16 fis gis a gis e fis gis fis dis e fis
+    e h cis dis e fis gis a h e, fis gis a h cis d
+    e a, h cis d e fis gis a8-! \tuplet 3/2 8 { cis,16 d e } d8-! \tuplet 3/2 8 { h16 cis d }
+    cis8-! \tuplet 3/2 8 { a16 h cis } h8-! \tuplet 3/2 8 { gis16 a h } a8 cis d16 h cis d %60
+    cis a h cis h gis a h << {
+      cis2
+      <cis e> d
+      dis e
+    } \\ {
+      a,2
+      a a
+      a gis
+    } >>
+    a8 e' e e h d d d
+    cis a' cis, dis e d cis a %65
+    << { h2 } \\ { a4 gis } >> a8 e fis gis
+    a e a4~ a8 gis16 fis gis4
+    << {
+      a4 g fis2
+      fis4 gis a g
+      fis2 <d gis> %70
+    } \\ {
+      cis4 e d2
+      d4 h cis e
+      d2 h %70
+    } >>
+    <cis e a>1\fermata \bar "|." %71 finis
+  }
+}

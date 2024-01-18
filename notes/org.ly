@@ -1150,3 +1150,111 @@ PraeludiumXIIIOrgano = {
     q\fermata \bar "|." %53 finis
   }
 }
+
+PraeludiumXIVOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4
+    << {
+      <cis' e>1
+      <h d>
+      e8 e fis d e cis d h
+      cis e fis d e cis d h
+      cis2
+    } \\ {
+      <a a,>1~-\pedale
+      q~
+      q~
+      q~
+      q2
+    } >> r %5
+    a,16 a' a, a' a, a' a, a' a, a' a, a' a, a' a, a'
+    a, a' a, a' a, a' a, a' a, a' a, a' a, a' a, a'
+    h,8 h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' %10
+    e,, e' e, e' e, e' e, e'
+    e, e' e, e' e, e' e, e'
+    e, e' e, e' e, e' e, e'
+    e e' e, e' e, e' e, e'
+    e, e' e, e' e, e' e, e' %15
+    e, e' e, e' e, e' e, e'
+    dis fis \hA dis fis \hA dis fis \hA dis fis
+    d gis d gis d gis d gis
+    cis,, cis' cis, cis' cis,, cis' cis, cis'
+    <d d,>4 r r r8 dis %20
+    e4 r e, r
+    a r r2
+    a4 r r2
+    r4 g'16 e cis a r4 g'16 e cis a
+    d2 d, %25
+    r4 g'16 e cis a r4 g'16 e cis a
+    d2 d,
+    <d d'>4 r r2
+    q4 r r2
+    r4 c''16 a fis d r4 c'16 a fis d %30
+    g2 g,
+    r4 c'16 a fis d r4 c'16 a fis d
+    g2 g,
+    <e e'>4 r r2
+    q4 r r2 %35
+    r4 d''16 h gis! e r4 d'16 h gis e
+    a2 a,
+    r4 d'16 h gis e r4 d'16 h gis e
+    a2 a,4 a'
+    d,16 d' cis d d, d' cis d d, d' cis d d, d' cis d %40
+    gis, d' h d gis, d' h d gis, d' h d gis, d' h d
+    cis, cis' h cis cis, cis' h cis cis, cis' h cis cis, cis' h cis
+    fis, cis' a cis fis, cis' a cis fis, cis' a cis fis, cis' a cis
+    h, h' a h h, h' a h h, h' a h h, h' a h
+    e, h' gis h e, h' gis h e, h' gis h e, h' gis h %45
+    a,4 a' a, a'
+    <dis, fis a c>1
+    r16 e' d! e e, e' e, d' cis4 a
+    r16 e' d e e, e' e, d' cis4 a
+    gis e a e %50
+    h' e, cis' e,
+    gis e a a,
+    cis16 a' e a cis, a' e a cis, a' e a cis, a' e a
+    cis, a' e a cis, a' e a cis, a' e a cis, a' e a
+    d,4 d' d, d' %55
+    << {
+      d8 h cis a h gis a fis
+      gis h cis a h gis a fis
+      <gis h>4 r d'! r
+      a gis r8 e' fis d
+      e cis d h cis e fis d %60
+      e cis d h <cis e>2
+    } \\ {
+      e,1~
+      e
+      e4 r d! r
+      cis h a2~-\pedale
+      a1~ %60
+      a
+    } \\ {
+      \shiftOff \stemDown s1*3
+      \override Stem.length = #4 s2 a'_~
+      a1_~ %60
+      a2 a
+    } >>
+    g2 fis
+    eis << {
+      r8 d'! d d
+      cis4 a gis8 h h h
+      a4 fis gis a8 cis %65
+      d h e d cis4 d
+      cis4. cis8 h2
+    } \\ {
+      e,2
+      e1~
+      e~ %65
+      e~
+      e
+    } >>
+    a,16 a' gis a a, a' gis a a, a' gis a a, a' gis a
+    a, a' gis a a, a' gis a a, a' gis a a, a' gis a
+    a, a' gis a a, a' gis a a, a' gis a a, a' gis a %70
+    <a a,>1\fermata \bar "|." %71 finis
+  }
+}
