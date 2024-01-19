@@ -1389,3 +1389,75 @@ PraeludiumXIVChords = {
     <cis e a>1\fermata \bar "|." %71 finis
   }
 }
+
+PraeludiumXVChords = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4
+    <d f b>1
+    << { f8 } \\ { d } >> r << { f } \\ { d } >> r << { g } \\ { es } >> r << { g } \\ { es } >> r
+    << { a } \\ { c, } \\ { es } >> r << { a } \\ { c, } \\ { es } >> r << { b' } \\ { d, } \\ { f } >> r << { b } \\ { d, } \\ { f } >> r
+    <d f as>1
+    r16 d' h as f32 g as g f16[ d] h d' h as f32 g as g f16[ d] %5
+    r c es c g' es c' g es' c g' es c' c, es g
+    c g es c g' es c g es' c g es c' g es c
+    << { f2~ f8.\trill es16 f_( es d es) } \\ { c2 s } >>
+    r16 b d b f' d b' f d' b f' d b' b, d f
+    b f d b f' d b f d' b f d b' f d b %10
+    b'8 d,16 b' es, b' f b g es b' g es' b g es
+    b'8 d,16 b' es, b' f b g es b' g es' b g es
+    c'8 e,16 c' f, c' g c a f c' a f' c a f
+    c'8 e,16 c' f, c' g c a f c' a f' c a f
+    f'8 a,16 f' b, f' c f d b d f b f d b %15
+    f'8 a,16 f' b, f' c f d b d f b f d b
+    << { g'2 } \\ { es } >> c16 es d c c' es, f es
+    << { f2 } \\ { d } >> b16 d c b b' d, es d
+    << {
+      es4 f16 es d c d4 es16 d c b
+      c4 d16 c b a b4 c16 b a g %20
+      a8 f' es d c d c b
+      a f' es d c d c b
+      s4 f'2 es4~
+      es d2 c4~
+      c r
+    } \\ {
+      c4~ c8 r b4~ b8 r
+      a4~ a8 r g4~ g8 r %20
+      f d' c b a b a g
+      f d' c b a b a g
+      b16 a g f r as b as g g as g r g as g
+      f f g f r f g f es es f es r es f es
+      r d es f g a! b c
+    } >> d4 d, %25
+    es16 es f g a b c d es4 es,
+    f16 f g a b c d es f4 f,
+    g16 g a b c d es f g4 g,
+    <f a c>1
+    b'8 f r16 f d b g'8 es r4 %30
+    g8 es es c f d b4
+    f2 << { c'\trill } \\ { a } >>
+    b16 f g a b c d es f b, c d es f g a
+    b8 f r16 f d b g'8 es r4
+    g8 es es c f d b4 %35
+    f2 << { c'\trill } \\ { a } >>
+    <b g e>1
+    r16 b, e b g' e b' g e' b g' e b' e, g e
+    b' g e b g' e b g e' b g e b' g e b
+    << { <es a>4 } \\ { c } >> r << { <es a> } \\ { c } >> r %40
+    << { <f b> } \\ { d } >> r << { <f b> } \\ { d } >> r
+    << { <b' des> } \\ { g } >>r << { <b des> } \\ { g } >> r
+    << { f' } \\ { a, } >> r << { f' } \\ { a, } >> r
+    r16 b' a b f b d,! f b, f' es f d f b, d
+    f, b d, f b, as' g as g b' as? b g b es, g %45
+    c, g' f g es f d es c es d es c d b c
+    a! f' c f a, c f, c' b f' d f b, d f, b
+    c f es f c es f, es' d f es f d f b, d
+    a f' c f a, c f, c' b f' d f b, d f, b
+    c f es f c es f, es' d f es f d f b, d %50
+    r des b des g, des' b des e c g' e b' b, des? b
+    << { a4 b2 a4 } \\ { f1 } >>
+    <d f b>1
+    << { as'8 } \\ { f } >> r << { f } \\ { d } >> r << { g } \\ { es } >> r << { g } \\ { es } >> r
+    << { a } \\ { c, } \\ { es } >> r << { a } \\ { c, } \\ { es } >> r << { <f b>2\fermata \bar "|." } \\ { d } >> \bar "|." %55 finis
+  }
+}
