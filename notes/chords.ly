@@ -1461,3 +1461,128 @@ PraeludiumXVChords = {
     << { a } \\ { c, } \\ { es } >> r << { a } \\ { c, } \\ { es } >> r << { <f b>2\fermata \bar "|." } \\ { d } >> \bar "|." %55 finis
   }
 }
+
+PraeludiumXVIChords = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4
+    << {
+      f2 g4 f
+      <es a>2 <f b>
+      b4. c8 d4 es
+      f es16(_[ d c b)] es4 d
+      f es16(_[ d c b)] es4 d %5
+      <b e>2 <g b>
+      a \oneVoice r \voiceOne
+      <b e> <g b>
+      a \oneVoice r \voiceOne
+      c4 c c c %10
+    } \\ {
+      d,2 es4 d
+      c2 d
+      d4. f8 b4 c
+      d s g, f
+      d' s g, f %5
+      g2 e
+      f s
+      g e
+      f s
+      a4 a a a %10
+    } >>
+    b16 f g f b f g f c' f, g f c' f, g f
+    d' f, g f d' f, g f es' f, g f es' f, g f
+    b f g f b f g f c' f, g f c' f, g f
+    d' f, g f d' f, g f es' f, g f es' f, g f
+    << {
+      d'4 d d d %15
+      c c c c
+    } \\ {
+      b b b b %15
+      a a a a
+    } >>
+    f'16 f, b d f d b f f' f, b d f d b f
+    f' f, c' es f es c f, f' f, c' es f es c f,
+    << {
+      f'2~ f4 es
+      f2~ f4 es %20
+      g2~ g4 f
+      g2~ g4 f
+      a2~ a4 g
+      a2~ a4 g
+      es! g8 es es d d4 %25
+      d f8 d d c c4
+      c es8 c c b b4
+      b d8 b b a a4
+      a c8 a es' c a g
+    } \\ {
+      r4 as g2
+      r4 as g2 %20
+      r4 b a2
+      r4 b a2
+      r4 c b2
+      r4 c b2
+      g16 b g b g b g b f a f a f a f a %25
+      f a f a f a f a es g es g es g es g
+      es g es g es g es g d f d f d f d f
+      d f d f d f d f c es c es c es c es
+      c es c es c es c es c es c es c es c es
+    } >>
+    r16 d e d fis d a' d, r d e d g d b' d, %30
+    r d e d a' d, c' d, r d e d b' d, d' d,
+    r d e d fis d a' d, r d e d g d b' d,
+    r d e d a' d, c' d, r d e d b' d, d' d,
+    r c d c e c g' c, r c d c f! c a' c,
+    r c d c g' c, b' c, r c d c a' c, c' c, %35
+    r c d c e c g' c, r c d c f c a' c,
+    r c d c g' c, b' c, r c d c a' c, c' c,
+    r f g f a f c' f, r f g f b f d' f,
+    r f g f c' f, es'! f, r f g f d' f, f' f,
+    r f g f a f c' f, r f g f b f d' f, %40
+    r f g f c' f, es' f, r f g f d' f, f' f,
+    << {
+      g'4 b, r8 des c b
+      b4 a r2
+      g'4 b, r8 des c b
+      b4 a r2 %45
+      f'4 f f f
+    } \\ {
+      e,16 g f g e g f g e g f g e g f g
+      r f c a \bp #-2.5 #0 \lh f a c \rh f a f c' a f a c f
+      e, g f g e g f g e g f g e g f g
+      r f c a \bp #-2.5 #0 \lh f a c \rh f a f c' a f a c f %45
+      a,4 a a a
+    } >>
+    r16 b c b d b f' b, b' b, c b d b f' b,
+    r b c b es b g' b, b' b, c b es b g' b,
+    r b c b d b f' b, b' b, c b d b f' b,
+    r b c b es b g' b, b' b, c b es b g' b, %50
+    << {
+      r2 c'~
+      c b~
+      b a~
+      a g~
+      g4 f f f %55
+    } \\ {
+      es1
+      d
+      c
+      b
+      a4 a b d %55
+    } >>
+    f16 es c es f es c es f d b d f d b d
+    f es c es f es c es f d b d f d b d
+    r4 e,16 g b des r4 e,16 g b des
+    r4 c,16 f a c r4 c,16 f a c
+    r4 f,16 b d f r4 f,16 b d f %60
+    r4 g,16 b es g r4 g,16 b es g
+    << { <des g>2 } \\ { <b g> } >> \appoggiatura g'32 f16 es32 f g16[ es] \appoggiatura es32 d16 c32 d es16[ c]
+    b2 a
+    \appoggiatura g'32 f16 es32 f g16[ es] \appoggiatura es32 d16 c32 d es16[ c] << { b2 } \\ { f } >>
+    << { b a } \\ { f2. es4 } >> %65
+    <d f b>1
+    r16 es f es a es c' es, r es f es a es c' es,
+    r f g f b f d' f, r f g f b f d' f,
+    <f a c es>1
+    <b d>\fermata \bar "|." %70 finis
+  }
+}

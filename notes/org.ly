@@ -1337,3 +1337,92 @@ PraeludiumXVOrgano = {
     r b b, b' r b b, b' <b b,>2\fermata \bar "|." %55 finis
   }
 }
+
+PraeludiumXVIOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4
+    <b b'>1~
+    q~
+    q
+    b16 b' b, b' b, b' b, b' b, b' b, b' b, b' b, b'
+    b, b' b, b' b, b' b, b' b, b' b, b' b, b' b, b' %5
+    r g b g e' b g b r g b g e g c, e
+    r f c a f a c f a f c' a f a c f
+    r g, b g e' b g b r g b g e g c, e
+    r f c a f a c f a f c' a f a c f
+    es! f es f es f es f es f es f es f es f %10
+    d4 b a f
+    b f c' f,
+    d' b a f
+    b f c' f,
+    f'16 f, b d f d b f f' f, b d f d b f %15
+    es' f, a c es c a f es' f, a c es c a f
+    d'4 b d b
+    a f a f
+    d16 b' f b d, b' f b es, b' g b es, b' g b
+    d, b' f b d, b' f b es, b' g b es, b' g b %20
+    e, c' g c e, c' g c f, c' a c f, c' a c
+    e, c' g c e, c' g c f, c' a c f, c' a c
+    fis, d' a d fis, d' a d g, d' b d g, d' b d
+    fis, d' a d fis, d' a d g, d' b d g, d' b d
+    s1*5 %29
+    d4 c b g %30
+    fis d g g,
+    d'' c b g
+    fis d g g,
+    c' b a f
+    e c f f, %35
+    c'' b a f
+    e c f f,
+    f'' es! d b
+    a f b b,
+    f'' es d b %40
+    a f b b,
+    s1*4 %45
+    es'!16 f es f es f es f es f es f es f es f
+    << {
+      f4 f f f
+      g g g g
+      f f f f
+      g g g g %50
+    } \\ {
+      d d d d
+      es es es es
+      d d d d
+      es es es es %50
+    } >>
+    c16 c, c' es g es c es r f, a c a f a c
+    r b d f d b d f r g, b d b g b d
+    r a c es c a c es r f, a c a f a c
+    r g b d b g b d r es, g b g es g b
+    f f' f, f' f, es' f, es' f, d' f, d' f, b f b %55
+    a4 f b f
+    a f b f
+    e16 g b des r4 e,16 g b des r4
+    es,16 f a c r4 es,16 f a c r4
+    d,16 f b d r4 d,16 f b d r4 %60
+    es,16 g b es r4 es,16 g b es r4
+    << { <b des>2 } \\ { <g e> } >> r
+    << { d'2 c } \\ { f,1 } >>
+    r2 << { d' } \\ { f, } >>
+    <f c'>1 %65
+    <b b,>
+    << {
+      c4 r c r
+      d r d r
+      <c es>1
+      <d f>
+    } \\ {
+      \override Stem.length = #4 b4 s b s
+      b s b s
+      b1~
+      b
+    } \\ {
+      \voiceFour \shiftOff b,1~-\pedale
+      b~
+      b~
+      b\fermata
+    } >> \bar "|." %70 finis
+  }
+}
