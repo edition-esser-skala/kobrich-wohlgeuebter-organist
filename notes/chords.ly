@@ -1918,3 +1918,60 @@ PraeludiumXXChords = {
     <d fis>\fermata \bar "|." %25 finis
   }
 }
+
+PraeludiumXXIChords = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4
+    << {
+      g'2 a4 g
+      a2 g
+      fis
+    } \\ {
+      e2~ e~
+      e4 dis e2~
+      e4 dis
+    } >> a'8 h16 c h8 a
+    g16 fis e g h a g h e h cis dis e fis g a
+    << {
+      h2 r16 ais h \hA ais h \hA ais h \hA ais %5
+      h2 r16 gis a \hA gis a \hA gis a \hA gis
+      a2 <fis a>
+      g~ <e g>
+      fis~ <d fis>
+      e~ <cis e> %10
+      d1~
+      d2 <h d>~
+      q
+    } \\ {
+      r8 g' g g fis2 %5
+      r8 fis fis fis e2
+      r8 e e e dis2
+      e cis
+      d h
+      cis ais %10
+      h1~
+      h2 gis~
+      gis
+    } >> ais16 fis h fis cis' fis, d' fis,
+    ais fis h fis cis' fis, d' fis, ais fis h8 h a
+    fis'16[ a,] \appoggiatura d32 \tuplet 3/2 8 { c16 h a } fis'16[ a,] \appoggiatura d32 \tuplet 3/2 8 { c16 h a } g32( e fis g a h cis dis) e16 h g e %15
+    e'[ g,] \appoggiatura c32 \tuplet 3/2 8 { h16 a g } e'[ g,] \appoggiatura c32 \tuplet 3/2 8 { h16 a g } fis32( d! e fis g a h cis) d16 a fis d
+    fis8. c'16 c h h a << { g8 e' e e } \\ { e, cis' cis cis } >>
+    \tuplet 3/2 8 { dis16[ cis h] } h-! dis-! << { e8 e } \\ { cis cis } >> \tuplet 3/2 8 { dis16[ cis h] } h-! dis-! << { e8 e } \\ { cis cis } >>
+    \tuplet 3/2 8 { dis16[ cis h] } h-! h-! << { c8 c } \\ { a! a } >> \tuplet 3/2 8 { h16[ a g] } g-! g-! << { a8 a } \\ { fis fis } >>
+    \tuplet 3/2 8 { g16 fis e } << {
+      g8 g g g g g g
+      g g g g g g g g
+      g2 fis
+      gis a
+    } \\ {
+      e8 e e e e e e
+      e e e e e e e e
+      e2~ e4 dis
+      e d e2
+    } >>
+    <dis fis a>1
+    <e gis>\fermata \bar "|."
+  }
+}

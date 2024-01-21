@@ -305,25 +305,41 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.20" "Præludium XX:mum"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #14
+  %     system-system-spacing.minimum-distance = #14
+  %     systems-per-page = #7
+  %     page-count = #1
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff \with { \setGroupDistance #11 #11 } <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXXChords }
+  %         \new Staff = "LH" { \PraeludiumXXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "1.20" "Præludium XX:mum"
+    \section "1.21" "Præludium XXI:mum"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #14
-      system-system-spacing.minimum-distance = #14
-      systems-per-page = #7
-      page-count = #1
-    }
+    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
-        \new PianoStaff \with { \setGroupDistance #11 #11 } <<
+        \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXXChords }
-          \new Staff = "LH" { \PraeludiumXXOrgano }
+          \new Staff = "RH" { \PraeludiumXXIChords }
+          \new Staff = "LH" { \PraeludiumXXIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
