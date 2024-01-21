@@ -1542,3 +1542,53 @@ PraeludiumXVIIOrgano = {
     } >> \bar "|." %80 finis
   }
 }
+
+PraeludiumXVIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4
+    << {
+      h'1~
+      h2 ais
+    } \\ {
+      h,1
+      h2 r4 fis'
+    } >>
+    h h, h' h,
+    a'! a, a' a,
+    g' g, g' g, %5
+    a' a, g' g,
+    fis' fis, fis' fis,
+    g' g, g' g,
+    e' e, e' e,
+    fis' fis, fis' fis, %10
+    d' h d h
+    ais fis' ais, fis'
+    h, h' h, h'
+    a,! a' a, a'
+    g, g' g, g' %15
+    << {
+      g'4\rest e d h
+      cis2 d4 h
+      ais8 h16 cis d8 cis h d cis h
+      ais8 h16 cis d8 cis h d cis h
+      ais cis h ais h, h' h, h' %20
+    } \\ {
+      fis1~
+      fis~
+      fis~
+      fis~
+      fis %20
+    } \\ {
+      cis'2 s
+    } >>
+    g,8 g' g, g' eis, eis' eis, eis'
+    fis2 fis,
+    h16 h' ais h h, h' \hA ais h h, h' \hA ais h h, h' \hA ais h
+    h, h' ais h h, h' \hA ais h h, h' \hA ais h h, h' \hA ais h
+    h, h' ais h h, h' \hA ais h h, h' \hA ais h h, h' \hA ais h %25
+    h, h' ais h h, h' \hA ais h h, h' \hA ais h h, h' \hA ais h
+    h, h' ais h h, h' \hA ais h h, h' \hA ais h h, h' \hA ais h
+    <h h,>1\fermata \bar "|." %28 finis
+  }
+}

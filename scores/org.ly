@@ -259,19 +259,35 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.17" "Præludium XVII:tum"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXVIIChords }
+  %         \new Staff = "LH" { \PraeludiumXVIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 180 }
+  %   }
+  % }
   \bookpart {
-    \section "1.17" "Præludium XVII:tum"
+    \section "1.18" "Præludium XVIII:vum"
     \addTocEntry
+    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXVIIChords }
-          \new Staff = "LH" { \PraeludiumXVIIOrgano }
+          \new Staff = "RH" { \PraeludiumXVIIIChords }
+          \new Staff = "LH" { \PraeludiumXVIIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 180 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

@@ -1750,3 +1750,57 @@ PraeludiumXVIIChords = {
     } >> \bar "|." %80 finis
   }
 }
+
+PraeludiumXVIIIChords = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4
+    <fis h d>1
+    << { e'2~ e4. fis16 e } \\ { cis1 } >>
+    d16 fis h fis d fis d h d fis h fis d fis d h
+    dis fis h fis \hA dis fis \hA dis h dis fis h fis \hA dis fis \hA dis h
+    e g h g e g e h e g h g e g e h %5
+    cis e a e cis e cis a cis e a e cis e cis a
+    d fis a fis d fis d a d fis a fis d fis d a
+    h d g d h d h g h d g d h d h g
+    cis e g e cis e cis h cis e g e cis e cis h
+    ais cis fis cis \hA ais cis \hA ais fis ais cis fis cis \hA ais cis \hA ais fis %10
+    h ais h cis d h fis' d h ais h cis d h fis' d
+    e fis, ais cis \hA ais fis \hA ais cis e fis, ais cis \hA ais fis \hA ais cis
+    << {
+      r fis g fis g4 r16 fis g fis g4
+      r16 eis fis eis fis4 r16 eis fis eis fis4
+      r16 d e d e4 r16 d e d e4 %15
+    } \\ {
+      d4 r16 d e d d4 r16 d e d
+      cis4 r16 cis d cis cis4 r16 cis d cis
+      h4 r16 h cis h h4 r16 h cis h %15
+    } >>
+    ais8 cis16 h ais cis fis, \hA ais h8 fis'16 e fis d cis h
+    ais8 cis16 h ais cis fis, \hA ais h8 fis'16 e fis d cis h
+    cis8 d16 e \tuplet 3/2 8 { fis g fis e[ fis e] } d8-! \tuplet 3/2 8 { fis16 g fis e[ fis e] d e d }
+    cis8 d16 e \tuplet 3/2 8 { fis g fis e[ fis e] } d8-! \tuplet 3/2 8 { fis16 g fis e[ fis e] d e d }
+    cis8 \tuplet 3/2 8 { e16 fis e } d8 cis << {
+      d \tuplet 3/2 8 { d16 e d } d8 d %20
+      d \tuplet 3/2 8 { d16 e d } d8 d d \tuplet 3/2 8 { d16 e d } d8 d
+    } \\ {
+      h8 \tuplet 3/2 8 { h16 cis h } h8 h %20
+      h8 \tuplet 3/2 8 { h16 cis h } h8 h h8 \tuplet 3/2 8 { h16 cis h } h8 h
+    } >>
+    << { d2 cis } \\ { h2~ h4 ais } \\ { s2 h'4\rest r8 e, } >>
+    << {
+      dis2 s
+      c!4 a r8 c c c
+      h4 e r8 h h h %25
+      a4 fis r8 a a a
+      g2 <e ais>
+    } \\ {
+      r4 h' \oneVoice r8 h h h \voiceTwo
+      a4 fis r8 a a a
+      g4 g r8 g g g %25
+      fis4 dis r8 fis fis fis
+      e2 cis
+    } >>
+    <dis fis h>1\fermata \bar "|." %28 finis
+  }
+}
