@@ -1975,3 +1975,50 @@ PraeludiumXXIChords = {
     <e gis>\fermata \bar "|."
   }
 }
+
+PraeludiumXXIIChords = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 4/4
+    <f as>1
+    r16 c' des h c c des h c g as e f c des h
+    c c d e f g as b? c f, g as b c d e
+    f c des\trill c f c des\trill c des des es des des des f des
+    c c des\trill c c c f c b b c\trill b b b c b %5
+    g' b, c b g' b, c b as as c as f f as c,
+    des des es\trill des des des es\trill des c c des\trill c c c f c
+    b b c\trill b b b c\trill b g' f e des! c b as g
+    << {
+      r4 c f c
+      r c f c %10
+      r des f des
+      r des f des
+      r d f d
+      r d f d
+    } \\ {
+      as1
+      as %10
+      b
+      b
+      as
+      as
+    } >>
+    <b e>1 %15
+    f'16 e f g as g as f e d \hA e f g f g e
+    as g as b c b c as g f g as b as b g
+    << { as4 } \\ { f } >> r << { as } \\ { f } >> r
+    << { <as d> } \\ { f } >> r << { <as d> } \\ { f } >> r
+    << { e f2 e4 } \\ { b c2~ c8 b } >> %20
+    <a c f>1
+    << {
+      <c es!>2 des
+      <c f> des
+      <c f> <b e>
+    } \\ {
+      a?2 b
+      a b
+      a g
+    } >>
+    <a c f>1\fermata \bar "|." %25 finis
+  }
+}

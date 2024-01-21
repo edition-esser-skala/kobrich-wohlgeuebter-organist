@@ -1735,3 +1735,49 @@ PraeludiumXXIOrgano = {
     <e h'>\fermata \bar "|." %25 finis
   }
 }
+
+PraeludiumXXIIOrgano = {
+  \relative c {
+    \clef bass
+    \key f \minor \time 4/4
+    <f as c>1~
+    q
+    q
+    << {
+      as2 b
+      as g %5
+      g as
+      b as
+      g g
+    } \\ {
+      f2~ f
+      f1 %5
+      e2 f~
+      f1
+      f2 e
+    } >>
+    f,16 f' e f \hA e f \hA e f f, f' e f \hA e f \hA e f
+    f, f' e f \hA e f \hA e f f, f' e f \hA e f \hA e f %10
+    b, f' des! f b, f' des f b, f' des f b, f' des f
+    b, f' des! f b, f' des f b, f' des f b, f' des f
+    h, f' d f \hA h, f' \hA d f \hA h, f' \hA d f \hA h, f' \hA d f
+    h, f' d f \hA h, f' \hA d f \hA h, f' \hA d f \hA h, f' \hA d f
+    << {
+      g1 %15
+      as16 g as b c b c as g f g as b as b g
+      f e f g as g as f e d \hA e f g f g \hA e
+    } \\ {
+      c1~ %15
+      c~
+      c
+    } >>
+    f16 c as f as f as c f c as f as f as c
+    f d h as! h as \hA h d h d h as! h as \hA h d
+    << { g4 as g2 } \\ { c,1 } >> %20
+    <f f,>1
+    r16 f c f a, c f, f' r f e f b g f e
+    r f e f a, c f, f' r f e f b g f e
+    <f f,>1
+    q\fermata \bar "|." %25 finis
+  }
+}

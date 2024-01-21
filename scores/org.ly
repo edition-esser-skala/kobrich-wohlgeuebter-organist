@@ -326,16 +326,32 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.21" "Præludium XXI:mum"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #5 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXXIChords }
+  %         \new Staff = "LH" { \PraeludiumXXIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "1.21" "Præludium XXI:mum"
+    \section "1.22" "Præludium XXII:dum"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXXIChords }
-          \new Staff = "LH" { \PraeludiumXXIOrgano }
+          \new Staff = "RH" { \PraeludiumXXIIChords }
+          \new Staff = "LH" { \PraeludiumXXIIOrgano }
         >>
       >>
       \layout { }
