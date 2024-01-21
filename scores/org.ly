@@ -244,19 +244,34 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.16" "Præludium XVI:tum"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXVIChords }
+  %         \new Staff = "LH" { \PraeludiumXVIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "1.16" "Præludium XVI:tum"
+    \section "1.17" "Præludium XVII:tum"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXVIChords }
-          \new Staff = "LH" { \PraeludiumXVIOrgano }
+          \new Staff = "RH" { \PraeludiumXVIIChords }
+          \new Staff = "LH" { \PraeludiumXVIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 180 }
     }
   }
 }

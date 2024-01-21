@@ -7,6 +7,13 @@
 
 
 hA = \once \override Accidental.stencil = ##f
+divideThreeFourTime = {
+  \overrideTimeSignatureSettings
+    3/4
+    1/4
+    #'(4)
+    #'((end . ( ((1 . 8) . (2 2 2)))))
+}
 
 
 pedale = \markup \remark "Pedale"

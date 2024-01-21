@@ -1586,3 +1586,167 @@ PraeludiumXVIChords = {
     <b d>\fermata \bar "|." %70 finis
   }
 }
+
+PraeludiumXVIIChords = {
+  \relative c' {
+    \clef treble
+    \divideThreeFourTime \key h \major \time 3/4
+    << {
+      <fis h>2 a4
+      gis fis e
+      <fis h>2.
+      <gis h>
+      h2 ais!4 %5
+      h8 fis h fis h fis
+      cis' fis, cis' fis, cis' fis,
+      dis' cis h cis dis eis
+      <fis ais,>4 q q
+      <eis h> q q %10
+      cis8 h ais gis fis e
+    } \\ {
+      dis2 fis4
+      e dis cis
+      dis2.
+      e
+      e %5
+      s2.
+      s
+      s2 gis4
+      fis8 cis fis cis fis cis
+      gis' cis, gis' cis, gis' cis, %10
+      ais' gis fis e! dis cis
+    } >>
+    <dis h'>4 q q
+    << { ais' ais ais } \\ { e e e } >>
+    dis8 cis h cis dis eis
+    << {
+      fis4 fis fis %15
+      eis eis eis
+    } \\ {
+      ais, ais ais %15
+      h h h
+    } >>
+    cis8 h ais h cis dis
+    e! dis cis dis e cis
+    << {
+      h'4 h h
+      ais ais ais %20
+      h dis4. cis8
+      cis2.
+      h~
+      h
+      ais~ %25
+      ais
+      gis~
+      gis
+      fis
+      fis4 fis fis %30
+      ais ais ais
+    } \\ {
+      dis,4 dis dis
+      e e e %20
+      fis h2
+      ais2.~
+      ais
+      gis~
+      gis %25
+      fis~
+      fis
+      e!~
+      e
+      dis4 dis dis %30
+      e e e
+    } >>
+    h'8 fis h fis h fis
+    cis' fis, cis' fis, cis' fis,
+    << {
+      dis'4 dis dis
+      e e e %35
+      h2 a4
+    } \\ {
+      fis4 fis fis
+      ais ais ais %35
+      fis2.
+    } >>
+    e'8 h e h e h
+    fis' h, fis' h, fis' h,
+    << {
+      <e gis>4 q q
+      <a, dis> q q %40
+      e'2.
+      dis
+      e4 e e
+      fis fis fis
+      e2. %45
+      dis
+      cis~
+      cis
+      h~
+      h %50
+      ais~
+      ais
+      gis~
+      gis
+      fis %55
+      fis4 fis fis
+      ais ais ais
+      h h h
+      cis cis cis
+      dis dis dis %60
+      e e e
+      fis fis fis
+    } \\ {
+      h,4 h h
+      fis fis fis %40
+      h gis h8 cis
+      h2 r8 gis
+      gis4 gis gis
+      his his his
+      cis2.~ %45
+      cis2 h!4~
+      h2.
+      ais~
+      ais
+      gis~ %50
+      gis
+      fis~
+      fis
+      e~
+      e %55
+      dis4 dis dis
+      e e e
+      fis fis fis
+      fis fis fis
+      fis fis fis %60
+      ais ais cis
+      h h h
+    } >>
+    gis'8 e dis e dis e
+    ais e dis e dis e
+    dis h' e, h' fis h %65
+    gis fis e dis cis h
+    ais fis ais fis ais fis
+    h fis h fis h fis
+    cis' fis, cis' fis, cis' fis,
+    dis' fis, dis' fis, dis' fis, %70
+    ais fis ais fis ais fis
+    h fis h fis h fis
+    cis' fis, cis' fis, cis' fis,
+    dis' fis, dis' fis, dis' fis,
+    ais4 fis << {
+      h~ %75
+      h ais8 gis ais4
+      <fis h>2.
+      h
+      <ais! e>
+      <h fis>\fermata
+    } \\ {
+      fis4~ %75
+      fis2 fis8 e
+      dis2.
+      e
+      cis
+      dis
+    } >> \bar "|." %80 finis
+  }
+}

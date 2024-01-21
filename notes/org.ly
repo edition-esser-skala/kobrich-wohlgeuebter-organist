@@ -1426,3 +1426,119 @@ PraeludiumXVIOrgano = {
     } >> \bar "|." %70 finis
   }
 }
+
+PraeludiumXVIIOrgano = {
+  \relative c {
+    \clef bass
+    \divideThreeFourTime \key h \major \time 3/4
+    <h h'>2.
+    q
+    << { r4 h' a } \\ { h,2. } >>
+    gis'4 e dis
+    << {
+      cis'2. %5
+      dis4 dis dis
+      cis cis cis
+      dis2 s4
+    } \\ {
+      cis,2. %5
+      h'4 h h
+      ais ais ais
+      h2 gis4
+    } >>
+    s2.*3 %11
+    h8 fis h fis h fis
+    cis' fis, cis' fis, cis' fis,
+    h4 h, gis'
+    fis8 cis fis cis fis cis %15
+    gis' cis, gis' cis, gis' cis,
+    ais' gis fis gis ais h
+    cis h ais h cis ais
+    h fis h fis h fis
+    cis' fis, cis' fis, cis' fis, %20
+    dis' cis h cis dis eis
+    fis cis fis cis fis cis
+    dis h dis h dis h
+    eis h \hA eis h \hA eis h
+    cis ais cis ais cis ais %25
+    dis ais dis ais dis ais
+    h gis h gis h gis
+    cis gis cis gis cis gis
+    ais fis ais fis ais fis
+    h fis h fis h fis %30
+    cis' fis, cis' fis, cis' fis,
+    dis'4 fis, dis'
+    ais fis ais
+    h8 fis h fis h fis
+    cis' fis, cis' fis, cis' fis, %35
+    \tuplet 3/2 4 { dis' cis h dis cis h dis cis h }
+    << {
+      gis4 gis gis
+      fis fis fis
+    } \\ {
+      e e e
+      dis dis dis
+    } >>
+    e8 h e h e h
+    fis' h, fis' h, fis' h, %40
+    gis' fis e fis gis ais!
+    h ais! h cis dis his
+    cis gis cis gis cis gis
+    dis' gis, dis' gis, dis' gis,
+    e' dis cis dis e fis %45
+    gis dis gis dis gis dis
+    e cis e cis e cis
+    fis cis fis cis fis cis
+    dis h dis h dis h
+    e h e h e h %50
+    cis ais cis ais cis ais
+    dis ais dis ais dis ais
+    h gis h gis h gis
+    cis gis cis gis cis gis
+    ais fis ais fis ais fis %55
+    h fis h fis h fis
+    cis' fis, cis' fis, cis' fis,
+    dis' fis, dis' fis, dis' fis,
+    ais fis ais fis ais fis
+    h fis h fis h fis %60
+    cis' fis, cis' fis, cis' fis,
+    dis' fis, dis' fis, dis' fis,
+    e'4 e, e'
+    cis, cis' cis,
+    << {
+      h'2. %65
+      h2 r4
+      cis cis cis
+      dis dis dis
+      ais ais ais
+      h h h %70
+      cis cis cis
+      dis dis dis
+      ais ais ais
+      h h h
+      cis2 dis4 %75
+      cis2.
+      r4 h a
+      gis2.
+      h
+      h
+    } \\ {
+      h,4 cis dis %65
+      e gis e
+      fis2.~
+      fis~
+      fis~
+      fis~ %70
+      fis~
+      fis~
+      fis~
+      fis~
+      fis~ %75
+      fis
+      h,
+      h
+      h
+      h\fermata
+    } >> \bar "|." %80 finis
+  }
+}
