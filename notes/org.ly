@@ -1636,3 +1636,55 @@ PraeludiumXIXOrgano = {
     <c c,>1\fermata \bar "|." %37 finis
   }
 }
+
+PraeludiumXXOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4
+    << {
+      <f a>2 g4. d'8
+      cis2 <a f>
+      q1
+      d~
+      d2 c!4 a %5
+      gis r8 h? a2~
+      a1
+      g~
+      g2 f
+      e d %10
+    } \\ {
+      d2~ d~
+      d~ d
+      d1
+      d
+      e1~ %5
+      e2 r
+      a,4 cis d4. f8
+      r2 g,4 h
+      c4. e8 r4 h8 d
+      r4 a8 c r4 g8 b %10
+    } >>
+    c4 cis d16 cis d e f e f g
+    a4 a, a16 g' fis g a, g' fis g
+    a, f' e f a, f' e f e4 cis
+    d r d16 d' cis d d, d' cis d
+    g, d' b! d g, d' b d c, c' h c c, c' h c %15
+    f, c' a c f, c' a c b,! b' a b b, b' a b
+    e, b' g b e, b' g b a, a' gis a a, a' gis a
+    d, a' f a d, a' f a d, a' f a d, a' f a
+    b, f' d f b, f' d f b, f' d f b, f' d f
+    h, gis' d gis h, gis' d gis h, gis' d gis h, gis' d gis %20
+    a, a' gis a a, a' gis a a, a' gis a a, a' gis a
+    << {
+      r8 a g fis g c! b a
+      b fis g a b fis g4
+      <g e>1
+      <fis a>
+    } \\ {
+      d1~
+      d~
+      d~
+      d\fermata
+    } >> \bar "|." %25 finis
+  }
+}

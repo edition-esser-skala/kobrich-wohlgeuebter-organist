@@ -1863,3 +1863,58 @@ PraeludiumXIXChords = {
     <e g c>1\fermata \bar "|." %37 finis
   }
 }
+
+PraeludiumXXChords = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4
+    << { d'8\rest a d c b2 } \\ { d, r8 d g f } \\ { f2 s } >>
+    << { r8 b a g } \\ { e2 } >> f8 d16 f a d, f a
+    d f, a d f a, d f a g f e f e d c!
+    h d f e d e d c h c d c \hA h c \hA h a
+    gis8 h16 gis e8 gis a e'16 d \appoggiatura d c8\trill h16 a %5
+    h8 c16 d \tuplet 3/2 8 { e f e d[ e d] } << {
+      r8 b'! a gis
+      a4
+    } \\ {
+      cis,2
+      r8 e16[ f]
+    } >> \appoggiatura a g8 f16 e f8 d16 e f e d c
+    << { r8 a' g fis g4 } \\ { h,2 r8 d16[ e] } >> \appoggiatura g f8 e16 d
+    e8 g16 f e d c h a8 f'16 e d c h a
+    g8 e'16 d c h a g f8 d'16 c h a g f %10
+    << {
+      r8 b a g f2
+      e8 a a a
+    } \\ {
+      e2~ e4 d~
+      d8 cis cis cis
+    } >> b'!4 b
+    a d cis16 d e f g e a g
+    f e d cis d e f g << {
+      r4 a
+      b!2~ b4 g %15
+      a2~ a4 f
+      g2~ g4 e
+    } \\ {
+      \once \tieDashed f2~
+      f4 g e2~ %15
+      e4 f d2~
+      d4 e cis2
+    } >>
+    f4 d f d
+    f d f d
+    f d f d %20
+    << {
+      e1
+      d~
+      d
+    } \\ {
+      d2 cis
+      r8 c b! a b a g fis
+      g a b fis g a b4
+    } >>
+    <cis, e g>1
+    <d fis>\fermata \bar "|." %25 finis
+  }
+}

@@ -290,15 +290,36 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.19" "Præludium XIX:num"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXIXChords }
+  %         \new Staff = "LH" { \PraeludiumXIXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "1.19" "Præludium XVIII:num"
+    \section "1.20" "Præludium XX:mum"
     \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #14
+      system-system-spacing.minimum-distance = #14
+      systems-per-page = #7
+      page-count = #1
+    }
     \score { %\articulate
       <<
-        \new PianoStaff <<
+        \new PianoStaff \with { \setGroupDistance #11 #11 } <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXIXChords }
-          \new Staff = "LH" { \PraeludiumXIXOrgano }
+          \new Staff = "RH" { \PraeludiumXXChords }
+          \new Staff = "LH" { \PraeludiumXXOrgano }
         >>
       >>
       \layout { }
