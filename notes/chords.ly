@@ -1804,3 +1804,62 @@ PraeludiumXVIIIChords = {
     <dis fis h>1\fermata \bar "|." %28 finis
   }
 }
+
+PraeludiumXIXChords = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4
+    <c es>1
+    <d f>
+    << {
+      es2 g
+      <f h> <g b>
+    } \\ {
+      c,2 es
+      d e
+    } >>
+    <f as>1~ %5
+    <d f as>
+    d'16[ as] \appoggiatura b32 as16 g32 as f16 as g as d16[ as] \appoggiatura b32 as16 g32 as f16 as g f
+    r g a h c d es f g g, a h c d es f
+    g8-! \tuplet 3/2 8 { as!16 b! as } g8-! f-! es-! \tuplet 3/2 8 { as16 b as } g8-! f-!
+    es-! \tuplet 3/2 8 { g16 as g } f8-! es-! d-! \tuplet 3/2 8 { g16 as g } f8-! es-! %10
+    d-! \tuplet 3/2 8 { es16 f es } c8-! es-! c-! \tuplet 3/2 8 { es16 f es } c8-! es-!
+    c-! \tuplet 3/2 8 { es16 f es } c8-! es-! c-! \tuplet 3/2 8 { es16 f es } c8-! es-!
+    << { d4 } \\ { h } >> r r2
+    << { <d f>4 } \\ { h } >> r r2
+    <c es!>1 %15
+    << { d8 s4. } \\ { h8 g' g g } >> d f f f
+    es g g g d f f f
+    es as,! as as fis g g g
+    d' g, g g e f f f
+    c' f, f f c' fis, fis fis %20
+    g g g g c fis, fis fis
+    g g g g f f f f
+    es16 c' g c es, c' g c d, h' f \hA h d, \hA h' f \hA h
+    c, a' es \hA a c, \hA a' es \hA a h, g' d g \hA h, g' d g
+    a, fis' c \hA fis \hA a, \hA fis' c \hA fis << { f2 } \\ { d } >> %25
+    r8 \tuplet 3/2 8 { c16 es g } r8 \tuplet 3/2 8 { fis16 a c } r8 \tuplet 3/2 8 { c,16 es g } r8 \tuplet 3/2 8 { fis16 a c }
+    << { h8 \tuplet 3/2 8 { as16 b as } } \\ { g4 } >> g8-! f-! es-! \tuplet 3/2 8 { \hA as16 b as } g8-! f-!
+    es-\parenthesize-! \tuplet 3/2 8 { g'16 as g } f8-! es-! d-! \tuplet 3/2 8 { g16 as g } f8-! es-!
+    d-! \tuplet 3/2 8 { es16 f es } c8-! es-! c-! \tuplet 3/2 8 { es16 f es } c8-! es-!
+    c-! \tuplet 3/2 8 { es16 f es } c8-! es-! c-! \tuplet 3/2 8 { es16 f es } << {
+      s8 es %30
+      d4 g2 f4~
+      f es2 d4~
+      d c2 h4
+      c2 <g b>
+      as <h d> %35
+      <g c>4
+    } \\ {
+      c8^! c %30
+      c4 h as!2
+      g f
+      es d
+      e e
+      f <f as> %35
+      e4
+    } >> r << { <g c> } \\ { e } >> r
+    <e g c>1\fermata \bar "|." %37 finis
+  }
+}
