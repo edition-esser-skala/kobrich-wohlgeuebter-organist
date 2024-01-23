@@ -342,20 +342,35 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.22" "Præludium XXII:dum"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #5 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXXIIChords }
+  %         \new Staff = "LH" { \PraeludiumXXIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "1.22" "Præludium XXII:dum"
+    \section "1.23" "Præludium XXIII:tium"
     \addTocEntry
-    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXXIIChords }
-          \new Staff = "LH" { \PraeludiumXXIIOrgano }
+          \new Staff = "RH" { \PraeludiumXXIIIChords }
+          \new Staff = "LH" { \PraeludiumXXIIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

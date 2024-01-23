@@ -2022,3 +2022,77 @@ PraeludiumXXIIChords = {
     <a c f>1\fermata \bar "|." %25 finis
   }
 }
+
+PraeludiumXXIIIChords = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4
+    g'1
+    <f d'>
+    <g c>
+    fis\trill
+    g8 a16 b c d e fis << { g2 } \\ { r8 es d c } >> %5
+    b16 g a b c d e fis << { g2 } \\ { r8 es d c } >>
+    b16 g d' b g' d b' fis g d es c d a b fis
+    << { g8 es d[ c] b es d[ c] } \\ { r c b a g c b[ a] } >>
+    r16 g b g d' b g' d b' d, g d b' g d' b
+    << { es2 } \\ { r8 a, b c } >> d16 f, b f d' b f' d %10
+    << { es2 } \\ { r8 a, b c } >> d16 f, b f d' b f' d
+    << { g2 } \\ { es } >> r8 c16 d \appoggiatura f es8 d16 c
+    << { f2 } \\ { d } >> r8 b16 c \appoggiatura es d8 c16 b
+    << { es2 } \\ { c } >> r16 f, g f a f c' a
+    b f g a b c d es f8 b, a b %15
+    es16 f, g f es' f, g f es' d c b a g f es
+    d8 f b f16 as g8 b c g16 b
+    a8 c d a16 c b8 d es b16 d
+    c8 es f c16 es d4 es8\trill d16 es
+    f f, g f es' f, g f d'4 es8\trill d16 es %20
+    f f, g f es' f, g f d'8 \tuplet 3/2 8 { a16 b c } d8 c
+    \appoggiatura c16 b8 a16 b << { c8 b a[ d] } \\ { a g fis4 } >> a16 fis d \hA fis
+    g8 d' d16 b g b a8 d d16 c a c
+    b g' d g b, g' d g h, g' d g h, g' d g
+    c, g' es g c, g' es g c, g' es g c, g' es g %25
+    a, f' c f a, f' c f a, f' c f a, f' c f
+    b,! f' d f b, f' d f b, f' d f b, f' d f
+    g, es' b es g, es' b es g, es' b es g, es' b es
+    a, es' c es a, es' c es a, es' c es a, es' c es
+    fis, d' a d \hA fis, d' a d \hA fis, d' a d \hA fis, d' a d %30
+    g, d' b d g, d' b d g, d' b d g, d' b d
+    d, c' a c d, c' a c d, c' a c d, c' a c
+    d, b' g b d, b' g b d, b' g b d, b' g b
+    e, b' g b \hA e, b' g b \hA e, b' g b \hA e, b' g b
+    <d, fis a>1 %35
+    g16 d e fis g a b c d g, a b c d e fis
+    g g, b d g d b g g' g, b d g d b g
+    g' g, c es g es c g g' g, c es g es c g
+    g' a, cis e g \hA e \hA cis a g' a, cis e g \hA e \hA cis a
+    << {
+      fis'2 es! %40
+      d c
+      b a
+    } \\ {
+      r4 d2 c4~ %40
+      c b2 a4~
+      a g2 fis4
+    } >>
+    <es! g>1
+    r16 g' b g e g \hA e cis g' e g \hA e cis e \hA cis b!
+    e cis \hA e \hA cis b! cis b g cis b! \hA cis b a b g e %45
+    << {
+      a2 b
+      a h
+    } \\ {
+      fis2 g~
+      g8 fis16 e fis4 g2
+    } \\ {
+      s1
+      g'4\rest r8 c, s2
+    } >>
+    as2 g
+    as g
+    d'16 f, g f d' f, g f c' g fis g \hA fis g \hA fis g
+    d' f, g f d' f, g f c' g fis g \hA fis g \hA fis g
+    <fis a c>1
+    <g h>\fermata \bar "|."
+  }
+}

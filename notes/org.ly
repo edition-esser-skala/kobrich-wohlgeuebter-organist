@@ -1781,3 +1781,106 @@ PraeludiumXXIIOrgano = {
     q\fermata \bar "|." %25 finis
   }
 }
+
+PraeludiumXXIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4
+    << {
+      \tieDown <g' b d>1~
+      <g h>~
+      <g es'>~
+      <g a c>
+      <b d>4
+    } \\ {
+      g,1~-\pedale
+      g~
+      g~
+      g
+      g'4
+    } >> r r8 c b a %5
+    << { <b d>4 } \\ { g } >> r r8 c b a
+    << { <b d>4 } \\ { g } >> r r2
+    g,16 g' g, g' g, g' g, g' g, g' g, g' g, g' g, g'
+    << { g8 } \\ { g, } >> r r4 << { g'8 } \\ { g, } >> r r4
+    r8 f' g a b4 b, %10
+    r8 f' g a b4 b,
+    r8 es16 f g8 es a4 a,
+    r8 d16 es f8 d g4 g,
+    r8 c16 d es8 c f4 es'
+    d d, r8 d' c d %15
+    c4 b a f
+    b << {
+      d2 es4~
+      es f2 g4~
+      g a
+    } \\ {
+      d,,4 es2
+      f g
+      a
+    } >> b8 f c' f,
+    d' f, c' f, b f c' f, %20
+    d' f, c' f, b4 fis
+    g c,8 cis << {
+      r4 c'!
+      b g fis a
+    } \\ {
+      d,2~
+      d1
+    } >>
+    g2 f!
+    es r %25
+    f es
+    d r
+    es d
+    c r
+    d c %30
+    b r
+    << { a' } \\ { fis } >> r
+    << { b } \\ { g } >> r
+    cis, r
+    <c c'!>1 %35
+    b4 r b' r
+    b, r b' r
+    c, r c' r
+    cis, r cis' r
+    << {
+      d,16 d' cis d d, d' cis d d, d' cis d d, d' cis d %40
+      d, d' cis d d, d' cis d d, d' cis d d, d' cis d
+      d, d' cis d d, d' cis d d, d' cis d d, d' cis d
+      <g, b>1
+      e4
+    } \\ {
+      d,1~-\pedale %40
+      d~
+      d
+      es'!
+      e,4
+    } >> r r2
+    R1 %45
+    << {
+      c''!2 b8 g16 a b8 c
+      d2 <h d>
+      g16 f'! d f g, f' d f g, es' c es g, es' c es
+      g, f' d f g, f' d f g, es' c es g, es' c es
+      h2 es! %50
+      h es
+      <g, a c>1
+      <g h d>
+    } \\ {
+      d1~
+      d2 g
+      g,1~-\pedale
+      g~
+      g~ %50
+      g~
+      g~
+      g
+    } \\ {
+      s1*4
+      \override Stem.length = #4 \voiceFour \shiftOff g'2~ g %50
+      g~ g
+      s1*2
+    } >> \bar "|." %53 finis
+  }
+}
