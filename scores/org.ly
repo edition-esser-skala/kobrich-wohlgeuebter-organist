@@ -358,19 +358,37 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.23" "Præludium XXIII:tium"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXXIIIChords }
+  %         \new Staff = "LH" { \PraeludiumXXIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "1.23" "Præludium XXIII:tium"
+    \section "1.24" "Præludium XXIV:tum"
     \addTocEntry
+    \paper { page-count = #2 systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXXIIIChords }
-          \new Staff = "LH" { \PraeludiumXXIIIOrgano }
+          \new Staff = "RH" { \PraeludiumXXIVChords }
+          \new Staff = "LH" { \PraeludiumXXIVOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 110 }
     }
+    \noPageBreak
+    \markup { \vspace #4 \fontsize #3 \italic \fill-line { "" \center-column { "Gloria Patri, et Filio, et Spiritui Sancto, Amen." "IL FINE." } "" } }
   }
 }

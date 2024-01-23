@@ -2096,3 +2096,70 @@ PraeludiumXXIIIChords = {
     <g h>\fermata \bar "|."
   }
 }
+
+PraeludiumXXIVChords = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4
+    <e a c>1
+    r16 e' d e d c h d c e, fis gis a e fis gis
+    << {
+      a4 a a a
+      a a a a
+      a \once \oneVoice r a \once \oneVoice r %5
+    } \\ {
+      r16 e c e r f d f r e c e r d h d
+      r e c e r f d f r e c e r d h d
+      c4 s c s %5
+    } >>
+    r16 a32 h c16[ a] e' c a' e c' h a gis a c e c
+    << {
+      r4 e2 dis4
+      e1~
+      e2 r8 a16 g! a g f e
+      f2~ f8 g16 f g f e d %10
+      e2~ e8 f16 e f e d c
+      d2~ d8 e16 d e d c h
+    } \\ {
+      h2 a
+      r8 gis16 a h a h gis a gis a h c h c a
+      h a h c d c d h c2~
+      c8 d16 c d c h a h2~ %10
+      h8 c16 h c h a g a2~
+      a8 h16 a h a gis fis gis4 h
+    } >>
+    c8 e16 d e c h a gis8 d'16 c d h a gis
+    a e fis gis a h c d << {
+      r8 f! f16 e e d
+      r8 b' b16 a a g! fis2 %15
+      r8 a a16 g g f e2
+      r8 g g16 f f e d2
+      r8 f f16 e e d c8 e e16 d d c
+      h8 e e16 d d c h4. <h f'>8
+      q2
+    } \\ {
+      h2
+      cis r8 es es16 d d c %15
+      h!2 r8 d d16 c c h
+      a2 r8 c c16 h h a
+      gis2 a8 c c16 h h a
+      gis8 c c16 h h a gis4. gis8
+      gis2
+    } >> a'16 g! f e d c h a %20
+    f' e d c h a gis fis h a gis fis e d c h
+    c4 << { <f a> a gis a } \\ { dis, e4. d8 cis4 } >>
+    r << { g' } \\ { e } >> r
+    r2 << {
+      f'
+      <d f> e8 <d, gis> q q %25
+      a' \oneVoice r r4 \voiceOne f'2
+      <d f> e8 <gis, d> q q
+    } \\ {
+      d'2
+      h! cis8 h, h h %25
+      cis s4. d'2
+      h! cis8 h, h h
+    } >>
+    <cis e a>1\fermata \bar "|." %28 finis
+  }
+}

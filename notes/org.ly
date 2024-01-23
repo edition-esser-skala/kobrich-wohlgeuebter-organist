@@ -1884,3 +1884,70 @@ PraeludiumXXIIIOrgano = {
     } >> \bar "|." %53 finis
   }
 }
+
+PraeludiumXXIVOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4
+    << {
+      a'1~
+      a
+      r4 a a a
+      a a a a
+    } \\ {
+      a,1~
+      a~
+      a~
+      a
+    } >>
+    r16 a c e a c32 h a16[ gis] a a,32 h c16[ a] a' c32 h a16[ gis] %5
+    << { a8 } \\ { a, } >> r r4 << { a' } \\ { a, } >> r
+    gis' g fis f
+    << {
+      r8 h16 c d c d h c4 a
+      gis16 fis gis a h a h gis a2
+      s g %10
+      s f!
+    } \\ {
+      e1~
+      e2 r4 a,
+      d f r g, %10
+      c e r f,
+    } >>
+    h d e gis
+    a e h' e,
+    c' e, << {
+      gis2
+      a1 %15
+      g!
+      f!
+      e2
+    } \\ {
+      r4 e
+      r cis d fis %15
+      r h, c e
+      r a, h d
+      r e,
+    } >> a d8 dis
+    e4 d8 dis e4. << { d8 d2 } \\ { d,8 d2 } >>
+    c4 c' %20
+    d, d' e, gis'
+    a << { c h2 } \\ { dis,4 e2 } >>
+    a,16 a' gis a a, a' \hA gis a a, a' \hA gis a a, a' \hA gis a
+    a, cis e a a cis e a << {
+      r8 b, b b
+      r gis gis gis a2 %25
+    } \\ {
+      r8 b, b b
+      r h h h a2 %25
+    } >>
+    a16 cis e a a cis e a << {
+      r8 b, b b
+      r gis gis gis a2
+    } \\ {
+      r8 b, b b
+      r h h h a2
+    } >>
+    <a a'>1\fermata \bar "|." %28 finis
+  }
+}
