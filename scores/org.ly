@@ -4,7 +4,7 @@
 \include "score_settings/org-realized.ly"
 
 \book {
-  % \part "one" "Erſter Theil"
+  % \part "one" "1" "Erſter Theil"
   % \bookpart {
   %   \section "1.1" "Præludium I:mum"
   %   \addTocEntry
@@ -373,22 +373,40 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.24" "Præludium XXIV:tum"
+  %   \addTocEntry
+  %   \paper { page-count = #2 systems-per-page = #5 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \PraeludiumXXIVChords }
+  %         \new Staff = "LH" { \PraeludiumXXIVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  %   \noPageBreak
+  %   \markup { \vspace #4 \fontsize #3 \italic \fill-line { "" \center-column { "Gloria Patri, et Filio, et Spiritui Sancto, Amen." "IL FINE." } "" } }
+  % }
+  % \part "two" "2" "Zweyter Theil"
   \bookpart {
-    \section "1.24" "Præludium XXIV:tum"
+    \section "2.1" "Fuga I:ma"
     \addTocEntry
-    \paper { page-count = #2 systems-per-page = #5 }
+    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \PraeludiumXXIVChords }
-          \new Staff = "LH" { \PraeludiumXXIVOrgano }
+          \new Staff = "RH" { \FugaIChords }
+          \new Staff = "LH" { \FugaIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 80 }
     }
-    \noPageBreak
-    \markup { \vspace #4 \fontsize #3 \italic \fill-line { "" \center-column { "Gloria Patri, et Filio, et Spiritui Sancto, Amen." "IL FINE." } "" } }
+    \markup \null
   }
 }

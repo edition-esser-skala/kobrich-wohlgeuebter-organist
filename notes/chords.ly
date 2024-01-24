@@ -2163,3 +2163,69 @@ PraeludiumXXIVChords = {
     <cis e a>1\fermata \bar "|." %28 finis
   }
 }
+
+FugaIChords = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4
+    R1*2
+    s1*2
+    s2 s4 \lh \kneeBeam a8 \rh c~ %5
+    \oneVoice c b16 a b8 d es d16 c f8 es
+    \tuplet 3/2 8 { d16 es d c[ d c] } b8 c16 d es c d es f8 es
+    d16 es c d << {
+      b8 as'~ as g16 f g8 b~
+      b a16 g a4 g2
+      a g %10
+      a4. a8
+    } \\ {
+      s8 f b,4. c8~
+      c2 s
+      f2~ f4 e %10
+      f2
+    } \\ {
+      \voiceTwo s2.
+      s4 f~ f e
+      s1 %10
+      s2
+    } >> b'8 a16 g c8 b
+    \tuplet 3/2 8 { a16 b a g[ a g] } f8 g16 a b g a b c8 b
+    a16 b g a << { r8 b~ b4 a } \\ { f4 g f } \\ { s4 c'2 } >>
+    << {
+      <b d>2 c
+      <b d>4. d8 es d16 c f8 es %15
+      \tuplet 3/2 8 { d16 es d c[ d c] } b8 c16 d es c d es f8 es
+      d16 es c d b8 f'~ f8. es16 c4
+      d2 c
+      d4. f8 g16 f es d
+    } \\ {
+      f,2 <g b>4 <f a>
+      f4. s8 s2 %15
+      f2~ f~
+      f4~ f8 b g4 a
+      b2~ b4 a
+      b2~ b4
+    } \\ {
+      \voiceTwo s1*3 %16
+      s2 s8. c16 s4
+      s1
+      s2.
+    } >> c16 b a g
+    f8 g16 a b8 c16 d es8 d16 c \tuplet 3/2 8 { f16[ g f] es f es } %20
+    << {
+      r4 b'~ b8 a16 g a4~
+      a8 g16 f g4~ g8 f16 es f4~
+      f8 es4 d8~ d[ c]~ c d
+      c2 <b d>4. f'8~
+      f as, g as g4 es'~ %25
+      es8 c b c d2\fermata
+    } \\ {
+      d2 c4 r16 es d c
+      b4 r16 d c b a4 r16 c b a
+      g8. a32 g f8. g32 f es8. f32 es d8 b'~
+      b4 a f4. as8~
+      as f es f es4 g~ %25
+      g8 a g a <f b>2
+    } >> \bar "|." %26 finis
+  }
+}

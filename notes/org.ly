@@ -1951,3 +1951,66 @@ PraeludiumXXIVOrgano = {
     <a a'>1\fermata \bar "|." %28 finis
   }
 }
+
+FugaIOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4
+    r4 r8 d es d16 c f8 es
+    \tuplet 3/2 8 { d16[ es d] c d c } b8 c16 d es c d es f8 es
+    << {
+      r4 r8 a b a16 g c8 b
+      \tuplet 3/2 8 { a16 b a g[ a g] } f8 g16 a b g a b c8 b
+      a16 b g a f8 b~ b a16 g s4 %5
+      f2~ <f c>
+      f~ <f c>
+      f
+    } \\ {
+      d16 es c d b8 f'~ f4 e
+      f r8 r16 f~ f4 e
+      f r8 <d f> <c es>4 f %5
+      b, d8 b~ b4 a
+      b d8 b~ b4 a
+      b8 c d b
+    } >> es b es e
+    f c f a b a16 g c8 b
+    \tuplet 3/2 8 { a16 b a g[ a g] } f8 g16 a b g a b c8 b %10
+    a16 b g a << {
+      s4 g2
+      a g
+      a4.
+    } \\ {
+      f4~ f e
+      f2~ f4 e
+      f4.
+    } >> d8 es! d16 c f8 es
+    \tuplet 3/2 8 { d16 es d c[ d c] } b8 c16 d es c d es f8 es
+    d16 es c d << {
+      s4 c'2 %15
+      b~ \stemDown b4 a \stemUp
+      b2~ b8. c16 s4
+      b2 s
+      b~ b4 es~
+      es d c8 b a c %20
+      b c d es f2
+      f1
+      es8 c d b c a b d16 es
+      f4. es8 b2~
+      b1~ %25
+      b\fermata
+    } \\ {
+      b,8 b'~ b4 a %15
+      r8 f b,4 \once \stemUp c'2
+      r8 f, b, d es d16 c f8 es
+      \tuplet 3/2 8 { d16 es d c[ d c] } b8 c16 d es c d es f8 es
+      d16 es c d b8 d es2
+      f1~ %20
+      f~
+      f~
+      f~
+      f2 b,~
+      b1~ %25
+      b
+    } >> \bar "|." %26 finis
+  }
+}
