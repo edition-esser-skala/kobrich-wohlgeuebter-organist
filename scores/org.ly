@@ -409,20 +409,35 @@
   %   }
   %   \markup \null
   % }
+  % \bookpart {
+  %   \section "2.2" "Fuga II:da"
+  %   \addTocEntry
+  %   \paper { page-count = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaIIChords }
+  %         \new Staff = "LH" { \FugaIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2.2" "Fuga II:da"
+    \section "2.3" "Fuga III:tia"
     \addTocEntry
-    \paper { page-count = #3 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaIIChords }
-          \new Staff = "LH" { \FugaIIOrgano }
+          \new Staff = "RH" { \FugaIIIChords }
+          \new Staff = "LH" { \FugaIIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

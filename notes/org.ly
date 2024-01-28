@@ -2157,3 +2157,230 @@ FugaIIOrgano = {
     } >> \bar "|." %67 finis
   }
 }
+
+FugaIIIOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \major \time 2/2
+    r4 f8 g a4 f
+    b g c b
+    a g8 f g4 a
+    b8 g a b c4 b
+    a8 f a c f2~ %5
+    f4 e8 d e4 c
+    d2~ d8 d e d
+    c2~ c8 c d c
+    b2~ b8 b c b
+    a2~ a8 a b a %10
+    g2~ g8 g a g
+    f4 g a h
+    << {
+      s1 %13
+      c2 d
+      s1 %15
+      c2 d
+    } \\ {
+      \once \voiceOne c2 c,~ %13
+      c h'
+      \once \voiceOne c c,~ %15
+      c h'
+    } >>
+    c \rh \voiceTwo c8 d e f
+    g2. e4
+    \oneVoice f8 \lh f, a c \rh \voiceTwo f2~
+    f8 f e d e2~ %20
+    e8 e d c d2~
+    d8 d c h c2~
+    c8 c h a h2 \lh \oneVoice
+    c8 c, c' b << {
+      c2
+      g1 %25
+      f
+    } \\ {
+      a4 f
+      r e8 d c4 d8 e %25
+      r4 f,8 g a4 f
+    } >>
+    b g c b
+    a g8 f g4 a
+    b8 g a b c4 b
+    a8 f a c << {
+      f2~ %30
+      f8 f e d
+    } \\ {
+      f,2~
+      f8 s4.
+    } >> e'4 c
+    r8 f a c << {
+      f2~ %32
+      f8 f e d e2~
+      e8 e d c d2~
+      d8 d c b c2~ %35
+      c8 c b a b2~
+      b4 a8 g a2
+      g1
+      r4 a b g
+      a c2 d4 %40
+      c1
+      a2 g4 f
+      <e g c>1_~
+      \voiceTwo c'2 h
+      \voiceOne c h4 c %45
+      d c h2
+      c1
+      d2 r8 e d e
+    } \\ {
+      r4 f,~ %32
+      f r r e~
+      e r r d~
+      d r r c~ %35
+      c r r b~
+      b r r f'~
+      f2 c4 e
+      f1
+      f4 e f d %40
+      r c8 d e4 c
+      f d g,2
+      r c
+      \voiceOne d'1
+      \voiceTwo r4 c, g'2 %45
+      g1
+      r4 g c,8 d e f
+      g1
+    } >>
+    f'4 f,8 g a4 h
+    << {  c2. <a e>4 } \\ { r2 c,4 cis } >> %50
+    d d'8 e f4 d
+    g e a g
+    << {
+      f1 %53
+      e
+      d1 %55
+      b!2 a4 g
+      a2. a4
+      s2 a4 g
+      s2 d'~
+      d4 cis8 h cis2 %60
+      d~ d8 d e d
+      c!2~ c8 c d c
+      b2~ b8 b c b
+      a2~ a8 a b a
+      g2~ g8 g a g %65
+      f1
+      c'
+      a2 g
+      <g e>1
+      d' %70
+      c2 h4 c
+    } \\ {
+      r2 d~ %53
+      d c!
+      r4 d,8 e f4 d %55
+      g e a,2
+      f'4 e8 d e4 f
+      g8 e f g a,2
+      f'8 d f a d,2 ~
+      d4 r r a' %60
+      r d, g2
+      r4 c, f2
+      r4 b, e2
+      r4 a ,d2
+      r4 g, c2 %65
+      r d
+      r4 c8 d e4 c
+      f d r f
+      r2 c
+      c' h %70
+      r4 c, g'2
+    } >>
+    << { d'4 c h2 } \\ { g1 } \\ { s2 f'4\rest d } >>
+    << {
+      c1 %73
+      s2 g'4 e
+      f d8 c d2~ %75
+      d4 c8 h c2~
+      c4 h8 a h2
+      c1
+      f,
+      s %80
+      f1_~
+      \voiceTwo f2 e
+    } \\ {
+      r4 g c,8 d e f %73
+      g1
+      f2~ f8 f g f %75
+      e2~ e8 e f e
+      d2~ d8 d e d
+      c2 e8 c d e
+      r4 f,8 g a4 f
+      \oneVoice b g c b \voiceTwo %80
+      <a c>2 f
+      \voiceOne g'1
+    } >>
+    \oneVoice f4 f8 g a4 f
+    b g c b
+    a g8 f g4 a %85
+    b8 g a b c4 b
+    a8 f a c << {
+      s2 %87
+      g'1
+      f2~ f8 f g f
+      e2~ e8 e f e %90
+      d2~ d8 d e d
+      c2~ c8 c d c
+      b2~ b8 b c b
+      a2~ a8 a b a
+      g2~ g8 g a g %95
+      f1
+      s
+      <c f>2~ f_~
+      \voiceTwo f e
+      \voiceOne f1 %100
+      r2 c'~
+      c1~
+      c~
+      c
+      g2 r8 a b a %105
+      g2 r8 b c b
+      a2 r8 c d c
+      b2 r8 d c d
+      c2~ c8 c b c
+      b2~ b8 b a b %110
+      a2~ a8 a g a
+      g2~ g8 g f g
+      r a g a b d c d
+      c a g a g b a b
+      <a c>1\fermata
+    } \\ {
+      f'2~ %87
+      f4 e8  d e4 c
+      r d8 c d2~
+      d4 c8 b c2~ %90
+      c4 b8 a b2~
+      b4 a8 g a2~
+      a4 g8 f g2~
+      g4 f8 e f2~
+      f4 e8 d e2 %95
+      r4 f,8 g a4 f
+      b g c b
+      a2 f
+      \voiceOne g'1
+      \voiceTwo r4 f, a b %100
+      <c c,>1~-\pedale
+      q~
+      q~
+      q~
+      q~ %105
+      q~
+      q~
+      q~
+      q~
+      q~ %110
+      q~
+      q
+      <f f,>~
+      q~
+      q
+    } >> \bar "|." %115 finis
+  }
+}
