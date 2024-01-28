@@ -392,21 +392,37 @@
   %   \markup { \vspace #4 \fontsize #3 \italic \fill-line { "" \center-column { "Gloria Patri, et Filio, et Spiritui Sancto, Amen." "IL FINE." } "" } }
   % }
   % \part "two" "2" "Zweyter Theil"
+  % \bookpart {
+  %   \section "2.1" "Fuga I:ma"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #5 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaIChords }
+  %         \new Staff = "LH" { \FugaIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  %   \markup \null
+  % }
   \bookpart {
-    \section "2.1" "Fuga I:ma"
+    \section "2.2" "Fuga II:da"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { page-count = #3 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaIChords }
-          \new Staff = "LH" { \FugaIOrgano }
+          \new Staff = "RH" { \FugaIIChords }
+          \new Staff = "LH" { \FugaIIOrgano }
         >>
       >>
       \layout { }
       \midi { \tempo 4 = 80 }
     }
-    \markup \null
   }
 }

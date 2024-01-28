@@ -2014,3 +2014,146 @@ FugaIOrgano = {
     } >> \bar "|." %26 finis
   }
 }
+
+FugaIIOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4
+    R1*5 %5
+    \rh \voiceTwo g''4. a16 h c8 a d c
+    h g e' d c h16 a d8 c
+    h g c h a g16 fis h8 a
+    g e a g fis e16 d g4~
+    g8 fis16 e fis4 g8 f e c %10
+    d4 g c,4. d16 e
+    f8 d g f e c a' g
+    f e16 d g8 f e c f e \lh
+    d c16 h e8 d c a d c
+    h a16 g c4~ c8 h16 a h4 %15
+    << { c2 } \\ { r8 c,16 d e8 fis } >> g4. a16 h
+    c8 a d c h g e' d
+    c h16 a d8 c h g c h
+    a g16 fis h8 a g e a g
+    fis e16 d g4~ g fis %20
+    g8 f e d16 c d8 e16 f << {
+      g4~
+      g2 s
+      g <d f>4 <d g>
+      r c'~ c s
+      c2 s %25
+      r8 a4. a2
+    } \\ {
+      g,8 a16 h
+      c4. d16 e f8 d g f
+      e c16 d e8 c~ c4 h
+      c2~ c4 h'
+      r8 e, f e d f g f %25
+      e cis a cis d4. e16 f
+    } >>
+    g8 e a g f d b' a
+    g f16 e a8 g << {
+      a2
+      <e g>4 <e a>~ a d~
+      d e d s8 h!~ %30
+      h2 a
+      s a
+      s a_~
+      \voiceTwo a4 gis \voiceOne r8 c d c
+      h2 a~ %35
+      a g~
+      g
+    } \\ {
+      f8 d16 e f8 d~
+      d4 cis d2~
+      d4 cis' r8 d,4 dis8 %30
+      e4. fis16 gis a,4. h16 c
+      d8 h e d c a f' e
+      d c16 h e8 d c h a4
+      \once \voiceOne h'2 a~
+      a8 g gis4 r a,8 cis %35
+      d4 f r g,8 h
+      c!4. d16 e
+    } >> f8 d g f
+    e c a' g f e16 d g8 f
+    << {
+      g4 s f s
+      e s g2 %40
+      a
+    } \\ {
+      e8 c f e d h e d
+      c a d c h g c4 %40
+      a2
+    } >> g'4. a16 h
+    c8 a d c << {
+      d2
+      <a c>4 <a d>~ <h d> c8 h
+      a2 g
+      fis e %45
+      d a'
+      g4~ g16 f! e d c'2
+      a4 r c2_~
+      \voiceTwo c4 h
+    } \\ {
+      h8 g16 a h8 g~
+      g4 fis g2~
+      g4 fis2 e4~
+      e d2 c4~ %45
+      c h a d8 e16 fis
+      g,4 s c4. d16 e
+      f8 d g f e c16 d e8 c
+      \voiceOne d'2
+    } \\ {
+      s2
+      s1*3 %45
+      s4 g,
+      s1*2
+      s2
+    } >> \oneVoice c8 \rh g' a g
+    \voiceTwo f e16 d g8 f \oneVoice \lh << {
+      e4 f8 e %50
+      d2 c4 d8 c
+      h4 c8 h a2
+      g s
+      c h
+      a g %55
+      s g
+      <d f>4~ <d g> r c'~
+      c h c s
+      d e f8 d g f
+      e d16 c f8 e d c16 h e8 d %60
+      c h16 a d8 c
+    } \\ {
+      r8 c4.~ %50
+      c4 h~ h8 a4.~
+      a8 g4.~ g8 f4.~
+      f4 e8 d16 c d8 e16 f g a h g
+      c,8 d16 e f g a f h,8 c16 d e f g e
+      a,8 h16 c d e f d g,8 a16 h c8 d16 e %55
+      f8 d g f e c16 d e8 c
+      c4 h c2~
+      c4 r r8 c f fis
+      <g g,>1~-\pedale
+      q~ %60
+      q2
+    } >> h8 g c h
+    a f h a g e a g
+    f d << {
+      g4 e f
+      d e c16 d e f e d e f
+      g2~ g %65
+      a4 h c2
+      <h f d> <g e>\fermata
+    } \\ {
+      g,2.~
+      g2~ g~
+      g c~ %65
+      c~ c~
+      c~ c
+    } \\ {
+      s2.
+      s1*2 %65
+      s2 f8\rest e f e
+      s1
+    } >> \bar "|." %67 finis
+  }
+}

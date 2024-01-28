@@ -2229,3 +2229,187 @@ FugaIChords = {
     } >> \bar "|." %26 finis
   }
 }
+
+FugaIIChords = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4
+    c'4. d16 e f8 d g f
+    e c a' g \appoggiatura g16 f8 e16 d g8 f
+    e c f e \appoggiatura e16 d8 c16 h e8 d
+    c a d c \appoggiatura c16 h8 a16 g c4~
+    c8 h16 c d8 h c d e fis %5
+    \voiceOne g d g2 fis4
+    g2 a4 fis
+    g e fis d
+    e c d h8 c16 h
+    a4~ a8 h16 c h4 << {
+      r8 e %10
+      f4. d8~ \voiceFour d c16 h c4~
+      c h \voiceOne e2
+      d c
+      h a
+      g4. a16 g f4. g16 f %15
+    } \\ {
+      \voiceThree c'4_~ %10
+      c8 h16 a h4 \voiceOne e2
+      d \voiceFour c~
+      c4 h~ h a~
+      \voiceTwo a g~ g f~
+      f e d2 %15
+    } >>
+    << {
+      r8 c'4 c8~ c h16 a h4
+      a2 h
+      e d
+      c h
+      <a d,>4~ \voiceThree d,8 e16 d \voiceOne c8 h16 c d8 c %20
+      g'\rest d e4 f!2~
+      f8 e16 d e4 d2
+    } \\ {
+      e4. d8~ d2
+      s4 fis g2~
+      g4 fis2 e4~
+      e d2 c4~
+      c h a2 %20
+      h4 c~ c <h d>~
+      d8 c16 h c4~ c h
+    } \\ {
+      s4. a'8~ \voiceFour a g16 fis g4~
+      <e g> s2.
+      s1*2
+      s4 \voiceOne g s2 %20
+      s1*2
+    } >>
+    c,4. d16 e f8 d g f
+    << {
+      r g a g f e16 f g8 f
+      s4. c'8 c4 <g h>~ %25
+      <g c>8 a4 g8 f2
+      e f
+      b4 a
+    } \\ {
+      e2 d
+      e8 g a g f d~ d4 %25
+      e2~ e8 d16 cis d4~
+      d cis d2~
+      d4 cis
+    } \\ {
+      s1*4 %27
+      e2
+    } >> d4. e16 f
+    g8 e a g << {
+      f d b' a
+      g f16 e a8 g r c! h a~ %30
+      a gis~ <gis h>4~ \voiceTwo h8 a16 gis a4
+    } \\ {
+      s4 f
+      e s f4. fis8~ %30
+      fis e e4~ \voiceFour e2
+    } \\ {
+      s2
+      s1 %30
+      s4 d'!~ d8 c16 h c4
+    } >>
+    << {
+      \voiceOne h2 <a c> %32
+      h a4. h16 c
+      d8 h e d c a f' e
+      d c16 h e8 d r e a g %35
+      f2~ f8 d g <d f>~
+      q <c e>16 <h d> <c e>4 <c d> <h d>
+      e2 a
+      g f
+      e d4~ d16 d c h %40
+      c2 c8 h16 a h4
+      a2
+    } \\ {
+      \voiceTwo f4 <e gis>~ e f~ %32
+      f <e gis>~ e2
+      e~ e4 s
+      s h' c cis8 <a e'>~ %35
+      e' a, d c h4. g8~
+      g2 a4 g
+      g a c h16 h c h
+      r c h c a a h a r h a h g g a g
+      r a g a f f g f r g f g e4~ %40
+      e8 c16 d e8 fis \voiceFour d2
+      e4 fis
+    } \\ {
+      a4 s2. %32
+      a4 s2.
+      s1
+      s %35
+      s
+      s
+      \voiceFour c2 s
+      s1
+      s %40
+      \once \override Rest.X-offset = #-1 g4\rest h8\rest \voiceThree a \voiceTwo a g16 fis g4~
+      g s
+    } >> \oneVoice g4. a16 h
+    c8 a d c h g e' d
+    \appoggiatura d16 c8 h16 a d8 c h g c h
+    \appoggiatura h16 a8 g16 fis h8 a g e a g %45
+    \appoggiatura g16 fis8 e16 d g8 a16 h << {
+      c2~ %46
+      c8 h16 a h4 c8 g'16 f e4
+      d2 c4. d16 e
+      f4 g8 f e2
+      d e8 g a g %50
+      f e16 f g8 f e c f e
+      \appoggiatura e16 d8 c16 h e8 d c a d c
+      \appoggiatura c16 h8 a16 g c2 <h f>4~
+      h a2 g4~
+      g f~ <d f> e %55
+      d2
+    } \\ {
+      e8 fis16 g fis8 g16 a~ %46
+      a8 g16 fis g4 e8 e'16 d c4~
+      c <g h> g2
+      r8 d' d4~ d \voiceFour c~
+      <a c> \voiceThree h \voiceTwo c2 %50
+      d s
+      s1
+      s4 g,8 f16 e f4~ <d f>
+      e2 d
+      c h8 r c4~ %55
+      c h
+    } \\ {
+      s2 %46
+      \voiceFour d s
+    } >> \oneVoice c4. d16 e
+    f8 d g f << {
+      r g a g
+      f e16 f g8 f e e' d c
+    } \\ {
+      e,2 d s8 g f e
+    } >>
+    h' g g g a4 h
+    c a h g %60
+    a f << {
+      d'2 %61
+      c h
+      a4~ a8 g16 f g4~ g8 f16 e
+      f4~ f8 e16 d e2
+      d4~ d_~ \voiceTwo d8 c16 h c4~ %65
+      c8 d~ d4 \voiceOne r8 g a g
+      r h16 c d e f h, <g c>2\fermata
+    } \\ {
+      r16 f g f e e f e %61
+      r e f e d d e d r d e d c c d c
+      r c d c h4~ h8 c16 h a4~
+      a8 h16 a g4 c2~
+      c8 h16 a h4 s2 %65
+      s e4 c
+      f2 e
+    } \\ {
+      s2 %61
+      s1
+      s
+      s
+      d'4\rest d8\rest f, e4. d16 e %65
+      f4 g8 f
+    } >> \bar "|." %67 finis
+  }
+}
