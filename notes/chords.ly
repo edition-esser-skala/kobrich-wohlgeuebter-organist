@@ -2635,3 +2635,134 @@ FugaIIIChords = {
     f1\fermata \bar "|." %115 finis
   }
 }
+
+FugaIVChords = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4
+    r8 d' cis h a4 g'
+    fis8 a,16 fis' g8 e fis a,16 fis' g8 e
+    fis d h'16 a g fis e g fis g a g fis e
+    d fis e fis g fis e d cis e d e fis e d cis
+    h d cis d e d cis h a cis h cis d4~ %5
+    d8 cis16 d e8 cis d16 cis d e fis e fis gis
+    << {
+      a2~ a8 gis16 a h8 gis %7
+      a8. a16 gis h gis e a8. a16 gis h gis e
+      a2~ a16 h a h gis4~
+      gis16 a gis a fis4~ fis16 gis fis \hA gis e4~ %10
+      e16 fis e fis d4~ d16 e d e cis8 d16 cis
+      h4~ h16 h cis d cis8 d4 cis8
+      d2~ d8 cis16 d e8 cis
+    } \\ {
+      r8 a gis fis e4 d' %7
+      cis8 e,16 cis' d8 h cis e,16 cis' d8 h
+      cis a fis'16 e d cis h d cis d e d cis h
+      a cis h cis d cis h a gis h a h cis h a gis %10
+      fis a gis a h a gis fis e gis fis \hA gis a4~
+      a8 gis16 fis gis4 a8 fis <e g>4
+      fis2 e4 r
+    } >>
+    d'8. d16 cis e g! cis, d8. d16 cis e g cis, %14
+    << {
+      d2~ \voiceThree d16 e d e cis4~ %15
+      cis16 d cis d h4~ h16 cis h cis a4~
+      a16 h a h g4~ g16 a g a fis8 g16 fis
+      \voiceOne e4~ e8 fis16 g fis e d e fis e fis gis
+      a2~ a8 gis16 a h8 gis
+      a8. a16 gis h d gis, a8. a16 gis h d gis, %20
+      a8 e'4 fis8~ fis4. e8~
+      e4. d8~ d4. cis8~
+      cis4. h8~ h4. a8~
+      a gis16 fis gis8 h~ h4 a
+      gis2 r4 h %25
+      a8[ r16 a] h8 gis a fis16 a h8 gis
+      a fis d'4~ d cis~
+      cis h~ h a~
+      a gis8 h~ h a16 gis a8 cis~
+      cis4 h8 d cis2 %30
+      r4 e d8[ r16 d] e8 cis
+      d h16 d e8 cis d[ r16 fis] g!4~
+      g fis2 e4~
+      e d2 cis4~
+      cis8 d4. cis2 %35
+      h4. h8 a8. a16 gis h d gis,
+      a8. a16 gis h d gis, a8. cis16 d e h d
+      cis8 a16 cis d e h d r8 e fis4~
+      fis e2 d4~
+      d cis2 h4~ %40
+      h a2 gis4
+      r8 e a4~ a16 gis32 fis gis16[ e] h'4~
+      h16 a32 gis a8~ a4~ a16 g32 fis \once \tieDashed g8~ g4
+    } \\ {
+      fis8 d h'16 a g fis r g fis g a g fis e %15
+      r fis e fis g fis e d r e d e fis e d cis
+      r d cis d e d cis h r cis h cis d4~
+      d8 cis16 h cis4 s d
+      cis2 e
+      e1 %20
+      e8 cis' a4 d16 h a h gis4
+      cis16 a gis a fis4 h16 gis fis gis e4
+      a16 fis e fis d4 gis16 e d e cis4
+      h4. cis8~ cis4 fis~
+      fis8 fis eis dis cis2 %25
+      r8 cis4.~ cis2
+      s4 r16 cis' h a gis h a h r h a gis
+      fis a gis a r a gis fis e gis fis \hA gis r gis fis e
+      d fis e fis r fis e d cis4. e8
+      d4~ d8 h'~ h h ais gis %30
+      fis4. cis'8 r fis,4.~
+      fis2 h4 r16 fis' e d
+      cis e d e r e d cis h d cis d r d cis h
+      a cis h cis r cis h a g h a h r h a g
+      fis4. gis8 a2~ %35
+      a8 gis16 fis gis4 e2
+      s r8 a4.
+      s2 cis4 r16 e d cis
+      h d cis d r d cis h a cis h cis r cis h a
+      gis h a h r h a gis fis a gis a r a gis fis %40
+      e gis fis \hA gis r gis fis e d fis e fis r fis e d
+      cis2 h4 d
+      cis8 fis~ fis4 e~ e
+    } \\ {
+      \voiceOne s2 g' %15
+      fis e
+      d cis4^\critnote r
+    } >>
+    fis,8 d' cis h << {
+      r4 g'! %44
+      fis8. fis16 g8 e fis8. fis16 g8 e %45
+      fis8. a16 h2 a4~
+      a g2 fis4~
+      fis e2 d4~
+      d cis8 e~ e16 a, h cis d4
+      r16 e dis e g e h' d, a'2 %50
+      e16 g fis g fis a g a a2
+      e16 g fis g fis a g a r a g fis g4~
+      g16 g fis e fis4~ fis16 fis e d e4~
+      e16 e d cis d4 r16 cis d cis r d e d
+      r e fis e r fis g fis r g fis8 r16 e d8~ %55
+      d cis16 h cis4 d2
+      a16 c h \hA c h d c d d2
+      a16 c h \hA c h d c d g,2\trill
+      fis1\fermata
+    } \\ {
+      a4~ a16 cis d e %44
+      r8 a,4. r8 a4. %45
+      r8 d r16 a' g fis e g fis g r g fis e
+      d fis e fis r fis e d cis e d e r e d cis
+      h d cis d r d cis h a cis h cis r cis h a
+      g h a h r h a g fis4 r16 a h c
+      h2 \voiceThree cis16 e d e d fis e fis \voiceTwo %50
+      a,2 \voiceThree cis16 e d e d fis e fis \voiceTwo
+      a,2 h4~ h16 h cis h
+      a4~ a16 a h a g4~ g16 g a g
+      fis4~ fis16 fis g fis e4 fis
+      g a h8[ r16 a] g8[ r16 fis] %55
+      e4~ e16 g fis e fis a g a g h a h
+      d,2 fis16 a g a g h a h
+      d,2 e
+      d1
+    } >> \bar "|." %59 finis
+  }
+}
