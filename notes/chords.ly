@@ -2928,3 +2928,116 @@ FugaVIChords = {
     <gis h e>1\fermata \bar "|." %27 finis
   }
 }
+
+FugaVIIChords = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4
+    r8 a' gis fis e fis16 gis a8 cis,
+    d cis16 d e8 d16 e fis8 e16 fis gis8 fis16 gis
+    a8 e d'16 e, dis e cis' e, dis e h' e, dis e
+    a e dis e d' e, dis e cis' e, dis e h' e, dis e
+    a8 h cis dis \voiceOne e2 %5
+    dis16 cis h a gis8 h cis4 dis
+    e fis gis16 h, ais h dis h fis' dis
+    e h ais h a' h, ais h gis' h, ais h dis h fis' dis
+    << {
+      e h ais h e h ais h cis4~ cis16 cis a' cis,
+      h4~ h16 h gis' h, a4~ a16 a fis' a, %10
+      gis8 e'16 e, fis8 gis a gis a h
+      cis2 <h d>4 <a cis>
+      h2 a8 gis16 a h8 a16 h
+    } \\ {
+      s2. r8 dis,
+      s4 r8 cis s4 r8 h %10
+      e cis d e fis e fis gis
+      a2 e
+      <fis a>4 gis s e
+    } >>
+    \oneVoice cis'16 e, dis e gis e h' gis a e dis e d' e, dis e
+    cis' e, dis e gis e h' gis a e dis e a e dis e %15
+    gis8 eis gis eis << {
+      a8 gis16 a h8 a16 h %16
+      cis8 fis eis dis cis4 h
+      a8 gis16 a h8 a16 h cis8 fis eis dis
+      cis4 h cis8 h16 cis h8 a16 h
+    } \\ {
+      cis,2~ %16
+      cis1~
+      cis1~
+      cis1
+    } >>
+    a'16 cis, his cis eis cis gis' eis fis cis his cis h' cis, his cis %20
+    a' cis, his cis eis cis gis' eis fis cis his cis fis cis his cis
+    << {
+      r4 r16 h' d h cis8 a gis h
+      a cis h d cis a' gis fis
+    } \\ {
+      d,!2 s
+      r8 e4.~ e8 r r4
+    } >>
+    e'8 fis16 gis a8 cis, d cis16 d e8 d16 e
+    fis8 e16 fis gis8 fis16 gis a e, dis e d' e, dis e %25
+    cis' e, dis e gis e h' gis a e dis e d' e, dis e
+    cis' e, dis e gis e h' gis a fis dis e a fis dis e
+    << {
+      d'!4~ d16 d e d cis8 d4 cis8 %28
+      d2 <e g>4 <d fis>
+      \once \tieDashed e~ e d8 cis16 d e8 d16 e %30
+      fis8 d cis h a h16 cis d8 fis,
+    } \\ {
+      r8 h16 a gis4 a8 <fis a> <e g>4 %28
+      fis2 a
+      <h d>4 <a cis> s2 %30
+      r8 fis e g fis e fis d
+    } \\ {
+      \voiceFour s4 r8 e %28
+    } >>
+    \voiceOne g8 fis16 g a8 \hA g16 a h8 a16 h cis8 h16 cis %32
+    d a gis a g' a, gis a fis' a, gis a cis a e' cis
+    d a gis a g' a, gis a fis' a, gis a cis a e' cis
+    d a gis a d a gis a \oneVoice << {
+      r4 g'~ %35
+      g fis2 e4~
+      e8 d cis h a h16 cis d4~
+      d8 h a gis! a d cis h
+      cis a' gis fis e fis16 gis a8 cis,
+    } \\ {
+      h2 %35
+      a g
+      fis4 e8 g d4 r16 fis h a
+      gis8 r r4 e2
+      a8 cis h d a2
+    } >>
+    d8 cis16 d e8 d16 e fis8 e16 fis gis8 fis16 gis %40
+    << {
+      a8 g fis e r c' h <fis a>
+      <e gis!> fis e d r h' a <e g>
+      <d fis> e d cis h fis' e d
+      cis2 <h d>4 <a cis>
+      h2 a8 gis16 a h8 a16 h %45
+    } \\ {
+      r8 cis r fis, dis'4. h8~ %41
+      h s4. cis8 g' fis a,~
+      a s2..
+      a2 e
+      <fis a>4 <e gis> cis e %45
+    } >>
+    cis'16 e, dis e gis e h' gis a e dis e d' e, dis e
+    cis' e, dis e gis e h' gis a e dis e a e dis e
+    fis8 fis' e d cis a' gis fis
+    e fis16 gis a8 cis, d cis16 d e8 d16 e
+    fis8 e16 fis gis8 fis16 gis a8 e fis \appoggiatura e32 d16 cis32 d %50
+    e8 cis d h cis a h gis
+    a e << {
+      r d'~ d cis4 h8~
+      h a4 gis8 a4 g
+      fis2 <d gis>
+    } \\ {
+      fis4 e d
+      cis8 e4~ e16 d cis4 e
+      d2 h
+    } >>
+    <cis a'>1\fermata \bar "|." %55 finis
+  }
+}

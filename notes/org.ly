@@ -2648,3 +2648,90 @@ FugaVIOrgano = {
     <e e'>\fermata \bar "|." %27 finis
   }
 }
+
+FugaVIIOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4
+    R1*4
+    r2 \rh \voiceTwo r8 e' dis cis %5
+    h cis16 dis \oneVoice e8 \lh gis, a8 gis16 a h8 a16 h
+    cis8 h16 cis dis8 cis16 dis e8 h \rh \voiceTwo a'[ h,]
+    gis' h, fis' h, e h a' h,
+    gis' h, gis' h, a a'16 gis fis4
+    \oneVoice \lh gis,8 \rh gis'16 fis \voiceTwo e4 \oneVoice \lh fis,8 \rh fis'16 e \voiceTwo dis4 %10
+    \lh \oneVoice s1
+    r8 a gis fis e fis16 gis a8 cis,
+    d cis16 d e8 d16 e << { cis'4 } \\ { fis,8 e16 fis } >> gis8 fis16 gis
+    a8 e d'! e, cis' e, h' e,
+    a e d'! e, cis' e, cis' e, %15
+    eis16 h' gis h eis, h' gis h fis8 cis gis' cis,
+    a'4 cis, a'8 gis16 a gis8 fis16 gis
+    fis8 cis gis' cis, a'4 cis,
+    a'8 gis16 a gis8 fis16 gis a4 gis
+    fis8 cis h'! cis, a' cis, gis' cis, %20
+    fis cis h'! cis, a' cis, a' cis,
+    h h'16 a << {
+      gis4 r8 cis h d
+      cis s4. r8 cis h d
+    } \\ {
+      r8 e, a2~
+      a8 a[ gis h] a2
+    } >>
+    cis8 h cis a h8. h,16 cis8. cis'16
+    d8. d,16 e8. e'16 cis8 e, h' e, %25
+    a e d'! e, cis' e, h' e,
+    a e d'! e, cis' e, cis' e,
+    s1
+    r8 d' cis h a h16 cis d8 fis,
+    g fis16 g a8 g16 a h8 a16 h cis8 h16 cis %30
+    d2 s
+    \rh e8. \lh e,16 fis8. \rh fis'16 g8. \lh g,16 a8. \rh a'16
+    \lh fis8 a, e' a, d a g' a,
+    fis' a, e' a, d a g' a,
+    fis' a, fis' a, r g16 fis << {
+      g4 %35
+      s fis s e
+      d2 s4 r8 d'
+      h d cis h cis h a gis!
+      a2 cis8 h cis a
+      r h r cis r d r e %40
+      e4 d8 cis h2~
+      h8 d! cis h a2~
+      a8 cis h a gis! d' cis h
+    } \\ {
+      e,16 d cis e %35
+      fis fis, fis' e d cis h d e e, e' d cis h a cis
+      d,2 fis'8 e d4
+      e1
+      a,2 s
+      h4 cis d e %40
+      cis'8 ais4 ais8 r h, cis dis
+      e2 r8 a,! h cis
+      d2 e
+    } >>
+    r8 a gis fis e fis16 gis a8 cis,
+    d cis16 d e8 d16 e fis8 e16 fis gis8 fis16 gis %45
+    a8 e d'! e, cis' e, h' e,
+    a e d'! e, cis' e, cis' e,
+    << {
+      r d' cis h a cis h d %48
+      cis h cis a h4 cis
+      d h cis d8 h %50
+      cis a h gis a cis d h
+      cis4 d8 h cis a h gis
+      a cis h4 a2
+      a e~
+      e1\fermata
+    } \\ {
+      d!2 e %48
+      e1~
+      e~ %50
+      e~
+      e~
+      e2 a,4 cis
+      d2 e,
+      a1
+    } >> \bar "|." %55 finis
+  }
+}
