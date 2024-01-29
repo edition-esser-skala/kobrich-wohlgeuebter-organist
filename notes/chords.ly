@@ -2766,3 +2766,83 @@ FugaIVChords = {
     } >> \bar "|." %59 finis
   }
 }
+
+FugaVChords = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \major \time 2/2
+    R1*4
+    s1*4 %8
+    cis2 r8 cis h cis
+    << { d2 } \\ { a } >> r8 e' d e %10
+    << {
+      fis2~ fis8 d' cis h %11
+      a2 a
+      \oneVoice r8 d cis h \voiceOne a4 g8 a
+      h h a g a2
+      \oneVoice r8 g fis g \voiceOne a4. g8 %15
+      r d' a h gis4 h8 gis
+      cis4 s2.
+      d1~
+      d2
+    } \\ {
+      a,2 gis8 fis' e d %11
+      cis cis a cis cis cis a cis
+      s2 d
+      d fis
+      s e8 cis d e %15
+      fis2 s
+      r8 a g fis g4 e
+      fis a8 g r a fis c'!
+      h g a h
+    } \\ {
+      s1 %11
+      \override Rest.X-offset = #2 fis8\rest e cis e fis\rest e cis e \revert Rest.X-offset
+    } >> r8 c' h a
+    g4 f8 g a a g f %20
+    << {
+      c'2 \oneVoice r8 f, e \hA f \voiceOne %21
+      g2 r4 c
+      \oneVoice fis,! a r8 d, e fis \voiceOne
+      <d g>2 \oneVoice r8 h' a h \voiceOne
+      c2 r8 d c d %25
+      e2~ e8 e d c
+      h4 g'2.~
+      g8 g fis e fis2
+      r8 f e d e e c h
+      a c h a g a g fis %30
+      \oneVoice r g fis e \voiceOne d2
+      e8 e d c h2
+      \oneVoice r8 c h c \voiceOne d2
+      \oneVoice a8 a' g fis \voiceOne r h a h
+      c2 h %35
+      a s
+      r8 gis a c e c h a
+      g2 fis
+      r8 g fis g r h a h
+      r c h c r a g a %40
+    } \\ {
+      e2 s %21
+      d8 h c d e2
+      s1
+      h2 s
+      g'8 g fis e d2 %25
+      g fis8 c' h a
+      r g h d a e' d cis
+      a e' d cis <a d> c h a
+      g2~ g8 c a g
+      fis!4 d2. %30
+      s2 h
+      c8 c h a g2
+      s r8 h a g
+      s2 g'2
+      r8 a g a r g fis g %35
+      r fis e fis g d g fis
+      e2~ e
+      d2. c4
+      r8 h a h r g' fis g
+      r e d e r c h c %40
+    } >>
+    <d g h>1\fermata \bar "|." %41 finis
+  }
+}

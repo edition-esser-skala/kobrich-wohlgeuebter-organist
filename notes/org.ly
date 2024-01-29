@@ -2491,3 +2491,91 @@ FugaIVOrgano = {
     } >> \bar "|." %59 finis
   }
 }
+
+FugaVOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \major \time 2/2
+    r8 g' fis e d2
+    e8 e d c h2
+    r8 c h c d4 d,
+    g4. g'8 c,4 e
+    << {
+      r8 d' cis h a2 %5
+      h8 h a g fis2
+      r8 g fis g a2
+      r8 fis a d gis,2
+    } \\ {
+      d2 r8 fis e fis %5
+      g4 g, r8 d' cis d
+      e2 r8 cis h a
+      d2 r8 e e, e'
+    } \\ {
+      s1 %5
+      s
+      s
+      d,2 r4 h''
+    } >>
+    << { r8 a gis fis } \\ { a,2 } >> e'
+    fis8 fis e d << { a'2 } \\ { cis, } >> %10
+    r8 d cis d e4 e,
+    a4. a'8 g,!4. g'!8
+    << { a2 } \\ { fis } >> r8 fis e fis
+    g, g' fis e r d cis d
+    << {
+      e4. d8 a'2 %15
+      a4 d~ d8 h gis d'
+      r fis, e d r e cis g'
+      r d' c! h c4 a
+      s2 <g c>~
+      c~ c4 e8 d %20
+      s2 c
+      s c~
+      c8 a c fis,! h2
+      s r8 g fis g~
+      g2 h8 h a h %25
+    } \\ {
+      e,,4 s cis'8 a h cis %15
+      d2 e
+      a,1
+      d
+      g4 f e2
+      r8 e d e f4 g %20
+      \oneVoice r8 c h c \voiceTwo a2
+      h8 g a h r e, c e
+      d2 g
+      r8 g fis e d2
+      e8 e d c h2 %25
+    } >>
+    r8 c h c d4 d,
+    g r8 g' << {
+      e4 e %27
+      a d r8 a d c!
+      h d c h c2~
+      c8 a g fis g c h a %30
+      h4. c8
+    } \\ {
+      cis,4 e, %27
+      d'1
+      g2 c,
+      d1 %30
+      g2
+    } >> r8 g fis g
+    g,2 r8 g h g
+    << { e'2 } \\ { c } >> r8 g' fis e
+    << { fis c' h a h2 } \\ { d, r8 g fis g } >>
+    e c' h c d, h' a h %35
+    c, a' g a << {
+      r4 h %36
+      r2 c
+      h a
+    } \\ {
+      h,2 %36
+      c1
+      d
+    } >>
+    <g g,>2 q
+    q q %40
+    q1\fermata \bar "|." %41 finis
+  }
+}

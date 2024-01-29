@@ -440,19 +440,34 @@
   %     \midi { \tempo 2 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.4" "Fuga IV:ta"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaIVChords }
+  %         \new Staff = "LH" { \FugaIVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.4" "Fuga IV:ta"
+    \section "2.5" "Fuga V:ta"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaIVChords }
-          \new Staff = "LH" { \FugaIVOrgano }
+          \new Staff = "RH" { \FugaVChords }
+          \new Staff = "LH" { \FugaVOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 80 }
     }
   }
 }
