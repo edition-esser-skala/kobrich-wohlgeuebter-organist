@@ -2846,3 +2846,85 @@ FugaVChords = {
     <d g h>1\fermata \bar "|." %41 finis
   }
 }
+
+FugaVIChords = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4
+    r8 h' gis cis a a fis h
+    e, \tuplet 3/2 8 { gis16 fis e } gis8 ais << {
+      h2
+      cis4 ais h2
+      a8 \tuplet 3/2 8 { cis16 h a } fis8 <fis a> gis \tuplet 3/2 8 { h16 a gis } e8 <e gis>
+      h'2 gis %5
+      fis
+    } \\ {
+      r8 fis dis gis %2
+      e e cis fis h, \tuplet 3/2 8 { dis16 cis h } dis8 e
+      fis4 dis e cis
+      fis8 dis e fis e2~ %5
+      e4 dis
+    } \\ {
+      s2 %2
+      s2 fis4 fis8 gis
+      s1
+      s %5
+    } >> r8 h gis cis %5
+    a a fis h e, \tuplet 3/2 8 { gis16 fis e } << { gis8 ais } \\ { e4 } >>
+    r8 fis' dis gis e e cis fis
+    << {
+      dis2 cis %9
+      dis cis4 fis~ %10
+      fis8 dis e4~ e8 cis dis4~
+      dis8 h cis4 fis, h
+      cis a
+    } \\ {
+      h2~ h4 ais %9
+      h2~ h8 a r a %10
+      gis4 r8 gis fis4 r8 fis
+      e4 s8 e dis4. e8~
+      e4 dis
+    } \\ {
+      s1 %9
+      s
+      s
+      s
+      fis2
+    } >> r8 h gis cis
+    a a fis h e, \tuplet 3/2 8 { gis16 fis e } << { gis8 ais } \\ { e4 } >>
+    r8 fis' dis gis e e cis fis %15
+    << {
+      dis2 cis
+      dis cis4 fis~
+      fis8. dis16 e4~ e8. cis16 dis4~
+      dis8. h16 cis4 fis, h
+      cis8 cis a4 r8 h gis cis %20
+    } \\ {
+      h2~ h4 ais %16
+      h2~ h8 a r16 a h a
+      gis4 r16 gis a gis fis4 r16 fis gis fis
+      e4 r16 e fis e dis4. e8~
+      e4. dis8 e4 s %20
+    } \\ {
+      s1 %16
+      s
+      s
+      s
+      fis2 s %20
+    } >>
+    a8 a fis h e, \tuplet 3/2 8 { gis16 fis e } a8 e
+    dis h' fis gis a fis gis4
+    << {
+      h2 gis %23
+      <fis h> gis8 e' h d
+      cis e a, cis h e h d %25
+      cis2 dis
+    } \\ {
+      dis,8 e fis dis e2~ %23
+      e4 dis s2
+      s2. gis4 %25
+      a2 a4.\trill gis16 a
+    } >>
+    <gis h e>1\fermata \bar "|." %27 finis
+  }
+}

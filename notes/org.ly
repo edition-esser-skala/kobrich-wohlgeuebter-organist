@@ -2579,3 +2579,72 @@ FugaVOrgano = {
     q1\fermata \bar "|." %41 finis
   }
 }
+
+FugaVIOrgano = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4
+    R1
+    r2 s
+    s1*2
+    dis'8 h cis dis r h gis cis %5
+    a a fis h << {
+      gis2
+      fis s4 cis'
+      dis2 cis
+    } \\ {
+      e,2~
+      e4 dis <e gis> cis
+      h'2~ h4 ais
+    } \\ {
+      s2
+      r4 h2 s4
+      s1
+    } >>
+    r8 fis' dis gis e e cis fis
+    h, \tuplet 3/2 8 { dis16 cis h } dis8 e fis4 dis %10
+    e cis dis h
+    cis a r8 h gis cis
+    a a fis h << {
+      gis4 h8 a
+      fis2 s4 cis'
+      dis2 cis %15
+    } \\ {
+      e,2~
+      e4 dis <e gis> cis
+      h'2~ h4 ais %15
+    } \\ {
+      s2
+      r4 h2 s4
+      s1 %15
+    } >>
+    r8 fis' dis gis e e cis fis
+    h, \tuplet 3/2 8 { dis16 cis h } dis8 e fis fis, dis'4
+    e8 e, cis'4 dis8 dis, h'4
+    cis8 cis, a'4 r8 h gis cis
+    a a fis h << {
+      gis4 h8 a %20
+      fis2 s4 cis'
+    } \\ {
+      e,2~ %20
+      e4 dis <e gis> cis
+    } \\ {
+      s2 %20
+      r4 h'2 s4
+    } >>
+    << {
+      fis4 dis8 e fis dis e h' %22
+      fis gis a fis e cis' h ais
+      h4. a8 h4 gis8 h
+      a4 cis8 a gis4 d'8 h %25
+      a cis16 h cis8 a <a fis>2
+    } \\ {
+      h,1~ %22
+      h~
+      h2 e~
+      e1~ %25
+      e
+    } >>
+    <e e'>\fermata \bar "|." %27 finis
+  }
+}
