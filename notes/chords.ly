@@ -3041,3 +3041,155 @@ FugaVIIChords = {
     <cis a'>1\fermata \bar "|." %55 finis
   }
 }
+
+FugaVIIIChords = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4
+    d'8. e16 fis8 g a4. g8
+    fis g16 a h8 a16 h e,8 fis16 g a8 g16 a
+    d,8 e16 fis g8 fis16 g cis,8 d16 e fis8 e16 fis
+    h,8 cis16 d e8d 16 e cis8 a d4~
+    d8 fis16 e d e fis gis \voiceOne a4 a8 a~ %5
+    a gis16 fis gis4 a2~
+    a4 gis2 fis4~
+    fis e2 d4~
+    d cis8 a' a16 gis fis gis a8 e
+    e d\trill cis a' a16 gis fis gis a8 e %10
+    e d\trill cis fis << {
+      dis e g e
+      cis d fis d h cis e cis
+      a h d h g a cis a
+      fis'2 e
+      a g %15
+      fis e
+      d cis4
+    } \\ {
+      \voiceThree h2 %11
+      a g
+      fis e
+      \once \voiceFour d'~ d8 cis16 h cis4~
+      cis d~ d cis~ %15
+      cis h~ h a~
+      a g~ g
+    } >> fis8 d' %17
+    \voiceOne d16 cis h cis d8 a a g\trill fis d'
+    d16 cis h cis d8 a a g\trill fis h
+    << {
+      gis a c a fis g h g %20
+      e fis a fis d e g e
+      e g fis e r4 h'~
+      h8 ais16 gis ais4 h~ h8 a?16 h~
+      h4 a8 g16 a~ a4 g8 fis16 g~
+      g4 fis8 e16 \once \tieDashed fis~ fis4 e8 d16 e~ %25
+      e4
+    } \\ {
+      \voiceThree e2 d %20
+      cis \voiceTwo h
+      cis d
+      cis4 fis fis2
+      e8 fis16 g e4 d8 e16 fis d4
+      cis8 d16 e cis4 h8 cis16 d h4 %25
+      ais8 h16 cis
+    } >> \oneVoice d8 h' h16 ais gis ais h8 fis
+    fis e\trill d h' h16 ais gis ais h8 fis
+    fis e\trill d gis eis fis a fis
+    dis e gis e cis dis fis dis
+    h cis e cis a h dis a %30
+    << {
+      e'2 dis8. e16 fis8 gis %31
+      a8. h16 cis8 dis e2~
+      e8 dis16 cis dis4 e4. dis16 e~
+      e4 dis8 cis16 \hA dis~ dis4 cis8 h16 cis~
+      cis4 h8 a16 h~ h4 a8 gis16 a~ %35
+      <fis a>4
+    } \\ {
+      gis,8. a16 h8 cis s2 %31
+      fis4. a8 gis8. a16 h8 cis
+      fis,4 h h2
+      a gis
+      fis e %35
+      dis4
+    } >> gis8 e' e16 dis cis dis e8 h %36
+    h a\trill gis e' e16 dis cis dis e8 h
+    h a\trill << {
+      r cis ais h d h %38
+      gis a cis a fis gis h gis
+      e fis a fis d e gis d %40
+      a'2 e'
+      d8. e16 fis8 gis a2~
+      a8 gis16 fis gis4 a2~
+      a4 gis2 fis4~
+      fis e2 d4~ %45
+      d cis2 h4~
+      h a2 gis4~
+      gis fis2 e8 a
+    } \\ {
+      gis4 fis2 %38
+      e d
+      cis h %40
+      cis8. d16 e8 fis gis8. a16 h8 cis
+      h8. cis16 d8 h cis8. d16 e8 fis
+      h,2 cis8 d16 e fis8 e16 fis
+      h,8 cis16 d e8 d16 e a,8 h16 cis d8 cis16 d
+      gis,8 a16 h cis8 h16 cis fis,8 gis16 a h8 a16 h %45
+      e,8 fis16 gis a8 \hA gis16 a d,8 e16 fis gis8 fis16 gis
+      cis,8 d16 e fis8 e16 fis h,8 cis16 d e8 d16 e
+      a,8 h16 cis d8 cis16 d gis,8 a16 h cis8 s
+    } \\ {
+      s2. %38
+      s1
+      s %40
+      s
+      s
+      e'4 \voiceFour e8 d s2
+    } >>
+    a16 gis fis gis a8 e e d\trill cis a' %49
+    a16 gis fis gis a8 e e d\trill cis fis %50
+    dis e g e cis d fis d
+    h cis e cis a h d h
+    g a cis g d'2
+    cis8. d16 e8 fis << {
+      g8. a16 h8 cis
+      d2~ <d a>8 cis16 h cis4 %55
+      d4 d8 cis16 d d4 cis8 h16 cis
+      cis4 h8 a16 h h4 a8 g16 a
+      a4 g8 fis16 g g4 fis8 d'
+    } \\ {
+      e,8. fis16 g8 e %54
+      fis8. g16 a8 h e,4 a %55
+      a2 g8 a16 h g4
+      fis8 g16 a fis4 e8 fis16 g e4
+      d8 e16 fis d4 cis8 d16 e d8 s
+    } >>
+    d'16 cis h cis d8 a a g\trill fis d' %59
+    d16 cis h cis d8 a a g\trill << { r h } \\ { fis4 } >> %60
+    gis8 a c a fis g h g
+    e fis a fis d e g e
+    << {
+      r a4 g8 fis d'4 c8 %63
+      h e4 d8 cis a'4 <g e>8
+      <fis d>2 e %65
+    } \\ {
+      cis,!4 d8 e d fis g a %63
+      g gis a h a cis d a~
+      a2~ a %65
+    } \\ {
+      s1 %63
+      s
+      s2 d8 cis16 h cis4 %65
+    } >>
+    fis8 g16 a h8 a16 h e,8 fis16 g a8 g16 a
+    d,8 e16 fis g8 fis16 g << {
+      g4 fis %67
+      e2 <d fis>
+    } \\ {
+      e8 cis d4~ %67
+      \voiceFour d cis a2
+    } >>
+    d16 c h c h8 g' g fis g d %69
+    d16 c h c h8 g' g fis g d %70
+    <a cis e g>1
+    <a d fis>\fermata \bar "|."
+  }
+}

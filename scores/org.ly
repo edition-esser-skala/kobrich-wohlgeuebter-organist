@@ -485,15 +485,30 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.7" "Fuga VII:ma"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaVIIChords }
+  %         \new Staff = "LH" { \FugaVIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.7" "Fuga VII:ma"
+    \section "2.8" "Fuga VIII:va"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaVIIChords }
-          \new Staff = "LH" { \FugaVIIOrgano }
+          \new Staff = "RH" { \FugaVIIIChords }
+          \new Staff = "LH" { \FugaVIIIOrgano }
         >>
       >>
       \layout { }

@@ -2735,3 +2735,150 @@ FugaVIIOrgano = {
     } >> \bar "|." %55 finis
   }
 }
+
+FugaVIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4
+    R1*4
+    \rh \voiceTwo r2 a''8. h16 cis8 d %5
+    e4. d8 cis d16 e fis8 e16 fis
+    h,8 cis16 d e8 d16 e a,8 h16 cis d8 cis16 d
+    gis,8 a16 h cis8 h16 cis fis,8 gis16 a h8 a16 h
+    gis8 e a e h' e, cis' a
+    gis e a e h' e, cis' a %10
+    gis e a4~ a8 g e g~
+    g fis d fis~ fis e cis e~
+    e d h d~ d cis a cis
+    d8. e16 fis8 g a4. g8
+    fis g16 a h8 a16 h e,8 fis16 g a8 g16 a %15
+    d,8 e16 fis g8 fis16 g cis,8 d16 e fis8 e16 fis
+    h,8 cis16 d e8 d16 e a,8 h16 cis d8 a
+    e' a, fis' d cis a d a
+    e' a, fis' d cis a d4~
+    d8 c a c~ c h g h~ %20
+    \oneVoice \kneeBeam h \lh a fis a~ a g e g
+    a4 ais << {
+      h2 %22
+      s4 cis d2
+      cis h
+      a g %25
+    } \\ {
+      h,8. cis16 d8 e %22
+      fis4~ fis8 e d e16 fis g!8 fis16 g
+      cis,8 d16 e fis8 e16 fis h,8 cis16 d e8 d16 e
+      a,8 h16 cis d8 cis16 d g,8 a16 h cis8 h16 cis %25
+    } >>
+    fis8 gis16 ais h8 fis cis' fis, d' h
+    ais fis h fis cis' fis, d' h
+    ais fis << {
+      s4 cis'2 %28
+      h a
+      gis fis %30
+    } \\ {
+      h4~ h8 a! fis a~ %28
+      a gis e! \hA gis~ gis fis dis fis~
+      fis e cis e~ e dis h \hA dis %30
+    } >>
+    e8. fis16 gis8 a << { h2 } \\ { h,8. cis16 dis8 e } >>
+    fis8. gis16 a8 fis << {
+      e'2 %32
+      r4 fis gis2
+      fis e
+      dis cis %35
+      h1~
+      h2 s
+      h4. e8~ \oneVoice e d h d~
+      d cis a cis~ cis h gis h~
+      h a fis a~ a gis e gis %40
+      a8. h16 cis8 d \voiceOne e2
+      s a,
+      r4 e'~ e d8 cis16 d
+      d4 cis8 h16 cis cis4 h8 a16 h
+      h4 a8 gis16 a a4 gis8 fis16 \hA gis %45
+      gis4 fis8 e16 fis fis4 e8 d16 e
+      e4 d8 cis16 d
+    } \\ {
+      e8. fis16 gis8 a %32
+      h4. a8 gis a16 h cis8 h16 cis
+      fis,8 gis16 a h8 a16 h e,8 fis16 gis a8 \hA gis16 a
+      dis,8 e16 fis gis8 fis16 \hA gis cis,8 dis16 e fis8 e16 fis %35
+      h,8 cis16 dis e8 h fis' h, gis' e
+      dis h e h fis' h, gis' e
+      dis h e4 s2
+      s1
+      s %40
+      s2 e8. fis16 gis8 a
+      h4 e, a,8. h16 cis8 d
+      e2 a8 h16 cis d,4
+      gis8 a16 h cis,4 fis8 gis16 a h,4
+      e8 fis16 gis a,4 d8 e16 fis gis,4 %45
+      cis8 d16 e fis,4 h8 cis16 d e,4
+      a8 h16 cis d,4
+    } >> gis'8 a16 h cis8 h16 cis %47
+    fis,8 gis16 a h8 a16 h e,8 fis16 gis a8 e
+    h' e, cis' a gis e a e
+    h' e, cis' a gis e
+    << {
+      s4 %50
+      h'2 a
+      g fis
+      e fis8. g16 a8 h
+      a2 s4 a~
+      a s r e' %55
+      fis2 e
+      d cis
+      h a~
+      a1~
+      a2. s4 %60
+      e'2 d
+      cis h
+      a a8 d4.~
+      d8 e4.~ e2
+    } \\ {
+      a,4~ %50
+      a8 g! e g~ g fis d fis~
+      fis e cis e~ e d h d~
+      d cis a cis d8. e16 fis8 g
+      a,8. h16 cis8 d e4 a,
+      d8. e16 fis8 g a4. g8 %55
+      fis g16 a h8 a16 h e,8 fis16 g a8 g16 a
+      d,8 e16 fis g8 fis16 g cis,8 d16 e fis8 e16 fis
+      h,8 cis16 d e8 d16 e a,8 h16 cis d8 a
+      e' a, fis' d cis a d a
+      e' a, fis' d cis a d d'~ %60
+      d c a \hA c~ c h g h~
+      h a fis a~ a g e g
+      r a, h cis! d4 e8 fis
+      g e fis gis a a h cis
+    } >>
+    d,8. e16 fis8 g! << {
+      r4 r16 g' fis e %65
+      d8 e16 fis g8 fis16 g cis,8 d16 e fis8 e16 fis
+      \voiceThree h,8 cis16 d \voiceOne e8 d16 e cis8 e \oneVoice \kneeBeam d16 \rh e fis g
+      \voiceTwo a4. g8 \lh \voiceOne d2~
+      d1
+      s %70
+      <cis! e,>1
+      <d a fis>\fermata
+    } \\ {
+      a,2~-\pedale %65
+      a1~
+      \once \shiftOn a
+      a'2 d,
+      d,1~-\pedale
+      d~ %70
+      d~
+      d
+    } \\ {
+      a''2_~ %65
+      \voiceTwo a1_~
+      a
+      s
+      \bp #-2 #-2 fis8 d g d \bp #-2 #-2 a' d, h' g
+      \bp #-2 #-2 fis d g d \bp #-2 #-2 a' d, h' g %70
+      d1
+      d
+    } >> \bar "|." %72 finis
+  }
+}
