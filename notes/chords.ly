@@ -3193,3 +3193,180 @@ FugaVIIIChords = {
     <a d fis>\fermata \bar "|."
   }
 }
+
+FugaIXChords = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4
+    r8 es' f g as4 b
+    c8 b as16 b g as f8 g16 as b f g f
+    es8 f16 g as es f es d8 es16 f g d es d
+    c8 d16 es f c d c d8 b es4
+    es\trill d es8 es es\trill d16 es %5
+    f8 f f\trill es16 f g8\trill f16 g g8\trill f16 g
+    a8\trill g16 \hA a a8\trill g16 \hA a \voiceOne b2
+    c4 a b2~
+    b4 a2 g4~
+    g f2 es4~ %10
+    es d16 b' f d c8 d16 es f8 es
+    d4 es c8 d es4~
+    es8 d16 c d es c d << {
+      es2 %13
+      c16 f as g f8 es16 d es4 f8 es~
+      \voiceThree es4 d~ d c~ %15
+      c b~ b as~
+      as b8 c16 b as8 g16 as b8 as
+    } \\ {
+      \voiceThree as8\rest g as! b %13
+      s1
+      \voiceOne as'2 g %15
+      f es
+      d4^\critnote g, f2
+    } >>
+    \oneVoice g8 g g\trill f16 g a8 a a\trill g16 \hA a %18
+    b8\trill a16 b b8\trill a16 b << {
+      c8\trill b16 c c8\trill b16 c
+      d4 es8 f g f16 g f es d c %20
+      b8 c16 d s4 es~ es16 es f es
+      d4~ d16 d es d c4~ c16 c d c
+      b4~ b16 b c b c4~ c16 b32 a b16[ f]
+      es8 d16 es f8 es r c' b a
+      b2 a %25
+      \oneVoice r8 g a b \voiceOne c4 d
+      es8 d c16 d b c a8 b16 c d a b \hA a
+      \oneVoice g8 a16 b c g a g \voiceOne r8 es'! d c
+      b4 c8 d es d16 es d c b a
+      g8 a16 b a8 g~ \voiceTwo g4 fis \voiceOne %30
+      b es!~ es d~
+      d c~ c b~
+      b a b2
+      a
+    } \\ {
+      f2 %19
+      b~ b4 a %20
+      s \oneVoice c8 b~ \voiceTwo b4 a~
+      a g2 f4~
+      f es2 d4
+      c2 d
+      g~ g4 fis %25
+      s2 es8 a16 g \hA a8 g16 fis
+      c'8 b a g s2
+      s fis
+      g~ g4 fis
+      es!2 \once \voiceOne c' %30
+      g4~ g16 b c b a8 b16 c f, a b \hA a
+      g8 a16 b es, g a g f8 g16 a d, f g f
+      es8 f16 g c, es f es d8 d d^\trill c16 d
+      es8 es es^\trill d16 es
+    } >> f8\trill es16 f f8\trill es16 f %34
+    g8\trill f16 g g8\trill f16 g a8 a a\trill g16 \hA a %35
+    b8 b b\trill a16 b << {
+      c8\trill b16 c c8\trill b16 c
+      d8\trill c16 d d8\trill c16 d es8 es es\trill d16 es
+    } \\ {
+      f,2~
+      f~ f
+    } >>
+    f'8 f f\trill es16 f g8\trill f16 g g8\trill f16 g %38
+    a8\trill g16 \hA a \hA a8\trill g16 \hA a b8 b, c d
+    << {
+      es4 f g8 f s4 %40
+      r8 d16 es f4 r8 c16 d es4
+      r8 b16 c d4 r8 a16 b c4
+      r8 g16 a b2 a4
+    } \\ {
+      a8 c b d b4 es16 f d es %40
+      c4 a16 c d c b4 g16 b c b
+      a4 f16 a b a g4 es16 g a g
+      f4 d16 f g f es8 es es d16 es
+     } >>
+     f8 f f\trill es16 f g8\trill f16 g g8\trill f16 g
+     a8\trill g16 \hA a a8\trill g16 \hA a << {
+      b4. as8 %45
+      g4 as8 b c b16 c b as g f
+      es8 f16 g c8 b as4~ as16 as b as
+      g4~ g16 g as g f4~ f16 f g f
+      es4~ es16 es f es d4
+    } \\ {
+      f8 d es f %45
+      es2~ es4 d
+      s es2 d4~
+      d c2 b4~
+      b as2
+    } >> s4
+    r16 as d f r b, es g r c, d es f g as d, %50
+    es8 es es\trill d16 es f8 f f\trill es16 f
+    g8\trill f16 g g8\trill f16 g a8\trill g16 \hA a a8\trill g16 \hA a
+    << {
+      b2 g4 s %53
+      b2 b4 a~
+      a g~ g f~ %55
+      f es
+    } \\ {
+      f8 d es f r es16 d c[ d32 es] f16 es %53
+      d8 es16 f g8 f es4~ es16 es f es
+      d4~ d16 d es d c4~ c16 c d c %55
+      b4~ b16 b c b
+    } >> a8 a a\trill g16 a
+    b8 b b\trill a16 b c8\trill b16 c c8\trill b16 c
+    d8\trill c16 d d8\trill c16 d es8 es es\trill d16 es
+    f8 f f\trill es16 f g8\trill f16 g g8\trill f16 g
+    << {
+      a8\trill g16 \hA a a8\trill g16 \hA a b2~ %60
+      b4 c r8 b c d
+      es4 f g8 f s4
+      r8 d16 es f4 r8 c16 d es4
+      r8 b16 c d4 r8 a16 b c4
+      r8 g16 a b4 r8 f16 g a4 %65
+    } \\ {
+      es2 d8 d es f %60
+      g4 a s2
+      a8 c b d b4 es16 f d es
+      c4 r16 c d c b4 r16 b c b
+      a4 r16 a b \hA a g4 r16 g a g
+      f4 r16 f g f es4 r16 es f es %65
+    } >>
+    d8 as' as\trill g16 as << {
+      g8 b b\trill as16 b %66
+      d8 as'16 g f es d f es8 b b\trill as16 b
+      c4 d es2
+    } \\ {
+      s8 g, g s %66
+      as2 g8 g g r
+      es4 as16 g as f g8 g as b
+    } >>
+    \voiceOne c8 d16 es d8 es16 f es f d es c8 b \oneVoice
+    << {
+      as'2 g %70
+      f es
+      <d as> es
+      c d
+      es es8 b' as16 b g as
+      f8 b, b b r d16 es f4~ %75
+      f8 c16 d es4~ es8 b16 c d4~
+      d8 as16 b c4~ c8 g16 as b4~
+      b8 f16 g as4 <f as>2
+    } \\ {
+      \voiceThree c'4 d~ d c~ %70
+      c b~ b as
+      \voiceTwo f2 r8 g as b
+      es,4 as8 g f g16 as b c as b
+      g2 g8 g' f16 g es f
+      d8 s4. c4 r16 c d c %75
+      b4 r16 b c b as4 r16 as b as
+      g4 r16 g as g f4 r16 f g f
+      es4 r16 es f es d2
+    } >>
+    << { g2 f } \\ { es~ es8 d16 c d4 } \\ { s2 r4 r8 as' } >>
+    << {
+      g8 b b b b as16 g \once \tieDashed as4~ %80
+      as8 g16 f g4~ g8 f16 es f4~
+      f8 es16 d! es4 <f as>2
+    } \\ {
+      es1~ %80
+      es2 s
+      s d
+    } >>
+    <es g>1\fermata \bar "|." %83 finis
+  }
+}

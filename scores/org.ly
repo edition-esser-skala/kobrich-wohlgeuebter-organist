@@ -500,15 +500,31 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.8" "Fuga VIII:va"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaVIIIChords }
+  %         \new Staff = "LH" { \FugaVIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.8" "Fuga VIII:va"
+    \section "2.9" "Fuga IX:na"
     \addTocEntry
+    \paper { page-count = #4 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaVIIIChords }
-          \new Staff = "LH" { \FugaVIIIOrgano }
+          \new Staff = "RH" { \FugaIXChords }
+          \new Staff = "LH" { \FugaIXOrgano }
         >>
       >>
       \layout { }
