@@ -531,16 +531,31 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10" "Fuga X:ma"
+  %   \addTocEntry
+  %   \paper { page-count = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaXChords }
+  %         \new Staff = "LH" { \FugaXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10" "Fuga X:ma"
+    \section "2.11" "Fuga XI:ma"
     \addTocEntry
-    \paper { page-count = #3 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaXChords }
-          \new Staff = "LH" { \FugaXOrgano }
+          \new Staff = "RH" { \FugaXIChords }
+          \new Staff = "LH" { \FugaXIOrgano }
         >>
       >>
       \layout { }
