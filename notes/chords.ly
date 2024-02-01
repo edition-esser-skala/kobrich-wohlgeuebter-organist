@@ -3370,3 +3370,132 @@ FugaIXChords = {
     <es g>1\fermata \bar "|." %83 finis
   }
 }
+
+FugaXChords = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4
+    r8 c' e f g8. g16 g8 g16 f
+    \appoggiatura f e8 d16 e c8 a'16 g \appoggiatura g f8 e16 f d8 g16 f
+    \appoggiatura f e8^\critnote d16 e c8 f16 e \appoggiatura e d8 c16 d h8 e16 d
+    \appoggiatura d c8 h16 c a8 d16 c h8 g \once \tieDashed c4~
+    c8 h16 a h8 h c16 h c d e8 fis %5
+    \voiceOne \once \tieDashed g2~ g8 fis16 e fis8 fis
+    g2 a4. fis8
+    g4. e8 fis4. d8
+    e4. c8~ c d16 c h8 c16 h
+    a4. d16 c h8 g c4~ %10
+    c8 h16 a h8\trill a16 h << {
+      \once \override Rest.X-offset = #3 g'4\rest r8 e
+      d2 e
+      d c
+      h a
+      g4. a16 g fis8 g16 fis r8 a16 h %15
+      c4. h16 a gis8 a16 gis r8 h16 c
+      d4. cis16 h ais8 h16 ais r8 cis16 d
+      e4 r8 h16 c d4 r8 a16 h
+      c4 r8 g16 a r8 g h c
+      d8. d16 d8[ d16 c] %20
+    } \\ {
+      \voiceThree c2 %11
+      c4 h c2
+      c4. h8~ h4. a8~
+      a4. g8~ g4. f8~
+      \voiceTwo f4 e s g~ %15
+      g8 f16 e f4 s a~
+      a8 g16 fis g4 r h
+      r16 d c h a4 r16 c h a g4
+      r16 h a g fis4 s2
+      a8 fis16 g a8[ fis] %20
+    } >> \oneVoice \appoggiatura c'16 h8 a16 h g8 e'16 d %20
+    \appoggiatura d c8 h16 c a8 d16 c \appoggiatura c h8 a16 h g8 c16 h
+    \appoggiatura h a8 g16 a fis8 h16 a \appoggiatura a g8 fis16 g e8 a16 g
+    << {
+      fis8 d g4~ g8 fis16 e r8 h'16 a %23
+      g2 fis^\critnote
+      \oneVoice r8 e g a \voiceOne h8. h16 h8 h16 a %25
+      \oneVoice \appoggiatura a g8 fis16 g \voiceOne g4 fis2
+      g4. c16 h a8 g16 a fis8 h16 a
+      \oneVoice \appoggiatura a g8 fis16 g \voiceOne e8 h' c4~ c8 a
+      h4~ h8 e16 d c8 h16 c a8 a
+    } \\ {
+      s4 r8 d,~ d4 fis~ %23
+      fis e~ e dis
+      s2 fis8 dis16 e fis8 dis %25
+      s4 e~ e dis
+      e2~ e4 s8 dis16 fis
+      s4. g8 a4~ a8 fis
+      g4~ g s4. fis8
+      } >>
+      << { h2 a } \\ { r4 d,~ d2 } \\ { \once \tieDashed g~ g4 fis } >> %30
+    << {
+      \once \oneVoice r8 g h c d8. d16 d8 d16 c
+      <g h>4 h a2
+      h e8 d16 e c8 a
+      d c16 d h8 g c h16 c a8 fis
+      h a16 h g8 e a4 g8 e'16 d %35
+      cis8 a d4~ d r8 fis16 e
+      dis8 h e4~ e r8 gis16 fis
+    } \\ {
+      s4 g, a8 fis16 g a8 fis %31
+      d4 g~ g fis
+      g2~ g4. \tieDashed fis8~
+      fis4. e8~ e4. d8~
+      d4. c8~ c4 \tieSolid s %35
+      s r16 a' h a g8 a16 h cis4
+      s r16 h c h a8 h16 c dis4
+    } >>
+    eis8 cis fis16 a cis, e dis8 h e16 g h, e
+    << {
+      cis8 a r e'16 fis g2
+      fis e %40
+      d c
+      h8 f'! e d c2
+      h \once \oneVoice r8 a c d
+      e8. e16 e8[ e16 d]
+    } \\ {
+      s4 d~ d <c e>~ %39
+      c <h d>~ h <a c>~ %40
+      a <g h>~ g <fis a>
+      g8 h4.~ h4 a~
+      a gis s2
+      h8 gis16 a h8[ gis]
+    } >> \appoggiatura d'16 c8 h16 c a8 f'16 e
+    \appoggiatura e d8 c16 d h8 e16 d \appoggiatura d c8 h16 c a8 d16 c %45
+    \appoggiatura c h8 a16 h g8 c16 h \appoggiatura h a8 g16 a f8 h16 a
+    << {
+      gis8 e a4~ a8 g16 fis r8 c'16 h %47
+      r8 h16 c d8 c16 d r8 c16 d e8 d16 e
+      r8 d16 e f8 e16 f r8 e16 f g8 f16 g
+      r4 c~ c h %50
+      r8 c, e f g8. g16 g8 g16 f
+    } \\ {
+      s4 r8 e,~ e4 g %47
+      a2 h
+      c d
+      e d %50
+      s d8 h16 c d8 h
+    } >>
+    \appoggiatura f'16 e8 d16 e c8 a'16 g \appoggiatura g f8 e16 f d8 g16 f
+    \appoggiatura f e8 d16 e c8 f16 e \appoggiatura e d8 c16 d h8 e16 d
+    \appoggiatura d c8 h16 c a8 d16 c h8 g << {
+      c4 %54
+      d <h d>~ d c~ %55
+      <g c> h8 d e2
+      a8 g16 a f8 d g f16 g e8 c
+      f e16 f d8 h e d16 e c8 a
+      d4~ d8 c~ c4 h
+      c4. s8 %60
+    } \\ {
+      r8 g %54
+      f g16 a g4 e g8 a %55
+      d,4. h'8 c2~
+      c4. h8~ h4. a8~
+      a4. g8~ g4. f8~
+      f4 e d8. g16 g8 g16 f
+      \once \stemUp \appoggiatura f e8 d16 e c8[ a''16 g]
+    } >> \appoggiatura g f8 e16 f d8 g16 f %60
+    \appoggiatura f e8 d16 e c8 a16 g \appoggiatura g f8 e16 f d8 g16 f
+    <c e>1\fermata \bar "|." %62 finis
+  }
+}

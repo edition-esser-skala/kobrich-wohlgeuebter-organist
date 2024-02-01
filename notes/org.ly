@@ -3009,3 +3009,121 @@ FugaIXOrgano = {
     } >> \bar "|." %83 finis
   }
 }
+
+FugaXOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4
+    R1*5 %5
+    \rh \voiceTwo r8 g'' h c d8. d16 d8 d16 c
+    h8 a16 h g8 e'16 d c8 h16 c a8 d16 c
+    h8 a16 h g8 c16 h a8 g16 a fis8 h16 a
+    g8 fis16 g e8 a16 g fis8 d g4~
+    g8 f16 e f4~ f r16 e f e %10
+    d2 e8 c e f
+    g8. g16 g8 g e d16 e c8 a'16 g
+    f8 e16 f d8 g16 f e8 d16 e c8 f16 e
+    d8 c16 d h8 e16 d c8 h16 c a8 d16 c
+    \lh \oneVoice h8 g << {
+      s4 d'2 %15
+      c4 d e2
+      d4 s fis2
+      r8 e s4 r8 d s4
+      r8 c s4 <h d>2
+      d~ d4 h8 c16 h %20
+      a4. h16 a g4. a16 g
+      fis4. g16 fis e4. c'8~
+      c8. a16 h4 a d8 <h fis>
+    } \\ {
+      c4~ c h %15
+      a d~ d c
+      h e~ e d
+      c! fis16 e d c h4 e16 d c h
+      a4 d16 c h a g2
+      fis8 d16 e fis8 d g2~ %20
+      g4 fis2 e4~
+      e d2 c4
+      d2 d4. dis8
+    } >>
+    r e g a h8. h16 h8 h16 a
+    << {
+      <g h>2~ h~ %25
+      <g h>4 s2.
+      h4 s2 h4~
+      h4. s8 s2
+      s2 e4~ e8 s
+    } \\ {
+      r4 e, dis8 h16 cis dis8 h %25
+      e4 r8 c'16 h a8 g16 a fis8 h16 a
+      g8 fis16 g e8 a16 g fis8 e16 \hA fis dis8 h16 dis
+      e4. e'16 d! c8 h16 c a8 d16 c
+      h8 a16 h g8 16 h a8 g16 a fis8 d'16 c
+    } >>
+    h8 g, h c d8. d16 d8 d16 c %30
+    << { g'2 } \\ { h,4 g } >> fis'8 d16 e fis8 d
+    r g h c d8. d16 d8 d16 c
+    h8 a16 h g8 e'16 d c8 h16 c a8 d16 c
+    h8 a16 h g8 c16 h a8 g16 a fis8 h16 a
+    g8 fis16 g e8 a16 g fis8 d << {
+      h'4 %35
+      a2 e'4~ <cis e>
+      h2 fis'4~ <dis fis>
+      cis2 h
+      a e'
+      d c %40
+      h a
+      d4 h a2
+      s <c e>~
+      e~ e4 c8 d16 c
+      h2 a %45
+      g f4. d'8~
+      d8. h16 c4 h e
+      f,!2. g4~
+      g a2 h4
+    } \\ {
+      g4~ %35
+      g fis e8 fis16 g a4~
+      a g fis8 g16 a h4~
+      h a2 g!4~
+      g fis? e8 fis16 g a8 h16 c!
+      d,8 e16 fis g8 a16 h c,8 d16 e fis8 g16 a %40
+      h,8 c16 d e8 fis16 g a,8 h16 c d8 e16 fis
+      g4 gis r8 a, c d
+      e8. e'16 e8 e16 d r4 a
+      gis8 e16 fis gis8 e a2~
+      a4 gis8 g~ g4 fis8 f~ %45
+      f4 e~ e d
+      e1
+      r4 f, g2
+      a h
+    } >>
+    c8 c' e f g8. g16 g8 g16 f %50
+    << {
+      <e g>2~ g
+      <e g>4. f16 e d4. e16 d
+      c4. d16 c h4. c16 h
+      a2 g
+      d' c %55
+      s c
+      d c
+      h a
+      g4 s g2
+      <e g> <d f h> %60
+      <e g c> <d f h>
+      <e g>1\fermata
+    } \\ {
+      r4 c' h8 g16 a h8 g %51
+      c2~ c4 h~
+      h a~ a g~
+      g f~ f e
+      d8 e16 f g8 a16 h r8 c, e f %55
+      g8. g16 g8 g16 f e8 d16 e c8 a'16 g
+      f8 e16 f d8 g16 f e8 d16 e c8 f16 e
+      d8 c16 d h8 e16 d c8 h16 c a8 d16 c
+      h8 g c16 d e f r4 g,
+      c2~ c~ %60
+      c~ c~
+      c1
+    } >> \bar "|." %62 finis
+  }
+}
