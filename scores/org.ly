@@ -547,15 +547,31 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.11" "Fuga XI:ma"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaXIChords }
+  %         \new Staff = "LH" { \FugaXIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.11" "Fuga XI:ma"
+    \section "2.12" "Fuga XII:ma"
     \addTocEntry
+    \paper { page-count = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaXIChords }
-          \new Staff = "LH" { \FugaXIOrgano }
+          \new Staff = "RH" { \FugaXIIChords }
+          \new Staff = "LH" { \FugaXIIOrgano }
         >>
       >>
       \layout { }

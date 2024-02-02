@@ -3673,3 +3673,206 @@ FugaXIChords = {
     << { g'2 fis\fermata } \\ { b,8. cis16 cis8 cis d2 } \\ { d8. e16 e8 e s2 } >> \bar "|." %71 finis
   }
 }
+
+FugaXIIChords = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4
+    r8 e' e e f4 d8 c
+    h c16 d e8 d c h c a
+    h16 e dis e c8 a h16 e dis e c8 a
+    gis e a e h' e, c' e,
+    gis e a e h' e, c' e, %5
+    d' e16 f e8 d c h c a
+    \voiceOne e'4 dis e8 fis16 g! fis8 e
+    dis4 dis e e
+    dis e dis e
+    fis \once \oneVoice \appoggiatura a16 g8 fis16 e e8 dis e4 %10
+    fis8 h16 a \once \oneVoice \appoggiatura a g8 fis16 e e8 dis e4
+    c4. d16 c h4. c16 h
+    a4. h16 a g2
+    a~ <a d>4 <gis h>
+    <a c>2 <gis d'>4 <a c> %15
+    <gis d'> <a c> \oneVoice h \appoggiatura d16 c8 h16 a
+    a8 gis a4 h8 e16 d c8 h16 a
+    a8 gis a4 << {
+      r d~ %18
+      d c2 h4~
+      h8 a4. g!8 a16 h c8 h %20
+      a4 fis g2
+      a4 g a g
+    } \\ {
+      f!4. g16 f %18
+      e4. f16 e d4. e16 d
+      c8 dis4. e2~ %20
+      e4 dis e2
+      e8 <dis fis> e4~ e8 <dis fis> e4
+    } >>
+    fis g8 fis16 e e8 dis e4
+    fis8 h16 a \appoggiatura a g8 fis16 e e8 dis e4
+    << {
+      r a~ a g~ %25
+      g fis~ fis e8 a16 g
+      r8 d' d d e2
+      r8 h16 c d8 c
+    } \\ {
+      c,4. d16 c h4. c16 h %25
+      a4. h16 a g4. e'8
+      fis4 r c' c8 h
+      a2
+    } >> h8 a h g %28
+    a16 d cis d h8 g a16 d cis d h8 g
+    << {
+      d'1~ %30
+      d
+      e2 d
+      c s
+      a2 r8 e16 f g8 f
+    } \\ {
+      fis8 d g d a' d, h' d, %30
+      fis d g d a' d, h' d,
+      r c'16 h a8 h16 c r8 h16 a g8 a16 h
+      r8 a16 g fis8 g16 a \oneVoice h8 g g g_~ \voiceTwo
+      g4 f8 e d2
+    } >>
+    e8 d e c d16 g f g e8 c %35
+    d16 g f g e8 c g'2~
+    g1~
+    g2 << {
+      r4 f~ %38
+      f g2 a4~
+      a h r8 a a a %40
+      a2 f8 g16 a b8 a
+      g4 e f2
+      g4 f g f
+    } \\ {
+      a,4. d16 c %38
+      h4. e16 d c4. f16 e
+      d4. g16 f e2 %40
+      f8 cis cis cis d2~
+      d4 cis d2~
+      d8 <cis e> d4~ d8 <cis e> d4
+    } >>
+    e \appoggiatura g16 f8 e16 d d8 cis d4 %44
+    e8 a16 g \appoggiatura g f8 e16 d d8 cis d4 %45
+    << {
+      r4 g'2 f4~ %46
+      f e~ e8 d16 c! h8 a
+    } \\ {
+      b4. c16 b a4. b16 a %46
+      g4. a16 g f2
+    } >>
+    gis a8 h16 c << {
+      s4 %48
+      d4 h c2
+      d4 c d c %50
+    } \\ {
+      h8 a~ %48
+      a4 gis a2~
+      a8 <gis h> a4~ a8 <gis h> a4 %50
+    } >>
+    h4 \appoggiatura d16 c8 h16 a a8 gis a4 %51
+    h8 e16 d \appoggiatura d c8 h16 a a8 gis a4
+    << {
+      f'4. g!16 f e4. f16 e %53
+      d4. e16 d c4. d16 c
+      h8 g' g g a2 %55
+      r8 e16 f g8 f
+    } \\ {
+      d4. h8 c4. a8 %53
+      h4. g8 a4. f8
+      r c'4.~ c4 f8 e %55
+      d2
+    } >> e8 d e c
+    d16 g fis g e8 c d16 g fis g e8 c %57
+    h g c g d' g, e' g,
+    h g c g d' g, e' g,
+    << {
+      r4 f'2 e4~ %60
+      e d c8 h h h
+      c2 r8 g16 a h8 a
+    } \\ {
+      a4. h16 a g4. a16 g %60
+      f4. g16 f e2
+      e4 a8 g! fis2
+    } >>
+    g8 fis g e fis16 h ais h g8 e %63
+    fis16 h ais h g8 e << {
+      h'2~ %64
+      h1~ %65
+      h2 c4. d!16 c
+      h4. c16 h a4. h16 a
+      g4. a16 g s2
+      e' r8 h16 c d8 c
+      h a4. g8 a16 h s4 %70
+      c2 h
+      c4 h c h
+    } \\ {
+      dis,8 h e h %64
+      fis' h, g' h, dis h e h %65
+      fis' h, g' h, a'4. fis8
+      g4. e8 fis4. d8
+      e4. c8 fis d' d d~
+      d4 c8 h a2
+      g8 fis4. s4 a8 g~ %70
+      g4 fis g2~
+      g8 <fis a> g4~ g8 <fis a> g4
+    } >>
+    a8 d16 c h8 a16 g fis8 e16 d g4 %73
+    a8 d16 c h8 a16 g fis8 e16 d g4
+    << {
+      e'4. fis16 e d4. e16 d %75
+      c4. d16 c h8 h h h
+      c h4. a8 h16 c s4
+      d h c8 e e e
+      f!2 r8 c16 d e8 d
+    } \\ {
+      c4. a8 h4. g8 %75
+      a4. fis8 g e4.
+      a8 gis4. s4 h8 a~
+      a4 gis a2~
+      a4 d8 c h2
+    } >>
+    c8 h c a h16 e dis e c8 a %80
+    h16 e dis e c8 a << {
+      e'2~ %81
+      e1~
+      e2
+    } \\ {
+      gis,8 e a e %81
+      h' e, c' e, gis e a e
+      h' e, c' e,
+    } >> f!4. g!16 f %83
+    e4. f16 e d4. e16 d
+    << { c8 c' c c h2 } \\ { s8 a a a gis2 } >> %85
+    a8 h16 c h8 a << {
+      f' e d c
+      e4 h c2
+    } \\ {
+      a2 %86
+      gis4 gis a2
+    } >>
+    h16 e dis e c8 a~ a gis a c %88
+    h16 e dis e c8 a~ a gis a c
+    gis e << {
+      a4~ a8 gis16 fis gis4 %90
+      r8 a a a
+    } \\ {
+      e2 e8 d %90
+      cis2
+    } >> b'4 g!8 f
+    e f16 g a8 g f e f d %92
+    e16 a g a f8 d e16 a g a f8 d
+    << {
+      a'2~ a
+      s1 %95
+    } \\ {
+      cis,4 d cis d~
+      d1 %95
+    } \\ {
+      s4 f s f~
+      f2.\trill e8 f %95
+    } >>
+    <cis a'>1\fermata \bar "|." %96 finis
+  }
+}

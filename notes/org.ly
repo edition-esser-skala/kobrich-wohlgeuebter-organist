@@ -3261,3 +3261,194 @@ FugaXIOrgano = {
     } >> \bar "|." %71 finis
   }
 }
+
+FugaXIIOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4
+    R1*6 %6
+    \rh \voiceTwo r8 h'' h h c4 a8 g!
+    fis g16 a h8 a g fis g e
+    fis16 h ais h g8 e fis16 h ais h g8 e
+    dis h e h fis' h, g' h, %10
+    dis h e h fis' h, g' h,
+    r a'16 g <fis a>4 r8 g16 fis <e g>4
+    r8 fis16 e <d! fis>4 r8 e e e
+    f4 d8 c h c16 d e8 d
+    c h c a h16 e dis e c8 a %15
+    h16 e dis e c8 a \lh \oneVoice << {
+      e'2~
+      e1~
+      e2 s4 r8 d
+      s4 r8 c s4 r8 h
+    } \\ {
+      gis8 e a e %16
+      h' e, c' e, gis e a e
+      h' e, c' e, \once \oneVoice r d'16 c h4
+      \once \oneVoice r8 c16 h a4 \once \oneVoice r8 h16 a gis4
+    } >>
+    a8 h h h c4 a8 g %20
+    fis g16 a h8 a g fis g e
+    fis16 h ais h g8 e fis16 h ais h g8 e
+    << {
+      h'1~ %23
+      h
+      s4 r8 a s4 r8 g %25
+      s4 r8 fis s4 r8 c'16 h
+      a4 h s2
+      d~ d8 c d h
+      d2~ d
+    } \\ {
+      dis,8 h e h fis' h, g' h, %23
+      dis h e h fis' h, g' h,
+      \once \oneVoice r8 a'16 g fis4 \once \oneVoice r8 g16 fis e4 %25
+      \once \oneVoice r8 fis16 e d!4 \once \oneVoice r8 e16 d c4
+      d2 c8 c'16 h a8 g
+      fis e d fis g2
+      fis8 d g h fis d g h
+    } >>
+    d,16 c' d, c' d, h' d, h' d, fis d \hA fis d g d g %30
+    d c' d, c' d, h' d, h' d, fis d \hA fis d g d g
+    << {
+      r8 a16 g fis8 g16 a r8 g16 fis e8 fis16 g %32
+      r8 fis16 e d8 e16 fis s2
+      s g~
+      g8 f g e g2~ %35
+      g h8 g c g
+      d' g, e' g, h g c g
+      d' g, e' g, s4 r8 f
+      s4 s8 g s4 s8 a
+      s4 s8 h
+    } \\ {
+      c,2 h %23
+      a g8 g' e c
+      f,! f'16 e d8 c h a g h
+      c2 h8 g c e %35
+      h g c e f,16 f' g, f' g, e' g, e'
+      g, h g h g c g c g f' g, f' g, e' g, e'
+      g, h g h g c g c \once \oneVoice r8 f16 e d4
+      \once \oneVoice r8 g16 f e4 \once \oneVoice r8 a16 g f4
+      \once \oneVoice r8 h16 a g4
+    } >> c8 cis a cis %40
+    d a a a b4 g8 f
+    e f16 g a8 g f e f d
+    e16 a gis a f8 d e16 a gis a f8 d
+    << {
+      a'1~ %44
+      a %45
+      r8 g16 f <e g>4 r8 f16 e <d f>4
+      r8 e16 d <cis e>4 r d'~
+      d8 e e e f2
+    } \\ {
+      cis,8 a d a e' a, f' a, %44
+      cis a d a e' a, f' a, %45
+      s4 r8 c s4 r8 b
+      s4 r8 a d2
+      e r4 d'8 c!
+    } >>
+    h c16 d e8 d c h c a %49
+    h16 e dis e c8 a h16 e dis e c8 a %50
+    << {
+      e'1~ %51
+      e
+      r8 d16 c <h d>4 r8 c16 h <a c>4
+      r8 h16 a <g h>4 r8 a16 g <f a>4
+      g2 r8 f'16 e d8 c %55
+      g'2~ g8 f g e
+      g2~ g
+    } \\ {
+      gis,8 e a e h' e, c' e, %51
+      gis e a e h' e, c' e,
+      s4 r8 g s4 r8 f
+      s4 r8 e s4 r8 d
+      r e c e f2 %55
+      h8 a g h c2
+      h8 g c e h g c e
+    } >>
+    g,16 f' g, f' g, e' g, e' g, h g h g c g c %58
+    g f' g, f' g, e' g, e' g, h g h g c g c
+    << {
+      s4 r8 f s4 r8 e %60
+      s4 r8 d s2
+      s h~
+      h8 a h g h2~
+      h
+    } \\ {
+      \once \oneVoice r8 f'16 e d4 \once \oneVoice r8 e16 d c4 %60
+      \once \oneVoice r8 d16 c h4 c8 gis e gis
+      a, a'16 g fis8 e dis cis h dis
+      e2 dis8 h e g
+      dis h e g
+    } >> h,16 a' h, a' h, g' h, g'
+    h, dis h \hA dis h e h e h a' h, a' h, g' h, g' %65
+    h, dis h \hA dis h e h e r8 a16 g << {
+      a4 %66
+      s g s fis
+      s e
+    } \\ {
+      fis8 d! %66
+      \once \oneVoice r g16 fis e8 c \once \oneVoice r fis16 e d8 h
+      \once \oneVoice r e16 d c8 a
+    } >> d h' g h
+    c, c' a g << { d'2 } \\ { fis,8 e d fis } >>
+    g d' d d e4 c8 h %70
+    a h16 c d8 c h a h g
+    a16 d cis d h8 g a16 d cis d h8 g
+    << {
+      d'1~ %73
+      d
+      s4 c s h %75
+      s a
+    } \\ {
+      fis8 d g d a' d, h' d, %73
+      fis d g d a' d, h' d,
+      \once \oneVoice r c'16 h a8 fis \once \oneVoice r h16 a g8 e %75
+      \once \oneVoice r a16 g fis8 d
+    } >> g gis e gis
+    a e' e e f!4 d8 c
+    h c16 d e8 d c a16 h c8 a
+    d, d'16 c h8 a << {
+      e'2~ %79
+      e8 d e c e2~ %80
+      e
+    } \\ {
+      gis,8 fis e gis %79
+      a2 gis8 e a c %80
+      gis e a c
+    } >> e,16 d' e, d' e, c' e, c'
+    e, gis e \hA gis e a e a e d' e, d' e, c' e, c' %82
+    e, gis e \hA gis e a e a r8 d16 c << {
+      d4
+      s c s h
+      s2 r8 e e e %85
+    } \\ {
+      h8 g! %83
+      \once \oneVoice r c16 h a8 f! \once \oneVoice r h16 a gis8 e
+      a c, d dis e2 %85
+    } >>
+    f'4 d!8 c d c h a
+    << {
+      h8 c16 d e8 d c h c a %87
+      gis h a c h16 e dis e c8 a
+      gis h a c h16 e dis e c8 a
+      h4 c8 h16 a h2 %90
+      a g!4 e8 d
+      cis4. e8 d cis d f
+      cis e d f cis e d f
+      e16 a g a f8 d e16 a g a f8 d
+      gis1 %95
+      a\fermata
+    } \\ {
+      e1~ %87
+      e~
+      e~
+      e %90
+      a,~
+      a~
+      a~
+      a~
+      a~ %95
+      a
+    } >> \bar "|." %96 finis
+  }
+}
