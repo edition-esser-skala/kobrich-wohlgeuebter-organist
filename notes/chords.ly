@@ -3876,3 +3876,103 @@ FugaXIIChords = {
     <cis a'>1\fermata \bar "|." %96 finis
   }
 }
+
+FugaXIIIChords = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4
+    r8 c' es c h4 b
+    a as g8 f' es d
+    es d c h c f es d
+    es4 c2 h4
+    c8 c es c \voiceOne g'2 %5
+    a8 cis, d a' g h, c g'
+    fis a g fis g c b a
+    b a g fis g d es!4
+    d c b a
+    h8 c4 h8 \oneVoice << {
+      es4 g8 es %10
+      r fis g4~ g8 e f4~
+      <f h,>8 d c h c f es d
+      es d c h c g as!4~
+      as8 b g4~ g8 as f4~
+      f8 g es d' c2 %15
+      b!4 d8 b r cis d4~
+      d8 h c4~ c8 a g fis
+      g c b a b a g fis
+      g a b c b es d c
+      d c b a b f r h %20
+      c4 r8 a b4 r8 g
+      a4 r8 a c a g fis
+      \oneVoice r g b g fis4 f
+      e \voiceOne es d8 d c h
+    } \\ {
+      c'2 %10
+      d4. d8 c4. c8
+      d, f es d es d c h
+      c f es d es4. f8
+      d4. es8 c4. d8
+      h4 s8 g'~ g4 fis %15
+      g2 a4. a8
+      g4. g8 fis4 s
+      d1
+      r2 f!~
+      f s4 g %20
+      r8 g f4 r8 f es4
+      r8 es d4 fis d
+      s1
+      s4 c h s
+    } >>
+    c8 f es d es d c h %25
+    << {
+      r es f4 es8 d es f
+      <es g>2 r8 a b4~
+      b8 g as4~ as8 f es d
+      es as g f g f es d
+      es g f es d h' d h %30
+      c2 r8 d g d
+      g4 f h,8 d c h
+      c f es d es d c h
+    } \\ {
+      c,4. d8 r4 r8 b! %26
+      b2 f'4. f8
+      es4. es8 d!4 s
+      b1
+      b8 es d c h g' h g %30
+      r es g es g2
+      r8 c r c g2~
+      g1
+    } >>
+    c8 g as4~ as8 b g4~
+    g8 as f4~ f8 g es4 %35
+    << {
+      r g as2~
+      as8 g <d f>4_~ \voiceTwo d c \voiceOne
+      r8 fis g4 r8 es f4~
+      f8 r r4 g2~
+      g s %40
+      r8 d f4 r8 c es4
+      \clef bass r8 h d4
+    } \\ {
+      es2 r8 d f c %36
+      h2 \once \voiceOne es
+      d4 r8 d c4 r8 c
+      h d c h c f es d
+      es d c h c g as! g %40
+      as4 r8 as g4 r8 g
+      f4 r8 f
+    } >> es c' h d \clef treble
+    c es d f << {
+      r g c4~ %43
+      c h c2~
+      c1~ %45
+      c2 <h f>
+    } \\ {
+      es,4 r8 es %43
+      d2 e?8 g b! g
+      as e g e f g as g %45
+      as2 d,
+    } >>
+    <e g c>1\fermata \bar "|." %47 finis
+  }
+}

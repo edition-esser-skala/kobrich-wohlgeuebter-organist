@@ -3452,3 +3452,90 @@ FugaXIIOrgano = {
     } >> \bar "|." %96 finis
   }
 }
+
+FugaXIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4
+    R1*4
+    r2 \rh \voiceTwo r8 g'' b! g %5
+    fis4 f e es
+    d8 c' b a b a g fis
+    g c b a b4. c8~
+    c b4 a g fis8
+    g es! <d f>4 \lh \oneVoice r8 c es c %10
+    h4 b a as
+    g1~
+    g2~ g
+    s1
+    s4 c8 b! << {
+      c2 %15
+      d~ d4 f!
+      g, es' a,8 c b a
+      b a g fis g c b a
+      b c d es! d c b a
+      b es d c d4 es %20
+      r8 es d4 r8 d c4
+      r8 c s4 a8 c b a
+      b4 d8 b d2
+      c4 s g8 f es! d
+      es d c h c f es d %25
+      s2 g4 as!
+      s2 b4 des
+      g, ces f,8 as! g f
+      g f es d es as g f
+      g es as a g4 f %30
+      r8 c' es c d2
+      c d8 f es d
+      es d c h c f es d
+      es4. f8 d4. es8
+      c4. d8 h4. c8 %35
+      c2 r4 as
+      g2~ g
+      g4 b! es, as
+      d,8 f es d es d c h
+      c f es d es2 %40
+      f4 d es c
+      d h c8 es d f
+      es c h d c4 es8 f
+      g2 g8 e g e
+      f g b! g as e f e %45
+      f2 c'~
+      c1\fermata
+    } \\ {
+      as!4 a %15
+      g8 g b! g fis4 f
+      e es d2~
+      d1
+      g8 f4. f2~
+      f1~ %20
+      f~
+      f4 b8 fis d2
+      g d8 a' h g
+      r c, as' fis g,2~
+      g1 %25
+      es'8 c d b c b c d
+      r es g es d4 des
+      c ces b2~
+      b1
+      es8 c f fis g,2 %30
+      es'!4 r h' b
+      a as g2~
+      g1~
+      g~
+      g %35
+      r8 c, es c f2
+      r8 g, h g r c es c
+      h4 b a as
+      g1~
+      g~ %40
+      g~
+      g~
+      g~
+      g2 c~
+      c1~ %45
+      c~
+      c
+    } >> \bar "|." %47 finis
+  }
+}
