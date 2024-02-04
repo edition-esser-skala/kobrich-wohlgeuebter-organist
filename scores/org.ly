@@ -593,19 +593,35 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.14" "Fuga XIV:ta"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaXIVChords }
+  %         \new Staff = "LH" { \FugaXIVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 120 }
+  %   }
+  % }
+  % \part "three" "3" "Dritter Theil"
   \bookpart {
-    \section "2.14" "Fuga XIV:ta"
+    \section "3.1" "Toccata I:ma"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaXIVChords }
-          \new Staff = "LH" { \FugaXIVOrgano }
+          \new Staff = "RH" { \ToccataIChords }
+          \new Staff = "LH" { \ToccataIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 2 = 120 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

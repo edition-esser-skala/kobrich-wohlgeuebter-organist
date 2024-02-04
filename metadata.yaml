@@ -7,19 +7,25 @@ genre: preludes, fugues
 scoring: org
 license: cc-by-sa-4.0
 sources:
-  B1:
+  C1:
     siglum: A-RB
     shelfmark: none
     rism: 990033863
     license: public domain
     principal: true
     notes: entitled “Wohlgeübter Organiſt; | Das iſt | Vier und zwanzig große PRÆLVDIA | für die Orgel | aufgeſezt | von | Herrn Johann Anton Kobrich, | Stadt=Pfarr=Organiſt in Landsberg. | In Verlag Johann Ulrich Haffners, Lauteniſten in Nürnberg. | Nro CXIII Pag XXXI.”
-  B2:
+  C2:
     siglum: A-RB
     shelfmark: none
     rism: 990033864
     license: public domain
-    notes: entitled “Wohlgeübter Organiſt; | Beſtehend | aus einer Sammlung | Fugen für die Orgel | aufgeſezt | von | Herrn Johann Anton Kobrich, | Stadt=Pfarr=Organiſt in Landsberg. | In Verlag Johann Ulrich Haffners, Lauteniſten in Nürnberg. | Nro CXXVIII Pag XXIV. | G. Stettner. sc. Norib”
+    notes: entitled “Wohlgeübter Organiſt; | Beſtehend | aus einer Sammlung | Fugen für die Orgel | aufgeſezt | von | Herrn Johann Anton Kobrich, | Stadt=Pfarr=Organiſt in Landsberg. | Zweyter Theil. | In Verlag Johann Ulrich Haffners, Lauteniſten in Nürnberg. | Nro CXXVIII Pag XXIV. | G. Stettner. sc. Norib”
+  C3:
+    siglum: CH-Lz
+    shelfmark: Sondersammlung, KB B.36.a.fol.
+    rism: 990033865
+    license: public domain
+    notes: entitled “Wohlgeübter Organiſt; | Beſtehend | Aus einer Sammlung | von | XX. Toccaten für die Orgel; | Aufgeſezt | von | Herrn Johann Anton Kobrich, | Stadt=Pfarr=Organiſt in Landsberg. | Dritter Theil. | In Verlag Johann Ulrich Haffners, Lauteniſten in Nürnberg. | N:ro CXXXVIII Pag XXV. | G. Stettner. sc. Norib”
 imslp:
 extra_abbreviations:
   rh: right hand

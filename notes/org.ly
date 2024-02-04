@@ -3718,3 +3718,77 @@ FugaXIVOrgano = {
     <g g,>1\fermata \bar "|." %100 finis
   }
 }
+
+ToccataIOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4
+    << {
+      <a' c>1
+      r16 c b a d8 b c16 a b c b8 g
+      a2 r8 f f f
+      f f f f <f a c>2
+      d'4
+    } \\ {
+      f,1~
+      f~
+      f2 f,~
+      f es'
+      d4
+    } >> r16 b' a b c8 f, r16 a b a %5
+    b8 b, r16 d' c d c8 c, r16 c' b c
+    b,8 b' g b a, a' f a
+    g, g' es g f, f' d f
+    es, es' c es d, d' b d
+    c, c' a c << {
+      r4 b'~ %10
+      b c2 d4~
+      d e!
+    } \\ {
+      b,2 %10
+      c d
+      e!
+    } >> f8 a16 g f g a b %12
+    << { c2 } \\ { r4 c, } >> d8 f16 e d e f g
+    << { a2 } \\ { r4 a, } >> b8 d16 c b c d e
+    << { f2 } \\ { r4 f, } >> g8 g'16 f e c d e %15
+    << {
+      f2~ f4 g~
+      g a2 b4
+    } \\ {
+      r4 f, g2
+      a b
+    } >>
+    <h d f as>1 %18
+    c16 c' c, c' c, c' c, c' c, c' c, c' cis, cis' cis, cis'
+    d, d' c d b g a b c, c' b c a f g a %20
+    b, b' a b g e f g a, a' g a f d e f
+    g, g' f g e c d e << { f4 a } \\ { f, f' } >>
+    r2 <f f,>4 r
+    r8 f g a b g a b
+    c a b c d b c d %25
+    e c d e << {
+      f4 e
+      d c b a
+      g s r8 c16 b a4
+      b g a f
+      g e f2 %30
+      f4 g g8 a a a
+      b g a4 f g
+      e f d' b
+      c2 r8 f, f f
+      f f f f f2\fermata
+    } \\ {
+      r8 d'4 c8~ %26
+      c b4 a g f8~
+      f e f b, c2~
+      c1~
+      c2 f,4 a %30
+      b2 c~
+      c1~
+      c~
+      c2 f,~
+      f~ f
+    } >> \bar "|." %35 finis
+  }
+}

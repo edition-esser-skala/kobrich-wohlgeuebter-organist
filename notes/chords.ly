@@ -4151,3 +4151,89 @@ FugaXIVChords = {
     <h d g>1\fermata \bar "|." %100 finis
   }
 }
+
+ToccataIChords = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4
+    <f a>1
+    r16 a g f b8 g a16 f g a g8 e
+    f32 c d e f g a b c f, g a b c d e << {
+      f2~
+      f4 s8 <g, b> r4 c
+    } \\ {
+      r16 <a c> <g b> <a c> <b d>8 <g b> %3
+      <a c>16 <f a> <g b> <a c> <g b>8 <c, e> <f a>2
+    } >>
+    b32 f g a b c d es << { f4 } \\ { r16 d c d } >> es32 f, g a b c d es << { f4 } \\ { r16 c b c } >> %5
+    d32 b c d es f g a << { b4 } \\ { r16 f es f } >> es32 c d es f g a b << {
+      c4
+      r16 c b a b4 r16 b a g a4
+      r16 a g f g4 r16 g f es f4
+      r16 f es d es4 r16 es d c d4
+      r16 d c b c4 r16 c b a b4 %10
+      r8 c16 b \tuplet 3/2 8 { a[ b a] g a g } r8 d'16 c \tuplet 3/2 8 { b c b a[ b a] }
+      r b a b \tuplet 3/2 8 { c d c b[ c b] } r4 f'
+      r16 f e d e4~ e d
+      r16 d c b c4~ c b
+      r16 b a g a4~ a g~ %15
+      g8 f32 e f g a16 a, b a r8 g'32 f g a b16 b, c b
+      r8 a'32 g a b c16 c, d c r8 b'32 a b c d16 d, e d
+    } \\ {
+      r16 es' d es %6
+      d4 r16 d es d c4 r16 c d c
+      b4 r16 b c b a4 r16 a b a
+      g4 r16 g a g f4 r16 f g f
+      es4 r16 es f es d4 r16 d g f %10
+      e2 f
+      g a
+      g4 r16 g a g f2
+      e4 r16 e f e d2
+      c4 r16 c d c b2 %15
+      a4 s b s
+      c s d s
+    } >>
+    <f as h d>1 %18
+    << {
+      c'4^\critnote f2 e4~
+      e d2 c4~ %20
+      c b2 a4~
+      a g r16 g f e
+    } \\ {
+      a!2 g
+      f e %20
+      d c
+      b a4
+    } >> f'16 c d c
+    f c a' f c' f, g f a f c' a f' c a f
+    << {
+      f'2~ f8 g4.~ %24
+      g8 a4.~ a8 b4.~
+      b8 c4.
+    } \\ {
+      r8 a, b c d b c d %24
+      e c d e f d e f
+      g e f g
+    } >> a16 f b a g e a g %26
+    f d g f e c f e d b e d c a d c
+    b g c b << {
+      s8 b16 a g4 c~ %28
+      c8 b16 a b4~ b8 a16 g a4~
+      a8 g16 f g4~ g8 f16 e f es f es %30
+      r8 d'16 c b a g f e8 c' c c
+      r b'~ b8 a16 g a4~ a8 g16 f
+      g4~ g8 f16 e f4~ f8 e16 d
+      e2 f16 c b c d8 b
+      c16 a b c b8 <g b> <f a>2\fermata
+    } \\ {
+      a16 f g f e4 f16 g f e %28
+      d4 r16 f e d c4 r16 c d c
+      b4 r16 d c b a4 c %30
+      d2 s
+      d'4 c~ c8 d16 c b4~
+      b8 c16 b a4~ a8 b16 a g4~
+      g b a16 a g a b8 g
+      a16 f g a g8 <e c> c2
+    } >> \bar "|." %35 finis
+  }
+}
