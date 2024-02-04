@@ -3539,3 +3539,182 @@ FugaXIIIOrgano = {
     } >> \bar "|." %47 finis
   }
 }
+
+FugaXIVOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \dorian \time 2/2
+    r2 d'
+    b g
+    es' g,
+    fis d
+    g4 b a g %5
+    a c b a
+    b g es' g,
+    fis d d' c,
+    b g g'2~
+    g fis %10
+    g4 a b g
+    a h cis a
+    d d, f! d
+    g a b g
+    a g f e %15
+    f d e f
+    g2 a
+    d, g
+    a \voiceTwo cis,
+    d c %20
+    << {
+      \voiceFour s1
+      g'2 \voiceOne a
+    } \\ {
+      b,2 g~
+      g fis'
+    } >>
+    \oneVoice g4 a b g
+    << { c1 } \\ { r4 c, es c } >>
+    d e fis d %25
+    b' g fis e
+    << {
+      fis a g fis %27
+      g2~ g4 e
+      a2 b4 a
+    } \\ {
+      d,1 %27
+      s2 c4 cis
+      d1
+    } >>
+    g4 g,8 a b4 g %30
+    c a d d,
+    << { r2 g' } \\ { g,1 } >>
+    a2 << {
+      \once \oneVoice a'_~
+      a1
+    } \\ {
+      s2 %33
+      f d
+    } >>
+    b'! d, %35
+    << { a'1 } \\ { cis,2 a } >>
+    d4 f e d
+    e g f e
+    f d b' d,
+    cis a a' g, %40
+    f d d'2~
+    d << {
+      a'~
+      a1
+      s2. c4~
+      c1 %45
+      b
+      r4 c8 b a4 g
+      a1
+      e4 g f e
+      r a b2~ %50
+      b a4 g
+      f f s2
+      s1
+      r2 d
+      g4 b a g %55
+      fis c'! b! a
+      b2 s
+      \once \stemUp d, \once \stemDown d'~
+      d1
+    } \\ {
+      cis,2 %42
+      d a4 b!
+      c! d e c
+      f a g f %45
+      r b,8 c d4 b
+      c2 s
+      r4 f e d
+      c1
+      f2 b, %50
+      c1
+      s4 f,8 g a4 b
+      \oneVoice c b c c, \voiceTwo
+      d1
+      c'2 s4 cis %55
+      d1
+      g2 c4 cis
+      s1
+      b2 g
+    } >>
+    es' g, %60
+    fis d
+    g4 b a g
+    << { a c b a } \\ { d,1 } >>
+    b'4 g es' g,
+    fis d d' c, %65
+    b g g'2~
+    g fis
+    g4 a b g
+    a h cis a
+    d d, f! d %70
+    g a b g
+    << {
+      a g f e
+      f a g f
+      b e d cis
+      d2 b %75
+      a e
+      f4 d e fis
+      d1
+      fis4 g a fis
+    } \\ {
+      a,2 s %72
+      d1
+      g2 a
+      d, g~ %75
+      g cis,
+      d c
+      b g
+      d'1
+    } >>
+    g4 d b g %80
+    g' a b g
+    << {
+      c1~
+      c2 a
+    } \\ {
+      r4 c, es? c %82
+      d e fis d
+    } >>
+    b' g fis e
+    << {
+      fis a g fis %85
+      g2~ g4 e
+      a2 b4 a
+    } \\ {
+      d,1 %85
+      g,2 c4 cis
+      d1
+    } >>
+    g4 g,8 a b4 g %88
+    c a d d,
+    << {
+      r c'' b a %90
+      b2 a4 c
+      b g fis a
+      g2 b
+      c a
+      b g %95
+      a fis
+      g es
+      a b
+      a1
+    } \\ {
+      es1 %90
+      d~
+      d~
+      d~
+      d~
+      d~ %95
+      d~
+      d~
+      d~
+      d
+    } >>
+    <g g,>1\fermata \bar "|." %100 finis
+  }
+}

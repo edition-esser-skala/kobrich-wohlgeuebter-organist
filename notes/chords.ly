@@ -3976,3 +3976,178 @@ FugaXIIIChords = {
     <e g c>1\fermata \bar "|." %47 finis
   }
 }
+
+FugaXIVChords = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \dorian \time 2/2
+    R1*11 %11
+    r2 a'
+    f d
+    b' d,
+    cis a %15
+    d4 f e d
+    e g f e
+    f d b' d,
+    cis a a' \lh \voiceOne g,
+    f d e fis %20
+    g a b g
+    c a \rh \oneVoice d'2
+    b g
+    es' g,
+    fis << {
+      s %25
+      g4 b a g
+      a c b a
+    } \\ {
+      \once \stemUp d,2~ %25
+      d1~
+      d
+    } >>
+    b'4 g es' g,
+    fis d d' c,
+    b g << {
+      g'2~ %30
+      g fis
+      g4 a b2
+      r4 e,8 f \once \slurDown \appoggiatura a g4 f8 e
+      r4 f8 g a4 f
+    } \\ {
+      r4 b, %30
+      a1
+      b2 r8 g' e d
+      cis1
+      d
+    } >>
+    d4 e f d %35
+    e e8 f << {
+      g2 %36
+      f4 a g d'~
+      d2. cis4
+      d2 r8 d e f
+      e2 cis %40
+      d1
+      g,4 f8 g a4 g
+      f g a2
+      g c
+      a1 %45
+      d2
+    } \\ {
+      r8 e, d cis %36
+      d2. f4
+      g1
+      a4 f r a~
+      a1 %40
+      r4 f8 g a4 g8 f
+      e1
+      d4 e f2~
+      f e
+      g f~ %45
+      f
+    } >> f
+    e c
+    f4 a g f
+    << {
+      g b a g %49
+      a f
+    } \\ {
+      e2 c~ %49
+      c
+    } >> d'4 f, %50
+    e c c' b,
+    a s << {
+      f'2~ %52
+      f e
+      f1
+      e4 g f e %55
+      d es d fis
+      g d' c b
+      a1
+    } \\ {
+      a,2 %52
+      g1
+      r4 d' a h
+      c2. s4 %55
+      s1
+      s4 b' a g~
+      g2 fis
+    } >>
+    g4 a b a %59
+    g b \appoggiatura c8 b4 a8 g %60
+    << {
+      a1
+      b4 d c b
+      fis a g fis
+      b1
+      a %65
+      b2. d4
+      c b8 c d4 c
+      b1
+      <g cis>2 a4 g
+      d'2 a %70
+      b1
+    } \\ {
+      r4 d, g8 fis e d %61
+      d1
+      s
+      g
+      d2 fis %65
+      g2. b4
+      a1~
+      a2 g
+      e1
+      f2 d~ %70
+      d d
+    } >>
+    cis a %72
+    d4 f e d
+    e g f e
+    f d b' d, %75
+    cis a a' g,
+    s1
+    g4 a b g
+    a b c a
+    b2 << {
+      d'~ %80
+      d1
+    } \\ {
+      s2 %80
+      b2 g
+    } >>
+    es' g,
+    fis << {
+      s %83
+      g4 b a g
+      a c b a %85
+    } \\ {
+      \once \stemUp d,2~ %83
+      d1~
+      d %85
+    } >>
+    b'4 g es' g,
+    fis d d' c,
+    b g << {
+      g'2~ %88
+      g fis
+    } \\ {
+      r4 b, %88
+      a1
+    } >>
+    g'4 es d c %90
+    d g fis a
+    g b a c
+    b d g d~
+    d es2 f!8 c~
+    c4 d2 es8 b~ %95
+    b4 c2 d8 a~
+    a4 b2 c8 g
+    fis4 d << {
+      g2~ %98
+      g fis
+    } \\ {
+      d2~ %98
+      d2. c4
+    } >>
+    <h d g>1\fermata \bar "|." %100 finis
+  }
+}

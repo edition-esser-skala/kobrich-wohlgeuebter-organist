@@ -578,19 +578,34 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.13" "Fuga XIII:tia"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \FugaXIIIChords }
+  %         \new Staff = "LH" { \FugaXIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2.13" "Fuga XIII:tia"
+    \section "2.14" "Fuga XIV:ta"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \FugaXIIIChords }
-          \new Staff = "LH" { \FugaXIIIOrgano }
+          \new Staff = "RH" { \FugaXIVChords }
+          \new Staff = "LH" { \FugaXIVOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 120 }
     }
   }
 }
