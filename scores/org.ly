@@ -624,19 +624,34 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.2" "Toccata II:da"
+  %   \addTocEntry
+  %   \paper { page-count = #4 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataIIChords }
+  %         \new Staff = "LH" { \ToccataIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3.2" "Toccata II:da"
+    \section "3.3" "Toccata III:tia"
     \addTocEntry
-    \paper { page-count = #4 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataIIChords }
-          \new Staff = "LH" { \ToccataIIOrgano }
+          \new Staff = "RH" { \ToccataIIIChords }
+          \new Staff = "LH" { \ToccataIIIOrgano }
         >>
       >>
-      \layout { }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
       \midi { \tempo 4 = 100 }
     }
   }

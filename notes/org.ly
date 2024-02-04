@@ -3984,3 +3984,105 @@ ToccataIIOrgano = {
     <f f,>\fermata \bar "|." %103 finis
   }
 }
+
+ToccataIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4
+    <d fis a>1
+    << { d8 } \\ { d, } >> r r4 << { d'8 } \\ { d, } >> r r4
+    << { d'8 } \\ { d, } >> r r4 r2
+    r << { <e' g> } \\ { d } >>
+    <d fis a>1 %5
+    << {
+      r8 c' c c c h16 a h h c h
+      a4 d~ d~ d16 d c h
+      c4~ c16 c h a h4 e~
+      e2 fis
+      <cis! e> %10
+    } \\ {
+      d,1~ %6
+      d2 e~
+      e1
+      a
+      a2
+    } >> d32 d, e fis g a h cis d16 d, fis a %10
+    d a fis' d \rh a' fis d cis \kneeBeam h32 \lh h, cis d e fis gis ais h16 h, d fis
+    h fis d' h fis' d h a gis32 e fis gis a h cis d e16 e, gis h
+    e e, d' e, cis' e, cis' e, cis' e, h' e, a8 r
+    cis h a gis a32 a, h cis d e fis gis a16 a, cis e
+    a e cis' a e' cis a gis a32 a, h cis d e fis gis a16 g fis e %15
+    << { <fis a>2 } \\ { d } >> r
+    dis16 dis' \hA dis, \hA dis' \hA dis, \hA dis' \hA dis, \hA dis' \hA dis, \hA dis' \hA dis, \hA dis' \hA dis, \hA dis' \hA dis, \hA dis'
+    e, e' e, e' e, e' e, e' e, e' e, e' e, e' e, e'
+    cis,! cis' cis, cis' cis, cis' cis, cis' cis, cis' cis, cis' cis, cis' cis, cis'
+    d,! d'! d, d' d, d' d, d' d, d' d, d' d, d' d, d' %20
+    ais, ais' \hA ais, \hA ais' \hA ais, \hA ais' \hA ais, \hA ais' \hA ais, \hA ais' \hA ais, \hA ais' \hA ais, \hA ais' \hA ais, \hA ais'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    << { <ais cis>2 } \\ { fis } >> r
+    << { <h d> } \\ { fis } >> r
+    << { <ais cis> } \\ { fis } >> r %25
+    eis'32 eis, fis gis ais h cis dis eis16 eis, gis h \hA eis \hA eis, \hA gis h \hA eis h \hA gis \hA eis
+    << { <fis ais cis>2 } \\ { e } >> r
+    dis'32 dis, e fis gis a h cis dis16 dis, fis a \hA dis \hA dis, fis a \hA dis a fis \hA dis
+    << { <e gis h>2 } \\ { d } >> r
+    a'32 cis, d e fis gis a h cis16 cis, e a cis cis, e a cis a e cis %30
+    << { h'2 <gis h> } \\ { h, e } >>
+    <a a,>4 r r2
+    <ais ais,>4 r r2
+    <h h,>4 r r2
+    <his his,>4 r r2 %35
+    << { <eis, gis>2 } \\ { cis } >> r
+    << { <fis a!> } \\ { cis } >> r
+    << { <eis gis> } \\ { cis } >> r
+    r32 fis gis a! h cis dis eis fis16 fis, a cis \rh fis cis a' fis cis' a fis e \lh
+    <dis dis,>2 r %40
+    r32 e, fis gis a h cis dis e16 e, gis h e h gis' e \rh h' gis e d \lh
+    << { e2 } \\ { cis } >> r
+    d8 cis h a h a g! fis
+    g fis e d e d cis h
+    a16 a' a, a' a, a' a, a' a, a' a, a' a, a' a, a' %45
+    a, a' a, a' a, a' ais, ais' h, h' cis, cis' d, d' e, e'
+    fis, fis' fis, fis' fis, fis' fis, fis' fis, fis' fis, fis' fis, fis' fis, fis'
+    fis, fis' fis, fis' fis, fis' fis, fis' fis, fis' fis, fis' fis, fis' fis, fis'
+    e, e' e, e' e, e' e, e' e, e' e, e' e, e' e, e'
+    e, e' e, e' e, e' e, e' e, e' e, e' e, e' e, e' %50
+    d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d'
+    d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d'
+    r cis cis, cis' r cis cis, cis' r cis cis, cis' r cis cis, cis'
+    r h h, h' r h h, h' r h h, h' r h h, h'
+    r a a, a' r a a, a' r a a, a' r a a, a' %55
+    << { g8 } \\ { g, } >> r r4 r2
+    g4 r g' r
+    cis8 a d a cis a d a
+    ais fis h fis ais fis h fis
+    gis e a e gis e a e %60
+    eis cis fis cis eis cis fis cis
+    dis16 h' h, h' e, h' h, h' dis, h' h, h' e, h' h, h'
+    cis, a' a, a' d, a' a, a' cis, a' a, a' d, a' a, a'
+    g, g' fis g g, g' fis g g, g' fis g g, g' fis g
+    g, g' fis g g, g' fis g g, g' fis g g, g' fis g %65
+    a,8 r r4 r2
+    \once \override MultiMeasureRest.staff-position = #-6 R1
+    gis'16 d' h d \hA gis, d' h d \hA gis, d' h d \hA gis, d' h d
+    a e' cis e a, e' cis e a, e' cis e a, e' cis e
+    a, fis'! d fis a, fis' d fis a, fis' d fis a, fis' d fis %70
+    a,, a' gis a a, a' \hA gis a a, a' \hA gis a a, a' \hA gis a
+    r32 d, e fis g a h cis d16 d, fis a d a fis' d \rh a' fis d cis \lh
+    h32 h, cis d e fis gis ais h16 h, d fis h fis d' h fis' d h a!
+    g32 g, a h c d e fis g16 g, h d g d h' g \rh d' h g' d \lh
+    << { cis!2 } \\ { a } >> d8 r g, r %75
+    << {
+      r fis e8. g16 fis8. a16 g8. h16
+      a8 g fis e fis4 e8. g16
+      fis2 a
+      h cis
+    } \\ {
+      a,1~ %76
+      a
+      d~
+      d
+    } >>
+    <d fis a>\fermata \bar "|." %80 finis
+  }
+}

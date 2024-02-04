@@ -4439,3 +4439,124 @@ ToccataIIChords = {
     <c f a>1\fermata \bar "|." %103 finis
   }
 }
+
+ToccataIIIChords = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4
+    <d fis>1
+    r16 a h a d a fis' d a' d, e d fis d a' fis
+    d' a h a d a fis' d a' g fis e d cis h a
+    d cis h a g fis e d << { <e g>2 } \\ { cis } >>
+    <d fis>1 %5
+    << {
+      d'1~
+      d2. h4~
+      h16 e, fis gis a4~ a16 a g fis r h e d
+      cis! e a, h cis d e cis
+    } \\ {
+      r8 a a a a g16 fis g4~ %6
+      g16 g fis e fis fis gis a gis h e, gis s4
+      s e2 g4~
+      g2
+    } >> d'16 a h cis d a h a
+    g cis e d cis h a g << { <a d>2 } \\ { fis } >> %10
+    r2 <fis h d>
+    r << { <h d> } \\ { <gis e> } >>
+    cis8 h a e' \tuplet 3/2 8 { e16 fis e d[ e d] } cis32 e, fis gis a h cis d
+    e16 e, d' e, cis' e, h' e, << { <a cis>2 } \\ { e } >>
+    r2 << { <a cis> } \\ { e } >> %15
+    fis32 d e fis g! a h cis d16 d, fis a d a fis' d a' fis e d
+    a' c, d \hA c a' \hA c, d \hA c a' \hA c, d \hA c a' \hA c, d \hA c
+    g' h, c h g' h, \hA c h g' h, \hA c h g' h, \hA c h
+    g' a, h a g' a, h a g' a, h a g' a, h a
+    fis' a, h a fis' a, h a fis' a, h a fis' a, h a %20
+    e' fis, g fis e' fis, g fis e' fis, g fis e' fis, g fis
+    d' fis, g fis d' fis, g fis d' fis, g fis d' fis, g fis
+    ais32 fis gis ais h cis d e fis16 fis, ais cis fis fis, ais cis fis e d cis
+    d32 fis, gis ais h cis d e fis16 fis, h d fis fis, h d fis d cis h
+    e32 fis, gis ais h cis d e e16 fis, ais cis e fis, ais cis e cis h cis %25
+    << { <h d>2 } \\ { gis } >> r
+    cis32 fis, gis ais h cis dis eis fis16 fis, ais cis fis fis, ais cis fis cis h ais
+    << { <a c>2 } \\ { fis } >> r
+    gis32 e! fis gis a h cis d e16 e, gis h e e, gis h e h a gis
+    << { <a cis>2 } \\ { e } >> r %30
+    d'16 cis h a gis a gis a h a gis fis e d cis h-\critnote
+    r a cis a e' cis a' e cis' a e' cis a' e cis a
+    r e' g! e cis e ais, cis g ais e g cis, e ais, cis
+    r h d h fis' d h' fis d' h fis' d h' fis d h
+    r fis' a! fis dis fis c dis a c fis, a dis, fis c dis %35
+    r cis eis cis gis' eis cis' cis, \hA eis cis \hA gis' \hA eis cis' gis eis \hA gis
+    a cis, fis cis a' fis cis' a fis' fis, a cis fis cis a' fis
+    gis cis, eis \hA gis \hA eis cis \hA eis \hA gis h gis \hA eis \hA gis \hA eis \hA gis cis, eis
+    << { a2 } \\ { fis } >> r
+    h32 h, cis dis e fis gis ais h16 h, dis fis h h, dis fis h a! gis fis %40
+    << { gis2 } \\ { e } >> r
+    a32 a, h cis d e fis gis a16 a, cis e a a, cis e a g! fis e
+    \tuplet 3/2 8 { fis[ g fis] e fis e d[ e d] cis d cis d[ e d] cis d cis h[ cis h] a h a
+    h[ cis h] a h a g[ a g] fis g fis g[ a g] fis g fis e[ fis e] d e d }
+    << {
+      e8 g fis d' cis e d fis %45
+      e g fis e d d d d
+      cis e16 cis cis8 e16 cis d8 fis16 d d8 fis16 d
+      cis8 e16 cis cis8 e16 cis d8 fis16 d d8 fis16 d
+      h8 d16 h h8 d16 h cis8 e16 cis cis8 e16 cis
+      h8 d16 h h8 d16 h cis8 e16 cis cis8 e16 cis %50
+      a8 c16 a a8 \hA c16 a h8 d16 h h8 d16 h
+      a8 c16 a a8 \hA c16 a h8 d16 h h8 d16 h
+    } \\ {
+      cis,8 e d fis e g fis d' %45
+      cis e d cis h h h h
+      ais cis16 \hA ais ais8 cis16 \hA ais h8 d16 h h8 d16 h
+      ais8 cis16 \hA ais ais8 cis16 \hA ais h8 d16 h h8 d16 h
+      gis8 h16 \hA gis gis8 h16 \hA gis a8 cis16 a a8 cis16 a
+      gis8 h16 \hA gis gis8 h16 \hA gis a8 cis16 a a8 cis16 a %50
+      fis8 a16 fis fis8 a16 fis g8 h16 g g8 h16 g
+      fis8 a16 fis fis8 a16 fis g8 h16 g g8 h16 g
+    } >>
+    << { gis8 } \\ { eis } >> r << { a } \\ { fis } >> r << { gis } \\ { eis } >> r << { a } \\ { fis } >> r
+    << { fis } \\ { dis } >> r << { gis } \\ { e } >> r << { fis } \\ { dis } >> r << { gis } \\ { e } >> r
+    << { e } \\ { cis } >> r << { fis } \\ { d } >> r << { e } \\ { cis } >> r << { fis } \\ { d } >> r %55
+    r16 h e h e h g' e h' g e' h g' e h' g
+    h a g fis e d cis h h' a g fis e d cis h
+    e a, g' a, fis' a, a' a, e' a, g' a, fis' a, a' a,
+    cis fis, e' fis, d' fis, fis' fis, cis' fis, e' fis, d' fis, fis' fis,
+    h e, d' e, cis' e, e' e, h' e, d' e, cis' e, e' e, %60
+    gis cis, h' cis, a' cis, cis' cis, gis' cis, h' cis, a' cis, cis' cis,
+    fis8 a gis h fis a gis h
+    e, g fis a e g fis a
+    h, dis e4 e8 g g h
+    h e e g h g e d! %65
+    cis16 g' e cis g' e cis a g e cis a \lh g e cis a
+    d a fis' d a' fis d' a \rh fis' d a' fis d' a fis' d
+    << {
+      f2 f %68
+      cis8 cis cis cis cis cis cis cis
+      d d d d d d d d %70
+      <a d>2 <a cis>
+      <a d> \once \oneVoice r
+      <h d> \once \oneVoice r
+      <h d> \once \oneVoice r
+    } \\ {
+      r8 gis h d r gis, h d %68
+      g, g g g g g g g
+      a a a a a a a a %70
+      fis2 e
+      fis s
+      fis s
+      g s
+    } >>
+    e'32 a, h cis d e fis g a16 g fis e fis32 e d cis h a g fis h a g fis e d cis h %75
+    a8 d~ d16 cis e8~ e16 d fis8~ fis16  e g8~
+    g16 fis8 e d cis16 << {
+      d4. cis8 %77
+      d2 fis
+      g g
+    } \\ {
+      a,2 %77
+      a d~
+      d e
+    } >>
+    <d fis>1\fermata \bar "|." %80 finis
+  }
+}
