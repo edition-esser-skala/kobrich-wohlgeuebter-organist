@@ -3792,3 +3792,195 @@ ToccataIOrgano = {
     } >> \bar "|." %35 finis
   }
 }
+
+ToccataIIOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4
+    << {
+      <a' c>1
+      g8 a b c d b c a
+      g a b c b a b g
+      a1
+      es'2 d %5
+    } \\ {
+      f,1~
+      f~
+      f
+      f
+      f %5
+    } >>
+    <f b des e>
+    <es es'>
+    << {
+      r2 \rh \once \voiceTwo g' \lh %8
+      f b,
+      r \rh \once \voiceTwo g \lh %10
+      f
+    } \\ {
+      r8 d'! c b r es d c %8
+      r4 f, r b,
+      r8 d c b r es d c %10
+      r4 f,
+    } >> b2
+    <h d f as>1 %12
+    r4 r8 << {
+      <f' as> c'2~
+      c1~
+      c2 <a! c>~ %15
+      q r4 d
+      r8 f! d f r es c es
+      r d h d
+    } \\ {
+      <h, d>8 c2 %13
+      d es
+      f fis~ %15
+      fis g~
+      g1
+      g2
+    } >> r8 c c, c'
+    r b! b, b' r as as, \hA as'
+    r a a, a' r g g, g' %20
+    r f f, f' r f f, f'
+    <e! e,!>1
+    << {
+      r2 \rh \once \voiceTwo f' \lh %23
+      e a,
+      r f %25
+      e
+    } \\ {
+      r8 c' h a r d c h %23
+      r4 e, r a,
+      r8 c h a r d c h %25
+      r4 e,
+    } >> a2
+    <g! g'!>1~
+    q
+    << {
+      r2 \rh \once \voiceTwo b'! \lh %29
+      a d, %30
+      \rh \voiceThree g'\rest b
+      a \lh \voiceOne d,
+      r4 b c2~
+      c4 a b2~
+      b4 g a2~ %35
+      a4 f g2~
+      g4 e f r
+    } \\ {
+      r8 f e d r g f e %29
+      r4 a, r d, %30
+      \rh \voiceFour d''8\rest f e d r g f e
+      r4 a, \lh \voiceTwo r d,
+      g2 r4 c,
+      f2 r4 b,
+      e2 r4 a, %35
+      d2 r4 g,
+      c2 f,4 r
+    } >>
+    f' g a b %38
+    f g a b
+    c8 c, b' c, a' c, a' c, %40
+    c' c, b' c, a' c, a' c,
+    <b b'>2 r
+    << {
+      c' f,
+      r4 b2 c4~
+      c d2 e4 %45
+    } \\ {
+      r4 c,8 e r4 f,8 a %43
+      b2 c
+      d e %45
+    } >>
+    f4 r f, r
+    << {
+      r2 \rh \once \voiceTwo d'' \lh %47
+      c f,
+      \rh \voiceThree b'\rest d
+      c \lh f, %50
+    } \\ {
+      r8 a, g f r b a g %47
+      r4 c, r f,
+      \rh \voiceFour r8 a'' g f r b a g
+      r4 c, \lh r f, %50
+    } >>
+    r8 a16 g a8 f b f d' f,
+    c' f, es' f, d' f, f' f,
+    r8 a16 g a8 f b f d' f,
+    c' f, es' f, d' f, f' f,
+    a f a f b f b f %55
+    a f a f b f b f
+    r h16 a \hA h8 g c g e' g,
+    d' g, f' g, e' g, g' g,
+    r h16 a \hA h8 g c g e' g,
+    d' g, f' g, e' g, g' g, %60
+    h g \hA h g c g c g
+    h g \hA h g c g c g
+    r cis16 h \hA cis8 a d a f' a,
+    \rh \voiceTwo e' a, g' a, f' a, a' a,
+    \lh \oneVoice r cis16 h \hA cis8 a d a f' a, %65
+    \rh \voiceTwo e' a, g' a, f' a, a' a,
+    \lh \oneVoice cis a \hA cis a d a d a
+    cis a \hA cis a d a d a
+    \rh \voiceTwo r e'16 d e8 c f c a' c,
+    g' c, b' c, a' c, c' c, %70
+    r e16 d e8 c f c a' c,
+    g' c, b' c, a' c, c' c,
+    \lh \oneVoice e c e c f c f c
+    e c e c f c f c
+    << {
+      r2 \rh \once \voiceTwo es \lh %75
+      d g,
+      r \rh \once \voiceTwo g' \lh
+      f b,
+    } \\ {
+      r8 b a g r c b a %75
+      r4 d, r g,
+      r8 d'' c b r es d c
+      r4 f, r b,
+    } >>
+    <g g'>1 %79
+    c'8 c,16 d es8 d c es g c %80
+    <f, f,>1
+    b,4 b' r2
+    b4 c, a' c,
+    e c f c
+    b' c, a' c, %85
+    e c f c
+    <h d f as>1
+    R
+    <b! b'!>
+    << {
+      \rh \voiceThree b''2\rest d %90
+      c \lh \voiceOne f,
+      r \rh \once \voiceTwo d \lh
+      c f,
+    } \\ {
+      \rh \voiceFour r8 a'! g f r b a g %90
+      r4 c, \lh \voiceTwo r f,
+      r8 a g f r b a g
+      r4 c, r f,
+    } >>
+    b r << { b' } \\ { b, } >> r
+    << {
+      r8 b' g e f a b h %95
+      r4 c r c
+      r c r c
+      r c b2
+    } \\ {
+      c,2 c %95
+      c c
+      c c
+      c c
+    } >>
+    a'8 g16 f d'8 c16 h c4 c,
+    <f a c>1 %100
+    << {
+      g8 a b c d b c a
+      g a b c b a b g
+    } \\ {
+      f1~
+      f
+    } >>
+    <f f,>\fermata \bar "|." %103 finis
+  }
+}

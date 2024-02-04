@@ -609,15 +609,31 @@
   %   }
   % }
   % \part "three" "3" "Dritter Theil"
+  % \bookpart {
+  %   \section "3.1" "Toccata I:ma"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataIChords }
+  %         \new Staff = "LH" { \ToccataIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3.1" "Toccata I:ma"
+    \section "3.2" "Toccata II:da"
     \addTocEntry
+    \paper { page-count = #4 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataIChords }
-          \new Staff = "LH" { \ToccataIOrgano }
+          \new Staff = "RH" { \ToccataIIChords }
+          \new Staff = "LH" { \ToccataIIOrgano }
         >>
       >>
       \layout { }

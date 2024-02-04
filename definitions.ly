@@ -14,8 +14,6 @@ divideThreeFourTime = {
     #'(4)
     #'((end . ( ((1 . 8) . (2 2 2)))))
 }
-
-
 pedale = \markup \remark "Pedale"
 
 

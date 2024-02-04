@@ -4237,3 +4237,205 @@ ToccataIChords = {
     } >> \bar "|." %35 finis
   }
 }
+
+ToccataIIChords = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4
+    <f a c f>1
+    e8 f g a b g a f
+    e f g a g f g e
+    f16 c d e f32[ e f g] a g a b c16 f, g a b32[ a b c] d c d e
+    << { f1 } \\ { a,2 b } >> %5
+    <g b des e!>1
+    <a c f>
+    << {
+      s2 c %8
+      r8 c d es d es f4
+      s2 c, %10
+      r8 c d es d es f4
+    } \\ {
+      b1 %8
+      r8 a b c b c d4
+      b,1 %10
+      r8 a b c b c d4
+    } >>
+    r8 f g16 f es f d8 as' g fis
+    g d es f es c' d16 c h c
+    f,8 c' d16 c h c g8 c d16 c h c
+    as8 c d16 c h c << { <c es>2 } \\ { a! } >> %15
+    r8 es' d c h g' h, g
+    as2 g
+    f << {
+      c' %18
+      c c
+      c <g h> %20
+      h~ <h d>
+    } \\ {
+      es,2 %18
+      e f
+      fis d
+      <f as>~ q
+    } >>
+    <e gis h d>1 %22
+    << {
+      s2 h'
+      r8 h c d c d e4
+      s2 h, %25
+      r8 h c d c d e4
+    } \\ {
+      a1 %23
+      r8 gis a h a h c4
+      a,1 %25
+      r8 gis a h a h c4
+    } >>
+    r8 cis e g! b! cis e g %27
+    b \tuplet 3/2 8 { g16 a g } e8 cis \tuplet 3/2 8 { e16[ cis b!] cis b! g b[ g e] g e cis }
+    << {
+      s2 e %29
+      r8 e f g f g a4 %30
+      s2 e'
+      r8 e f g f g a4
+      b2 r16 g a g c8 b
+      a2 r16 f g f b8 a
+      g2 r16 e f e a8 g %35
+      f2 r16 d e d g8 f
+      e2
+    } \\ {
+      d,1 %29
+      r8 cis d e d e f4 %30
+      d'1
+      s8 cis d e d e f4
+      r16 d e d g8 f e2
+      r16 c d c f8 e d2
+      r16 b c b e8 d c2 %35
+      r16 a b a d8 c b2
+      r16 g a g c8 b
+    } >> a16 a, b c d e f g %37
+    a8-! \tuplet 3/2 8 { f16 e f } b8 f c'-! \tuplet 3/2 8 { f,16 e f } d'8 f,
+    a8-! \tuplet 3/2 8 { f16 e f } b8 f c'-! \tuplet 3/2 8 { f,16 e f } d'8 f,
+    e-! \tuplet 3/2 8 { c'16 d c } e,8 c' f,-\parenthesize-! \tuplet 3/2 8 { c'16 d c } f c a f %40
+    e8-! \tuplet 3/2 8 { c'16 d c } e,8 c' f,-! \tuplet 3/2 8 { c'16 d c } f c a f
+    d g fis g b g d' b g' d b' a g f e f
+    e8 g16 f e d c b a8 c16 b a g f e
+    << {
+      r8 d'16 c b a g f r8 e'16 d c b a g %44
+      r8 f'16 e d c b a r8 g'16 f e d c b
+    } \\ {
+      d,2 e %44
+      f g
+    } >>
+    a16 a' g f e d c b a f' e d c b a g %46
+    << {
+      s2 g
+      r8 g a b a b c4
+      s2 g'
+      r8 g a b a b c4 %50
+      es,,2
+    } \\ {
+      f1 %47
+      r8 e f g f g a4
+      f'1
+      s8 e f g f g a4 %50
+      c,,2
+    } >> d4 b'
+    a d16 c b c b4 d
+    << { es,2 } \\ { c } >> d4 b'
+    a d16 c b c b4 d
+    << {
+      f f16 es d \hA es d4 f~ %55
+      f f16 es d \hA es d2
+    } \\ {
+      f,1~ %55
+      f
+    } >>
+    << { f2 } \\ { d } >> e!4 c' %57
+    h e16 d c d c4 e
+    << { f,2 } \\ { d } >> e4 c'
+    h e16 d c d c4 e %60
+    << {
+      g g16 f e f e4 g~
+      g g16 f e f e2
+    } \\ {
+      g,1~ %61
+      g
+    } >>
+    << { g2 } \\ { e } >> f4 d'
+    \voiceOne cis f16 e d e d4 f
+    << { g,2 } \\ { e } >> f4 d' %65
+    cis f16 e d e d4 f
+    << {
+      a a16 g f g f4 a~ %67
+      a a16 g f g f2
+    } \\ {
+      a,1~ %67
+      a
+    } >>
+    <b g>2 a4 f'
+    e a16 g f g f4 a %70
+    <b, g>2 a4 f'
+    e a16 g f g f4 a \oneVoice
+    << {
+      c c16 b a b a4 c~ %73
+      c c16 b a b a2
+      s2 a, %75
+      r8 a b c b c d4
+      s2 c
+      r8 c d es d es f4
+      f1
+      es~ %80
+      es
+    } \\ {
+      c1~ %73
+      c
+      g %75
+      r8 fis g a g a b4
+      b1
+      r8 a b c b c d4
+      r8 h16 c d8 \hA h g h d \hA h
+      <g c>1 %80
+      r8 a16 b! c8 a f a c a
+    } >>
+    d b a g fis g d f %82
+    e c'16 d c8 c f, c'16 d c8 c
+    g c16 d c8 c a c16 d c8 c
+    e,16 c' d c e, c' d c f, c' d c f, c' d c %85
+    g c d c g c d c a c d c a c d c
+    <f, as h d>1
+    r16 d f as f d as' f h as d h f' d as' f
+    <e! c g>1
+    << {
+      s2 g %90
+      r8 g a b a b c4
+      s2 g,
+      r8 g a b a b c4
+    } \\ {
+      f1 %90
+      s8 e f g f g a4
+      f,1
+      r8 e f g f g a4
+    } >>
+    r16 g fis g a g fis g d' c b a g f e f %94
+    e4 b' a8 <f a> q q %95
+    << {
+      a f' g16 f e f r8 e f16 e d e
+      r8 d e16 d c d r8 c d16 c b c
+      r8 b c16 b a b c2
+      a g
+    } \\ {
+      f8 a4. g2 %96
+      f e
+      d <e g>
+      f~ f8. e32 d e4
+    } \\ {
+      s1 %96
+      s
+      s
+      s2 r4 r8 b'
+    } >>
+    <f a>1 %100
+    e8 f g a b g a f
+    e f g a g f g e
+    <c f a>1\fermata \bar "|." %103 finis
+  }
+}
