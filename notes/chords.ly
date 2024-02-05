@@ -4668,3 +4668,86 @@ ToccataIVChords = {
     <d fis>1\fermata \bar "|." %45 finis
   }
 }
+
+ToccataVChords = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4
+    <e g c>1
+    q
+    q
+    << { <g c>2 <cis e> } \\ { e, <g b> } >>
+    r8 cis, e g32 fis g a b8 cis e g32 fis g a %5
+    b8 g e cis b g e cis
+    <fis a c es>1~
+    q~
+    q~
+    q %10
+    <g d'>
+    <f! gis h d>
+    r8 \tuplet 3/2 8 { d'16 cis d } f8-! d-! h! \tuplet 3/2 8 { f'16 e f } as8-! f-!
+    d16 as' f d h f' d h gis d' h gis f h gis f
+    d gis f d h f' d h c a c e a c, e a %15
+    c e, a c e a, c e << {
+      <e b'>2
+      a a
+      <fis a>1
+      r16 a g fis g4 r16 g f e f4
+      r16 f e d e4 r16 e d c d4 %20
+    } \\ {
+      cis2 %16
+      r8 f cis d r f cis d
+      <c es>1
+      h4 r16 h c h a4 r16 a h a
+      g4 r16 g a g f4 r16 f g f %20
+    } >>
+    e4 fis8 a c es c es %21
+    a, f'! a, f' b, d f b
+    b16 g a32[ g fis g] e16 g cis, e b cis g b e, g cis, e
+    \tuplet 3/2 8 { f[ e f] g f g a[ g a] } << { b g f8 e <e b'>4 } \\ { s16 e d8 cis cis4 } >>
+    r16 d f d a' f d' a f' d a' f d a f d %25
+    << {
+      gis'4 a~ a8 g16 fis g4~
+      g fis8 g16 fis e4~ e8 a16 g
+      fis4 g~ g8 f16 e f4~
+      f e8 f16 e d4~ d8 g16 f
+      e4 f~ f8 e16 d e4 %30
+      r16 f a g f e d c
+    } \\ {
+      d8 h! c d16 c h4 r16 h e d %26
+      cis8 a d4~ d8 c16 h c4~
+      c8 a h c16 h a4 r16 a d c
+      h8 g c4~ c8 b16 a b4~
+      b8 g a b16 a g4. b8 %30
+      a2
+    } >> h!16 c d c h a g f %31
+    e8-! d'32( c h c) g8-! e'-! c-! a'32( g f g) e8 c'
+    << { h a g f e a32_( g f g) } \\ { g8 f e d c r } >> e-! c'-!
+    << { h a g f e4 } \\ { g8 f e d c4 } >> r
+    << { g' } \\ { b, } >> r a16 f d' c h g e' d %35
+    c a f' e d h g' f e gis a gis a f e d
+    e c' h c d, h' a h c, a' g a h, g' f g
+    a, f' e f g, e' d e f, d' c d e, c' h c
+    << {
+      <f, h>2 a %39
+      r16 a'32 fis r16 fis32 es r16 es32 c r16 c32 a r16 a32 fis r16 fis32 es r16 es32 c r16 c32 a %40
+      \lh r16 a32 fis r16 fis32 es r16 es32 c r16 c32 a \rh <d' f>2
+      e! d
+      e f
+    } \\ {
+      d2 es %39
+      fis'16 r es r c r a r %40
+      fis r es r c r a r
+      \lh fis r es r c r a r \rh h'2
+      c~ c8 h16 a h4
+      c2~ c4 d
+    } \\ {
+      s1 %39
+      s %40
+      s
+      s2 r4 r8 f
+      s1
+    } >>
+    <c e>1\fermata \bar "|." %44 finis
+  }
+}

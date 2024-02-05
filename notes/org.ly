@@ -4186,3 +4186,99 @@ ToccataIVOrgano = {
     <d a'>1\fermata \bar "|." %45 finis
   }
 }
+
+ToccataVOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4
+    <c, c' c'>1-\pedale
+    r8 g'' b g e c b g
+    e c e g b c e g
+    b g e d << {
+      <g b>2~
+      q1~ %5
+      q
+      <fis a>
+    } \\ {
+      <cis e>2~ %4
+      q1~ %5
+      q
+      <c es>
+    } >>
+    r8 c' es c a fis es fis %8
+    r a c a fis es c es
+    r fis a fis es c a c %10
+    <b b'>1
+    << {
+      <f'! gis>~ %12
+      <f gis>~
+      q~
+      q2 a~ %15
+      a
+    } \\ {
+      <h, d>1~ %12
+      q~
+      q~
+      q2 a~ %15
+      a
+    } >> r8 g' g, g'
+    f16 d' a d f, d' a d f, d' a d f, d' a d
+    <c! a fis>1
+    << {
+      r4 e! f d %19
+      e c d h %20
+    } \\ {
+      <g g,>1~-\pedale %19
+      q %20
+    } >>
+    c,16 c' h c a c fis, a es c' c, c' es, c' c, c'
+    f, es' c es f, es' c es f, d' b d f, d' b d
+    <cis b g e>1
+    d,8 e f g a a, << {
+      g'4 %24
+      f1 %25
+      r4 e e e~
+      e a a a~
+      a d d d~
+      d g, g g~
+      g c c c~ %30
+      c a g2
+      c,8
+    } \\ {
+      g4 %24
+      r2 f %25
+      e1
+      a
+      d
+      g4 g,2.
+      c1 %30
+      f2 g,4. h!8
+      c,
+    } >> r r4 << { c'8 } \\ { c, } >> r r4 %32
+    g'16 g' g, g' g, g' g, g' << { c,8 } \\ { c, } >> r r4
+    g'16 g' g, g' g, g' g, g' c, c' g c e, c' g c
+    c, c' g c e, c' g c << {
+      f,4 r8 g %35
+      a4 r8 h c2
+    } \\ {
+      r8 f,, g4 %35
+      r8 a h!4 r4 f'
+    } >>
+    g,16 g' g, g' g, g' g, g' g, g' g, g' g, g' g, g'
+    g, g' g, g' g, g' g, g' g, g' g, g' g, g' g, g'
+    << {
+      g2 c %39
+      s1 %40
+      s2 g~
+      g1
+      <e g>2 a4 h
+    } \\ {
+      g,2 fis' %39
+      fis,1~-\pedale %40
+      \voiceFour fis2 \voiceTwo g~
+      g1
+      c2~ c
+    } >>
+    <c e g>1\fermata \bar "|." %44 finis
+  }
+}

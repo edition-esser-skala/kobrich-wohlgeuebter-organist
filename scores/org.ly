@@ -655,19 +655,35 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.4" "Toccata IV:ta"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataIVChords }
+  %         \new Staff = "LH" { \ToccataIVOrgano }
+  %       >>
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3.4" "Toccata IV:ta"
+    \section "3.5" "Toccata V:ta"
     \addTocEntry
+    \paper { page-count = #2 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataIVChords }
-          \new Staff = "LH" { \ToccataIVOrgano }
+          \new Staff = "RH" { \ToccataVChords }
+          \new Staff = "LH" { \ToccataVOrgano }
         >>
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
-      \midi { \tempo 4 = 110 }
+      \layout { }
+      \midi { \tempo 4 = 90 }
     }
   }
 }
