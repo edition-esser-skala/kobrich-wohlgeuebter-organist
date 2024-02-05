@@ -670,20 +670,35 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.5" "Toccata V:ta"
+  %   \addTocEntry
+  %   \paper { page-count = #2 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataVChords }
+  %         \new Staff = "LH" { \ToccataVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3.5" "Toccata V:ta"
+    \section "3.6" "Toccata VI:ta"
     \addTocEntry
-    \paper { page-count = #2 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataVChords }
-          \new Staff = "LH" { \ToccataVOrgano }
+          \new Staff = "RH" { \ToccataVIChords }
+          \new Staff = "LH" { \ToccataVIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

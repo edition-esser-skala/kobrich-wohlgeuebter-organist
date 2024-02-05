@@ -4751,3 +4751,112 @@ ToccataVChords = {
     <c e>1\fermata \bar "|." %44 finis
   }
 }
+
+ToccataVIChords = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4
+    <e g c>1
+    <e g cis>
+    << {
+      <g cis>4 <a d>~ d c %3
+      <c a fis>1~
+      q2 <h gis e> %5
+      <gis h>1
+      <a c>
+      <g! b>~
+      q2 <fis a>
+      <fis a>1~ %10
+      q
+      <fis a>4 g fis2
+      <gis h>1~
+      q2 <e a>
+      <e b'> q %15
+    } \\ {
+      e4 f <e a>2 %3
+      dis1~
+      dis2 h %5
+      <d f>1
+      e
+      <cis e>~
+      q2 d
+      <c es>1~ %10
+      q
+      dis4 e e d
+      <d f>1~
+      q2 cis
+      cis cis %15
+    } >>
+    r8 d f a d f a f
+    d f d a f a f d
+    <fis a c! es>1
+    r8 es' c a fis c' a fis
+    es a fis es << {
+      <d gis>2~ %20
+      q1
+      <e g>
+      fis
+      <fis a d>
+      <g h! d>2 c( %25
+      c8) h16 a h8 g'~ g f!16 e f4~
+      f8 e16 d e4~ e8 d16 c d4~
+      d8 c16 h c4~ c8 h16 a h4
+      r16 g a h c d e d c g a h  <g c>4~
+      q8 h16 a h4~ h a~ %30
+      a8 g!16 f g4~ g f~
+      f8 e16 d e4 r r8 g~
+      g f16 e f4 r r8 a~
+      a g16 fis g4 fis2
+      h~ h8 a16 gis a4~ %35
+      a2~ a8 g16 fis g4~
+      g8 f16 e <d f>4 d'2~
+      d8 c16 h c4 r8 d16 c d4
+      r8 e16 d e4 r8 f16 e f4
+      r8 g16 f g4 r8 g16 f g4~ %40
+      g8 a16 g f e d c r8 d16 c d4~
+      d8 c16 h c4~ c8 h16 a h4
+      <g c>2~ c
+      d1
+    } \\ {
+      h,2~ %20
+      h1
+      <b cis>
+      d
+      d
+      d2 e4 s %25
+      d g8 h c4. h16 a
+      h4. a16 g a4. g16 f
+      g4. f16 e f4. e16 d
+      e2~ e
+      d4. e16 d c4 e8 d16 c %30
+      h4. b8 a4 c8 d
+      c4. c8~ c h16 a h4
+      d4. d8~ d c16 h c4
+      e4. e8~ e d16 cis d4
+      r16 a' gis fis e8 d c2 %35
+      r16 g' fis e d8 c h4 r8 d~
+      d4 s r16 c' h a g a f g
+      e4. g8 a4 r16 a h a
+      h4 r16 h c h c4 r16 c d c
+      d4 r16 d e d e4 e16 d c h %40
+      a2 h4 h16 c g f
+      e4 e d g8 f
+      e2 f
+      f16 g f g f g f g f4.\trill e16 f
+    } \\ {
+      s2 %20
+      s1*4 %24
+      s2 \bp #2 #2 g8 a16 g fis8 e16 fis %25
+      s1*6 %31
+      s2 d
+      s e
+      s1*8 %41
+      s4 g2 s4
+      s1
+      s
+    } >>
+    <e g c>1 %45
+    <g h d f>
+    <g c e>\fermata \bar "|." %47 finis
+  }
+}
