@@ -4560,3 +4560,111 @@ ToccataIIIChords = {
     <d fis>1\fermata \bar "|." %80 finis
   }
 }
+
+ToccataIVChords = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4
+    <fis a d>1
+    <e g cis>
+    r8 e' g cis, d fis d a
+    fis d << {
+      a'4~ a16 d, e fis g4~
+      g16 g fis e
+    } \\ {
+      fis4 s d~
+      d
+    } >> fis16 h a h gis e fis e a e fis e %5
+    h' e, d' h c e, dis e gis e fis e a e fis e
+    h' e, d' h c a gis a gis e fis gis << {
+      \once \voiceTwo e4 %7
+      h'2 cis!4
+    } \\ {
+      \once \voiceOne a4~ %7
+      a16 a g! fis g4 r16 a h a
+    } \\ {
+      s4 %7
+      r r16 e' d e
+    } >> d16 a fis' a,
+    e' a, g' a, << {
+      fis'4 cis d16 a fis' a, %9
+      e' a, g' a, fis'4 cis d~
+      \voiceTwo d16 d cis h cis4
+    } \\ {
+      r16 d cis d r a h a s4 %9
+      s r16 d cis d r a h a s4
+      \voiceOne e'~ e16 fis e fis
+    } >> dis h ais h e h ais h %11
+    fis' h, ais h g' h, ais h dis h ais h e h ais h
+    fis' h, ais h g' h, ais h dis h ais h << {
+      e4~ %13
+      e16 e d cis d4
+    } \\ {
+      h4~ %13
+      h2
+    } >> e16 h cis d e d cis h
+    ais fis ais cis h fis h d cis fis, cis' e d fis, d' fis %15
+    ais, fis ais cis h fis h d cis fis, cis' e d fis, d' fis
+    ais,8 gis16 fis << {
+      h4~ h16 h a! gis a4 %17
+      r16 a gis a h a gis fis gis8 h h16 a gis fis
+      eis fis eis fis gis4 fis16 cis dis eis fis4~
+      fis16 fis e dis r h' cis h ais s8. \oneVoice r16 fis gis ais \voiceOne %20
+      h4~ h16 h a gis a2~
+      a4 g fis r16 h a h
+      gis e fis e a e a cis h e, e' d r a' gis a
+      g2 fis~
+      fis16 fis e fis e d cis d e2~
+      e16 e d e d cis h cis d2
+    } \\ {
+      fis,4~ fis fis %17
+      fis2 s4 fis8 s
+      s4 eis s cis~
+      cis e~ e16 e d! e s4 %20
+      fis4~ fis~ fis16 fis e fis dis e dis cis
+      dis h cis dis e4~ e16 e d cis d4~
+      d16 s8. s2 cis'4
+      r16 e cis e cis a cis e r d cis d h cis h a
+      gis2 r16 cis h cis a h a gis %25
+      a2 r16 h a h gis a gis fis
+    } >>
+    gis e dis e e' e, d' e, cis' e, dis e d' e, cis' e, %27
+    h' e, dis e e' e, d' e, cis' e, dis e d' e, cis' e,
+    h' a gis fis e fis e d << { r e fis gis a g fis g } \\ { cis,4 e } >>
+    fis16 a h cis d a fis a fis d fis a << {
+      <a d>4~ %30
+      q16 d c h <a c>4_~ \voiceTwo a16 a g fis \voiceOne <h e>4~
+      q16 e d cis <h d>4_~ \voiceTwo h16 h a gis \voiceOne <cis fis>4~
+      q16 fis e dis e cis fis e dis4 e
+      r16 e d cis d4 gis, a
+      r16 a g fis g4 fis2~ %35
+      fis16 fis e fis g fis e d
+    } \\ {
+      fis4 %30
+      e e \once \voiceOne h' g
+      fis fis \once \voiceOne cis' a
+      gis ais r16 h cis h r g a g
+      fis4 r16 fis h a r e fis e r cis d! cis
+      h4 r16 a cis e r d cis d c c h \hA c %35
+      h2
+    } >> cis16 a e' cis d a fis' d %36
+    e fis32 g a16[ g] fis a d8 d16[ cis32 d] e16 cis d a fis' d
+    e a, g' a, fis' a, a' a, h' fis g dis
+    e ais, h g
+    fis a d fis, e d' cis e, d cis' h d, cis h' a cis,
+    h a' g e h' g e d << {
+      cis a d8~ d16[ cis32 d] e16 cis %40
+      d4~ d16 d cis h cis2
+      d8 fis h a~ a g16 fis g4~
+      g8 fis16 e fis4~ fis8 e16 d e4~
+      e8 d16 cis! d4 <e g>2
+    } \\ {
+      s4 a, %40
+      a2 s
+      a8 s2..
+      s1
+      s2 d
+    } >>
+    <d fis>1\fermata \bar "|." %45 finis
+  }
+}

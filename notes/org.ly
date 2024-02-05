@@ -4086,3 +4086,103 @@ ToccataIIIOrgano = {
     <d fis a>\fermata \bar "|." %80 finis
   }
 }
+
+ToccataIVOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4
+    << {
+      d'1~
+      d~
+      d
+      a4 r16 c d \hA c h4~ h16 h c h
+      a4 d2 c4 %5
+      gis8 h a4 h c
+      gis a h c16 a \hA c d
+      e2~ e4 fis8 d
+      cis! e d8. fis16 e8 g fis d
+      cis e d8. fis16 e8 g fis16 d fis g %10
+      a2 fis4 g
+      dis e fis g
+      dis e fis4 g16 g fis e
+      fis2 e~
+      <cis e>4 d ais h %15
+      <cis e> d ais h
+      cis d8 cis16 h cis2
+      dis h~
+      h8 cis~ cis16 h cis h a4~ a16 a gis fis
+      gis4 cis~ cis16 cis h cis h4 %20
+      d16 d cis h cis2 r4
+      \voiceTwo h,2~ h
+      e2. s4
+      \voiceOne a2~ a4 d~
+      d cis8 h cis2~ %25
+      cis4 h8 a h2~
+      h4 cis8 h a4 h8 a
+      gis4 cis8 h a4 h8 a
+      <gis h>4 r16 d'! cis h a2
+      <fis a>2. %30
+    } \\ {
+      d1~
+      d~
+      d~
+      d~
+      d2 e %5
+      e1~
+      e
+      e2 a~
+      a1~
+      a~ %10
+      a2 h
+      h1~
+      h2~ h~
+      h4~ h16 h a! h gis4 g
+      fis1~ %15
+      fis~
+      fis2~ fis4~ fis16 fis e fis
+      dis2 e4 d
+      cis2~ cis~
+      cis fis~ %20
+      fis~ fis~
+      \voiceOne fis4 e16 fis g! a h2~
+      h4 cis8. a16 gis8. h16 a4
+      \voiceTwo a,2 d
+      e cis %25
+      fis h,
+      e1~
+      e~
+      e2 r4 <cis e>
+      d2.
+    } >> d16 e fis g! %30
+    << { a2 } \\ { r4 a,16 h c d } >> <e e,>4 e16 fis g a
+    << { h4 } \\ { h, } >> h16 cis d e <fis fis,>4 fis16 gis a h
+    << {
+      cis4 <ais cis> h2~ %33
+      h <gis h>4 <e e,>~
+      e e8. cis16 s4 <fis a> %35
+      g2 e8 g fis d
+      cis e d8. fis16 e8 g fis d
+      cis e d fis g r r4
+      \once \tieDashed a1~
+      a2 <g e>8 fis e g %40
+      fis e16 d \once \tieDashed e4~ e8 fis16 g a g fis e
+      fis8 a d c h4~ h8 c16 h
+      a4~ a8 h16 a g4~ g8 a16 g
+      fis4~ fis8 g16 fis <e g>2
+    } \\ {
+      cis4 fis h,2~ %33
+      h e4 s
+      s a,! d2 %35
+      g, a~
+      a1~
+      a2 g8 r r4
+      a1~
+      a~ %40
+      a
+      d~
+      d~
+      d2~ d
+    } >>
+    <d a'>1\fermata \bar "|." %45 finis
+  }
+}

@@ -640,19 +640,34 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.3" "Toccata III:tia"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataIIIChords }
+  %         \new Staff = "LH" { \ToccataIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3.3" "Toccata III:tia"
+    \section "3.4" "Toccata IV:ta"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataIIIChords }
-          \new Staff = "LH" { \ToccataIIIOrgano }
+          \new Staff = "RH" { \ToccataIVChords }
+          \new Staff = "LH" { \ToccataIVOrgano }
         >>
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }
