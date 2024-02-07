@@ -701,15 +701,30 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.7" "Toccata VII:ma"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataVIIChords }
+  %         \new Staff = "LH" { \ToccataVIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3.7" "Toccata VII:ma"
+    \section "3.8" "Toccata VIII:va"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataVIIChords }
-          \new Staff = "LH" { \ToccataVIIOrgano }
+          \new Staff = "RH" { \ToccataVIIIChords }
+          \new Staff = "LH" { \ToccataVIIIOrgano }
         >>
       >>
       \layout { }

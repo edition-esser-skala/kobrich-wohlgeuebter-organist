@@ -4437,3 +4437,67 @@ ToccataVIIOrgano = {
     q\fermata \bar "|." %36 finis
   }
 }
+
+ToccataVIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4
+    <g g'>1~
+    q~
+    q2 q~
+    q1~
+    q~ %5
+    q
+    r16 d' e fis g d h' a g d e fis g h, c d
+    h g a h c d e fis g8 g, g' fis
+    <e e,>1~
+    q~ %10
+    q2 r16 d cis d d, d' cis d
+    <c c,!>1
+    << {
+      r8 h' h h r c c c %13
+      r h h h g4~ g
+      r8 cis cis cis r d d d %15
+      r cis cis cis a4~ a
+    } \\ {
+      h,2 c %13
+      h r16 g a h c4
+      cis2 d %15
+      cis r16 a h cis d4
+    } >>
+    <fis a d>1 %17
+    << { h2 h } \\ { g g } >>
+    <fis a d>1
+    << { <h d>2 h } \\ { g g } >> %20
+    h,16 g' d g h, g' d g h, g' d g h, g' d g
+    <c, c,>4 r q2
+    cis16 a' e a cis, a' e a cis, a' e a cis, a' e a
+    <d, d,>4 r q2
+    << {
+      <a' d>2 <h d> %25
+      <a d> <h d>
+      r4 h
+    } \\ {
+      fis2 g %25
+      fis g
+      h,
+    } >> c16 c' h c c, c' h c %27
+    << { r4 c } \\ { c,2 } >> d16 d' cis d d, d' cis d
+    << { r4 d } \\ { d,2 } >> e16 e' dis e e, e' dis e
+    << { r4 e } \\ { e,2 } >> fis16 fis' e fis fis, fis' e fis %30
+    << { r4 fis } \\ { fis,2 } >> g16 g' fis g e g c, e
+    fis, fis' e fis d fis h, d e, e' d e c e a, c
+    d, d' c d h d g, h c, c' h c a c fis, a
+    h, h' a h g h e, g a, a' g a fis a d, fis
+    <g g,>2 q %35
+    << {
+      g4 c2.~
+      c4 h8 a16 g a2
+    } \\ {
+      c,2~ c %36
+      d1
+    } >>
+    <g g,>~ %38
+    q\fermata \bar "|." %39 finis
+  }
+}

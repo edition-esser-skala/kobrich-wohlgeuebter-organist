@@ -4940,3 +4940,95 @@ ToccataVIIChords = {
     <h d g>1\fermata \bar "|." %36 finis
   }
 }
+
+ToccataVIIIChords = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4
+    <d g h>1
+    << {
+      c'4 h a g
+      fis fis <d g>2
+      \oneVoice r16 d e fis g d h' g \voiceOne d'4 d
+      c a16 h a h c4 a %5
+      <g h>1~
+      q~
+      q
+      <g cis>
+      cis16 d \hA cis d e fis e fis \oneVoice g fis e d cis h a g \voiceOne %10
+      g4.\trill fis16 g <fis a>2
+      <a d>1
+      r16 g fis g a g fis g r g fis g a g fis g
+      d'2~ d4 c
+      r16 a gis a h a gis a r a gis a h a gis a %15
+      e'2~ e4 d
+      r16 c! h c d c h c a c fis, a d, fis a c
+      h d c d h d g, h r g h d r g, h d
+      r c h c d c h c a c fis, a d, fis a c
+      h d c d h d g, h r g h d r g, h d %20
+      d1
+    } \\ {
+      r16 e, fis e r d e d r c d c r h c h %2
+      r a h a r a h a h2
+      s r16 h' a g r h a g
+      e4 fis16 g fis g e4 fis %5
+      d1~
+      d~
+      d
+      e
+      g2 s %10
+      s d
+      fis1
+      d2 e
+      r16 c' h a g f e f f4 e
+      e2 fis %15
+      r16 d' cis h a g fis g g4 fis
+      a2 s
+      s d,4 d
+      a'2 s
+      s d,4 d %20
+      r2 f
+    } >>
+    e32 c d e f g a h c g a h c d e f << {
+      g2 %22
+      e1
+    } \\ {
+      e2 %22
+      r2 g,
+    } >>
+    fis!32 d e fis g a h cis d a h cis d e fis g << {
+      a2 %24
+      a4 a r16 g fis g r g fis g %25
+      a4 a r16 g fis g r g fis g
+      d2~ d4 c8. e16
+      e2~ e4 d8. fis16
+      fis2~ fis4 e8. g16
+      g2~ g4 fis8. a16 %30
+      a2~ a4 g~
+      g fis~ fis e~
+      e d~ d c~
+      c h~ h a~
+      a16 d, e fis g a h c d e fis g d e fis g %35
+      e2~ e4 r
+      d,8 e16 fis g4~ g8 fis16 e fis4
+      <d g>2 <fis a c>
+    } \\ {
+      fis'2 %24
+      r16 c d c r c d c h4 h %25
+      r16 c d c r c d c h4 h
+      r16 c h a g fis e d e2
+      r16 d' c h a g fis e fis2
+      r16 e' d c h a g fis g2
+      r16 fis' e d c h a g a2 %30
+      r16 g' fis e d c h a h2
+      a g
+      fis e
+      d c
+      h4 s2. %35
+      r16 d' c h a h a h c h a g fis g e fis
+      s4 d2 d8 c
+      h2 d
+    } >>
+    <d g h>1\fermata \bar "|." %39 finis
+  }
+}
