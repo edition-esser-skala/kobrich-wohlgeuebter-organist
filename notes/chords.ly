@@ -4860,3 +4860,83 @@ ToccataVIChords = {
     <g c e>\fermata \bar "|." %47 finis
   }
 }
+
+ToccataVIIChords = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4
+    <d g h>1
+    r16 h'32[ c] d16 h g d g h << {
+      c2 %2
+      <g h>16 h32 c d16[ h] g d g h c2
+      h32 s2....
+      <d gis>2 <gis, h> %5
+      r16 a h32[ a gis a] c16 a c a r a h32[ a gis a] c16 a c a
+      r g a32[ g fis g] b16 g b g r g a32[ g fis g] b16 g b g
+      \oneVoice fis32 d e fis g a h cis d a h cis d e fis g \voiceOne a8 a <a fis dis>4
+      e16 dis cis h e8. g16 fis8 g16 a a g fis e
+      e dis cis h e8. g16 fis8 g16 a a g fis e %10
+      d cis h a d8. fis16 e8 fis16 g g fis e d
+      d cis h a d8. fis16 e8 fis16 g g fis e d
+      c4 a'2 g4~
+      g fis2 e4
+    } \\ {
+      a,8 a16 g fis[ g32 a] d,16 e32 fis %2
+      d16 s4.. a'8 a16 g fis[ g32 a] d,16 e32 fis
+      g32 d e fis g a h c d g, a h c d e fis g8 d h g
+      h2 <d, f> %5
+      e e
+      e e
+      s fis'8 fis c4
+      s4 h2.
+      r4 h2. %10
+      s4 a2.
+      r4 a2.
+      a4 c h2
+      a g
+    } >>
+    fis8 d' cis e d16 a fis' a, e' a, g' a, %15
+    fis8 d' cis e d16 a fis' a, e' a, g' a,
+    fis'-! c-! d32([ c h c)] d16( c) h-! c-! fis-! c-! d32([ c h c)] d16( c) h-! c-!
+    a'4 fis8 dis c a fis dis
+    e16 h g' e h' g e' h g' e h' g fis e dis e
+    cis-! e-! fis32([ e dis e)] fis16( e) dis-! e-! cis-! e-! fis32([ e dis e)] fis16( e) dis-! e-! %20
+    dis h cis h << {
+      e4 r16 e d cis d4~ %21
+      d cis h h
+      cis r16 a h cis d4~ d16 d c h
+      c2 h4 a
+      a h r16 g a h c4 %25
+      r16 c h c d4~ d16 g, a h c d c d
+      e4 r16 e d cis d2
+    } \\ {
+      r16 g,! a g fis4 r16 fis h a %21
+      gis e fis gis a4~ a8 g16 fis g4~
+      g16 e fis g fis4 r16 fis g fis e4
+      r16 e a g fis d e fis g4~ g8 f16 e
+      f4~ f16 d e f e4 r16 e f e %25
+      d4 r16 f g f e2
+      r16 g a g fis4 r16 h a g fis a g fis
+    } >>
+    g <h d> <c a> <g h> <fis a> <a c> <g h> <fis a> << {
+      h2~ %28
+      h4 r16 d, e d g4 r16 g fis g
+      a4 r16 a g a h4 r16 h a h %30
+      c4 r16 c h c h4 r16 h a h
+      a4 r16 a g a g4 r16 g fis g
+      fis4 fis g d
+      e <c fis> g'8 a h c
+      <g h>4 <fis a c> <g h> <fis c> %35
+    } \\ {
+      g2~ %28
+      g4 s r16 h, c! h a4
+      r16 c d c h4 r16 d e d c4 %30
+      r16 e fis e d4 r16 d e d c4
+      r16 c d c h4 r16 h c h a4
+      r16 c h c r a h a h4 h
+      c a h8 fis' g a
+      d,4 d d a %35
+    } >>
+    <h d g>1\fermata \bar "|." %36 finis
+  }
+}

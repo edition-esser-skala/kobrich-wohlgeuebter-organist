@@ -686,19 +686,34 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.6" "Toccata VI:ta"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataVIChords }
+  %         \new Staff = "LH" { \ToccataVIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3.6" "Toccata VI:ta"
+    \section "3.7" "Toccata VII:ma"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataVIChords }
-          \new Staff = "LH" { \ToccataVIOrgano }
+          \new Staff = "RH" { \ToccataVIIChords }
+          \new Staff = "LH" { \ToccataVIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

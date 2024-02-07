@@ -4365,3 +4365,75 @@ ToccataVIOrgano = {
     <c e g c>1\fermata \bar "|." %47 finis
   }
 }
+
+ToccataVIIOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4
+    <g' g,>1~
+    q~
+    q~-\critnote
+    q
+    << {
+      r8 f f f <gis h>2 %5
+      c4 \once \oneVoice r c \once \oneVoice r
+      cis \once \oneVoice r cis \once \oneVoice r
+    } \\ {
+      f,,2 <d' f> %5
+      c4 s c s
+      cis s cis s
+    } >>
+    d,8 d' d, d' c,!32 c'! h c c,[ c' h c] <c c,>4
+    << {
+      fis!8 a g e dis4 e %9
+      fis8 a g e dis4 e %10
+      e8 g fis d cis4 d
+      e8 g fis d cis4 d
+    } \\ {
+      h1~ %9
+      h %10
+      a~
+      a
+    } >>
+    r8 a'16 g fis e d fis r g fis g e d cis e %13
+    r fis e fis d cis h d r e d e cis h a cis
+    d a fis' a, e' a, g' a, fis'8 d cis a %15
+    d16 a fis' a, e' a, g' a, fis'8 d cis a
+    <d d,>4 r q r
+    dis16 c'! a c dis, c' a c dis, a' fis a dis, a' fis a
+    <e e,>4 r r2
+    <ais ais,>4 r q r %20
+    << {
+      h1~
+      h4 a16 h cis d e4~ e16 d cis h
+      a1
+      a2 g16 a h c! d4~
+      d16 c h a g2. %25
+      g2~ g
+      a h16 d c h a c h a
+      h16 r d8 d d s2
+      d,2 d4 d
+      d d d d %30
+      d d d d
+      d d d d
+      d d
+    } \\ {
+      h1 %21
+      e2~ e
+      a,1
+      a4 d~ d2
+      d4 g,2. %25
+      g4 h c2
+      cis4 d~ d2~
+      d \oneVoice r16 g fis e d h c cis \voiceTwo
+      d,1~
+      d~ %30
+      d~
+      d~
+      d2
+    } >> r16 g' g, g' r g g, g' %33
+    r g g, g' r g g, g' g, g' g, g' g, g' g, g'
+    <g g,>1 %35
+    q\fermata \bar "|." %36 finis
+  }
+}
