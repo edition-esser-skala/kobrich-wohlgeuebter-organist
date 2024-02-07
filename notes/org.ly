@@ -4501,3 +4501,112 @@ ToccataVIIIOrgano = {
     q\fermata \bar "|." %39 finis
   }
 }
+
+ToccataIXOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4
+    << {
+      a'1
+      gis2 a~
+      a1~
+      a~
+      a %5
+    } \\ {
+      a,1~
+      a~
+      a~
+      a~
+      a %5
+    } >>
+    r16 g' e \hA g cis, e ais, cis r g' e \hA g cis, e ais, cis
+    <g g'>1
+    << {
+      cis'4 cis d d %8
+      ais8 h cis d cis h cis ais
+    } \\ {
+      fis1~ %8
+      fis
+    } >>
+    h16 h, d fis h fis d fis h h, d fis h fis d h %10
+    << {
+      h'4 h cis cis
+      gis8 a! h cis h a h gis
+      a4
+    } \\ {
+      e1~ %11
+      e
+      a,4
+    } >> r8 a' h4 cis %13
+    d2 d
+    << { d d } \\ { r4 d, r d } >> %15
+    cis'2 cis
+    << { cis cis } \\ { r4 cis, r cis } >>
+    h'2 h
+    << { h h } \\ { r4 h, r e } >>
+    a8 h cis d << {
+      e4 cis %20
+      d h cis a
+      h gis a fis
+      s2 cis'4 <gis h>
+      a r8 ais h2
+      r4 fis'8 d e4 cis16 cis h cis %25
+      d4 h16 h ais h cis4 ais16 ais gis \hA ais
+      h2 <gis h>
+      d' cis
+      dis h
+      cis a %30
+      fis4 e16 fis g a h4. g8
+      a4 fis g e
+      fis dis e c
+      fis g8 fis16 e fis4 h8 a
+      h1 %35
+      a4. g8 a2~
+      a g4
+    } \\ {
+      r8 \once \tieDashed e4.~ %20
+      e1~
+      e
+      e16 e fis e d d e d cis4 e
+      r8 a, ais4 r8 h16 cis d cis d e
+      fis1~ %25
+      \once \tieDashed fis~
+      fis4 g eis2~
+      eis fis4~ fis16 gis fis e
+      dis2 e4~ e16 fis e d
+      cis2 d4. c8 %30
+      h2~ h~
+      h1~
+      h2~ h~
+      h1
+      gis' %35
+      a,2-\critnote fis'~
+      fis g,4
+    } >> r16 f' f, \hA f' %37
+    e, e' e, e' d, d' d, d' <c c,>4 cis
+    << {
+      h'4. a8 gis! e fis gis
+      a2 r4 e'8 cis %40
+      d4 h cis a
+      h gis a fis
+    } \\ {
+      h,2 s
+      a4 a16 h cis d e2~ %40
+      e1~
+      e~
+    } >>
+    <e e,>2 << {
+      r4 a %43
+      r8 a a a a4 a
+      r8 a a a a4 a %45
+      a a a a
+      a a a2\fermata
+    } \\ {
+      a,2~ %43
+      a1~
+      a~ %45
+      a~
+      a2 a
+    } >> \bar "|." %47 finis
+  }
+}

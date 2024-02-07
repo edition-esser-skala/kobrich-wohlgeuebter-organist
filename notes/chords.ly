@@ -5032,3 +5032,112 @@ ToccataVIIIChords = {
     <d g h>1\fermata \bar "|." %39 finis
   }
 }
+
+ToccataIXChords = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4
+    <cis e a>1
+    h2 cis
+    << {
+      d e %3
+      fis <d gis>
+      <e a>1 %5
+      <e ais>4 \once \oneVoice r q \once \oneVoice r
+      <ais cis e>1
+      ais4 ais h h
+    } \\ {
+      h,2 cis %3
+      d h
+      cis1 %5
+      cis4 s cis s
+      g'1
+      r16 e fis e r e fis e r fis g fis r fis g fis
+    } >>
+    cis' fis, d' fis, e' fis, fis' fis, e' fis, d' fis, e' fis, cis' fis,
+    << { <h d>4 } \\ { fis } >> r << { <h d> } \\ { fis } >> r %10
+    << { gis gis a! a } \\ { r16 d, e d r d e d r e fis e r e fis e } >>
+    h' e, cis' e, d' e, e' e, d' e, cis' e, d' e, h' e,
+    cis'32 a h cis d e fis gis << {
+      a2 s4 %13
+      fis2 fis
+      r8 h16 ais h4 r8 h16 ais h4 %15
+      e,2 e
+      r8 a!16 gis a4 r8 a16 gis a4
+      d,2 d
+      r8 gis16 fis gis4 r8 h16 a gis4
+      s2 r8 e4.~ %20
+      e8 d16 cis d4~ d8 cis16 h cis4~
+      cis8 h16 a h4~ h8 a16 gis a4
+      <e gis>2 e'16 e fis e d d e d
+      r8 g fis e d2
+      cis8 fis fis fis~ fis e16 d e8 e~ %25
+      e d16 cis d8 d~ d cis16 h cis8 cis~
+      cis h16 ais h8 h <h gis eis>2
+      h h8 a16 gis a4~
+      a8 gis16 a c h a h a8 g16 fis g4~
+      g8 fis16 g h a g a g8 fis16 e fis g fis \hA g %30
+      a4 g fis8 h h h~
+      h a16 g a a h a~ a8 g16 fis \hA g g a \hA g~
+      g8 fis16 e fis fis g fis~ fis8 e16 dis e e fis e
+      dis h cis dis e4~ e8 d16 cis d4
+    } \\ {
+      r8 cis' d cis16 d e8 d16 e %13
+      r8 <h d> <ais cis> <h d> r q <ais cis> <h d>
+      fis'4 r16 fis e d fis4 r16 fis e d %15
+      r8 <a! cis> <gis h> <a cis> r q <gis h> <a cis>
+      e'4 r16 e d cis e4 r16 e d cis
+      r8 <gis h> <fis a> <gis h> r q <fis a> <gis h>
+      d'4 r16 d cis h d4 r16 fis e d
+      cis a d a e' cis h a gis4 a8 e %20
+      fis4 r16 fis gis fis e4 r16 e fis e
+      d4 r16 d e d cis4 r16 cis d cis
+      h2 a'4 h
+      cis2~ cis4 h~
+      h8 ais ais h g2 %25
+      fis e
+      d d
+      gis fis~
+      fis e~
+      e d %30
+      dis16 h cis dis e4~
+      e8 dis dis e
+      c2 h
+      a g
+      s4 h2 s4
+    } >>
+    r16 d f d gis! f h gis! d' f, gis! h d h f' d %35
+    << { <h d>8 <a c>16 <gis h> c4 } \\ { e,2 } \\ { s4 \voiceFour a } >> r16 d, e d fis d a' fis
+    c' d, fis a c a e' c << { <a c>8 <g h>16 <fis a> h8 d } \\ { d,2 } \\ { s4 \voiceFour g8 h } >>
+    << {
+      <h d>4 <h f'> e <cis e>~ %38
+      e8 d!16 cis <h d>4 d2~
+      d8 cis16 h <a cis>4_~ \voiceTwo a8 gis gis a %40
+      fis4~ fis16 fis gis fis e4~ e16 e fis e
+      d4~ d16 d e d cis4~ cis16 cis d cis
+      h4. <h d>8 \voiceOne a'2
+      fis4 d' cis8 e, fis g
+      fis4 d'~ d8 cis16 h cis4~ %45
+      cis8 h16 a h4~ h8 a16 gis a4~
+      a8 gis16 fis <d gis>4 <e a>2\fermata
+    } \\ {
+      gis4~ gis a ais %38
+      fis2 \once \voiceFour e~
+      e \voiceOne h'8 e e e~ %40
+      e d16 cis d4~ d8 cis16 h cis4~
+      cis8 h16 a h4~ h8 a16 gis a4~
+      a8 gis16 fis gis4 \voiceTwo r8 cis, d e
+      d4 fis e8 cis d e
+      d4 fis e~ e16 e fis e %45
+      d4~ d16 d e d cis4~ cis16 cis d cis
+      h4 h cis2
+    } \\ {
+      s1 %38
+      s2 \voiceTwo h'8 gis a! h
+      s1 %40
+      s
+      s
+      s2 s8 \voiceThree e, fis g
+    } >> \bar "|." %47 finis
+  }
+}

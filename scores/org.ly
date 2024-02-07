@@ -716,19 +716,35 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.8" "Toccata VIII:va"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataVIIIChords }
+  %         \new Staff = "LH" { \ToccataVIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3.8" "Toccata VIII:va"
+    \section "3.9" "Toccata IX:na"
     \addTocEntry
+    \paper { page-count = #2 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataVIIIChords }
-          \new Staff = "LH" { \ToccataVIIIOrgano }
+          \new Staff = "RH" { \ToccataIXChords }
+          \new Staff = "LH" { \ToccataIXOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
