@@ -5350,3 +5350,100 @@ ToccataXIIChords = {
     <dis fis h>1\fermata \bar "|." %31 finis
   }
 }
+
+ToccataXIIIChords = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4
+    << {
+      <b' es>1~
+      es4 d d2~
+      d4 c c2~
+      c4 b b2~
+      b4 as as2~ %5
+      as4 g g2~
+      g4 f f2
+    } \\ {
+      g1 %1
+      f2 g4 f
+      es2 f4 es
+      d2 es4 d
+      c2 d4 c %5
+      b2 c4 b
+      as2 b4 as
+    } >>
+    f'16 g, as b c d es f g es f g as b c d %8
+    es es, f es g es b' g es'8 g32( f es d) es16 g b, es
+    g,8 b32( as g f) g16 b es, g d es f g as f es d %10
+    es f g as b c d es << { es2 } \\ { r16 a, b \hA a b \hA a b \hA a } >>
+    <f b d>1
+    c'16 des c \hA des c \hA des c \hA des b c b c b c b c
+    as! b as b as b as b g as g as g as g as
+    f g f g f g f g es f es f es f es f %15
+    d es d es d es d es c d c d c d c d
+    b c d es f g as b es, f g as b c d es
+    d es f es d c b as g es' as, es' b es as, es'
+    g,8 as b as g f' es des
+    c es des c b des c b %20
+    as c b as g es16 g << { b4 } \\ { r16 g f g } >>
+    << { <b des>2 <as c> } \\ { es~ es } >>
+    c'16 as' des, as' es as des, as' \voiceOne c,8 des es des \oneVoice
+    c16 as' es as c, as' es as f, es' c es f, es' c es
+    des f, es' f, f' des c b r a c f, << {
+      r8 c'~ %25
+      c16 des, es f r8 f
+    } \\ {
+      es4
+      s b
+    } >> r16 ges' f es c'8 b %26
+    r16 es, c' ges << { r8 es' } \\ { f,4 } >> r16 f f' des b4
+    r16 g! b des << { des4 } \\ { e,8 b' } >> r16 e, b' g << { as!4 } \\ { f } >>
+    r16 as b f << { ges4 } \\ { es } >> r16 f es' c << { des4 } \\ { b } >>
+    r16 c es ges, << { r es' des c } \\ { f,4 } >> des'16 f, es' f, f' des c b %30
+    a f b f c' f, des' f, es'4 f16 es des c
+    des c b as g as f g e c d c g' b, c b
+    r c f c as' f c' as \tuplet 3/2 8 { as' f c f[ c as] c as f as[ f c] }
+    << { as'8 g4. } \\ { f8 e4. } >> f16 g a b c des es f
+    << { des2 } \\ { b } >> es,16 f g as b c des es %35
+    << { c2 } \\ { as } >> f16 g as f << { b c des b } \\ { f4 } >>
+    g16 as b g << { c des es c } \\ { g4 } >> as16 b c as des es f des
+    b c des b << {
+      es4 c r16 as c es %38
+      b4 r16 g b des c4 r16 as c es
+      b4 r16 g b des c4 b %40
+      <as c> des <g, b> c~
+      <as c>~ <as b> <g b> <as c>~
+      as b2 c4~
+      c des2 es4
+    } \\ {
+      r16 des c b r as g as es4 %38
+      r16 g f g es4 r16 as g as es4
+      r16 g f g es4 as g %40
+      es as16 g f as es4 g16 f es g
+      f4~ f es2
+      f <es g>
+      <f as> <g b>
+    } >>
+    c16 es, as c << { es4 } \\ { c } >> b16 es, g b << { des4 } \\ { b } >> %45
+    c16 es, as c << { es4 } \\ { c } >> b16 es, g b << { des4 } \\ { b } >>
+    r16 c d es f g as c, d f c f b, f' as, f'
+    g,8 as << { s des } \\ { b b } >> c16 b as g f es d c
+    r d es f f d c b r f' es d r << { c' b as } \\ { as g f } >>
+    g as8 es16 f g8 d16 es f8 c16 d es8 b16 %50
+    d f8 b,16 es g8 b,16 f' as8 b,16 g' b8 b,16
+    d f8 b,16 es g8 b,16 f' as8 b,16 g' b8 b,16
+    << {
+      c'2 <c es>~ %53
+      es d
+    } \\ {
+      es, f~ %53
+      f1
+    } \\ {
+      s1 %53
+      \voiceFour b2. as4
+    } >>
+    <g b es>1 %55
+    f4. g8 as4 << { <as d> } \\ { f } >>
+    <es g b es>1\fermata \bar "|." %57 finis
+  }
+}

@@ -4706,49 +4706,49 @@ ToccataXIOrgano = {
     e16 c' g c \hA e, c' g c f, c' a c f, c' a c
     c, a' f a c, b' c, g' << { a4 a8 f } \\ { f4 r } >>
     fis16 d' a d \hA fis, d' a d g, d' b d g, d' b d
-    d, b' g b d, c' d, a' << { b4 } \\ { g } >> r
+    d, b' g b d, c' d, a' << { b4 } \\ { g } >> r %20
     fis16 d' a d \hA fis, d' a d g, d' b d g, d' b d
     d, b' g b d, c' d, a' << { b4 } \\ { g } >> r
     << {
-      c4 a b2
+      c4 a b2 %23
       c4 a b2
     } \\ {
-      f!1~
+      f!1~ %23
       f
     } >>
     es'8 r c r d r b r
-    c r a r b r g r
+    c r a r b r g r %25
     a r f r g r es r
     f r d r \voiceTwo es r c r
     d r b r c r f, r
     b2 \oneVoice << { d } \\ { b } >>
-    r8 f'16 es f8 d << { es4 r } \\ { es, r } >>
+    r8 f'16 es f8 d << { es4 r } \\ { es, r } >> %30
     r8 f'16 es f8 d r16 es g b r g b es
     \rh \voiceTwo r b es g r es g b r2 \lh \oneVoice
     r8 g,16 f g8 e << { f4 r } \\ { f, r } >>
     r8 g'16 f g8 e r16 f a c r a c f
-    \rh \voiceTwo r c f a r f a c r2 \lh \oneVoice
+    \rh \voiceTwo r c f a r f a c r2 \lh \oneVoice %35
     c,8 r f, r d' r f, r
     es'! r f, r d' r f, r
     c' r f, r b r f r
     a r f r << {
       g2
-      f es
+      f es %40
     } \\ {
       f4 es~
-      es d2 c4
+      es d2 c4 %40
     } >>
     <f f,>1
     e16_[ g] b^[ des] g,_[ b] \rh des^[ e] b_[ des] e^[ g] des_[ e] g^[ b] \lh
     << {
-      c,4 d c4. es8
+      c,4 d c4. es8 %43
       d4 r16 d c b c2
     } \\ {
-      f,1~
+      f,1~ %43
       f
     } >>
-    <b b,>~
-    q\fermata \bar "|." %43 finis
+    <b b,>~ %45
+    q\fermata \bar "|." %46 finis
   }
 }
 
@@ -4811,5 +4811,104 @@ ToccataXIIOrgano = {
     } >>
     <fis fis'>1 %30
     <h dis fis>\fermata \bar "|." %31 finis
+  }
+}
+
+ToccataXIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4
+    << {
+      g'1
+      b2 r4 h
+      g2 as
+      f g
+      es f %5
+      d es
+      c d
+    } \\ {
+      es1
+      b2 h
+      c as
+      b! g
+      as f %5
+      g es
+      f d
+    } >>
+    es'4 r es, r %8
+    << {
+      <g' b>1~
+      q2 <f as> %10
+      <g b> c
+    } \\ {
+      es,1~
+      es2~ es %10
+      es c
+    } >>
+    r16 b' f d b d f b <b b,>2 %12
+    << {
+      as!4 r8 as g4 r8 g %13
+      f4 r8 f es4 r8 b'
+      as16 b as b as b as b g as g as g as g as %15
+      f g f g f g f g es f es f es f es f
+      <d f>2 <es g>
+      <f as>
+    } \\ {
+      b,1~ %13
+      b~
+      b~ %15
+      b~
+      b2 b
+      b
+    } >> es8 f g f
+    es16 es' f, es' g, es' f, es' es, es' des es c es b es
+    as, es' c es b es as, es' g, es' b es as, es' g, es' %20
+    f, es' as, es' g, es' f, es' << { es2 } \\ { es, } >>
+    r8 es16 f g f es g as es f g as b c b
+    as8 b c b as16 \rh as' \lh b, \rh as' \lh c, \rh as' \lh b, \rh as' \lh
+    as,4 r8 as << { a2 } \\ { r4 a, } >>
+    b8 c des es <f f,>4 r16 a g f %25
+    b8 b, r16 des c b es4 r16 es f ges
+    <a a,>4 r16 a g f <b b,>4 r16 b, des f
+    b8 b, r16 b' g e <des des'>4 r16 f as c
+    <d d,>4 r16 es, c b <a a'>4 r16 b f' des
+    es4 << { f4 } \\ { r16 f, g! a } >> b8 c des es %30
+    f g! a b << {
+      c2
+      b <g b>4 <e g>
+    } \\ {
+      r8 b' a f
+      r4 b, c2
+    } >>
+    <c f as!>1 %33
+    c8 c'16 des c8 b << { c2 } \\ { a8 g f8. a16 } >>
+    b, c des es f g a b << { b2 } \\ { g8 f es8. g16 } >> %35
+    as,! b c des es f g as des,8 c << { des f16 des } \\ { b4 } >>
+    es8 des << { es g16 es } \\ { c4 } >> f8 es << { f as16 f } \\ { des4 } >>
+    g8 f << {
+      r g as2
+      es
+    } \\ {
+      es4 r as,
+      r es
+    } >> as8 as' as as
+    es es es es as,16 b c des es f g es %40
+    as g as g f es des f g f g f es des c es
+    f es f es des c b des es f es des c b c as
+    des c b c des c \hA des b es des c \hA des es \hA des es c
+    f es des es f es f des g f es f g f g es
+    as8 as, r16 as' c as g8 es r16 es f g %45
+    as8 as, r16 as c des es8 es, r16 es' f g
+    << { as2 } \\ { r4 as, } >> b'8 as g f
+    es16 es' f, es' g, es' es, es' as,4 as,
+    b as' b, d
+    es8 c' d, b' c, as' b, g' %50
+    b, as' b, g' b, d b es
+    b as' b, g' b, d b es
+    as2 <a a,>
+    <b b,>1
+    <b g es> %55
+    << { d4. es8 c4 b } \\ { es,1 } >>
+    <es g b>\fermata \bar "|." %57 finis
   }
 }
