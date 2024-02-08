@@ -746,15 +746,30 @@
   %     \layout { }
   %     \midi { \tempo 4 = 100 }
   %   }
+  % \bookpart {
+  %   \section "3.10" "Toccata X:ma"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXChords }
+  %         \new Staff = "LH" { \ToccataXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "3.10" "Toccata X:ma"
+    \section "3.11" "Toccata XI:ma"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXChords }
-          \new Staff = "LH" { \ToccataXOrgano }
+          \new Staff = "RH" { \ToccataXIChords }
+          \new Staff = "LH" { \ToccataXIOrgano }
         >>
       >>
       \layout { }

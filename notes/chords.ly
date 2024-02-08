@@ -5208,3 +5208,81 @@ ToccataXChords = {
     <e a cis>\fermata \bar "|." %34 finis
   }
 }
+
+ToccataXIChords = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4
+    << {
+      d2 es~
+      es4 d <d f>2
+      r16 f es d es4 r16 es d c d4
+      es2 d
+      <e g> f %5
+      \voiceThree f4 e8 d s2 \voiceOne
+      <f a> b~
+      b4 a <a c>2
+      r16 c b a b4 r16 b a g a4
+      b2 f %10
+      b1
+    } \\ {
+      b,2 b~
+      b~ b~
+      b1
+      a32[ b a b] a b a b a8.\trill g32 a b2
+      c~ c %5
+      d4 s e32[ f \hA e f] \hA e f \hA e f \hA e8.\trill d32 \hA e
+      c2 f~
+      f~ f~
+      f1
+      e32[ f \hA e f] \hA e f \hA e f \hA e8.\trill d32 \hA e c2 %10
+      r4 as' g es
+    } \\ {
+      s1*4
+      s2 r4 a %5
+      \voiceOne b2~ b
+    } >>
+    b,4 c8 d es b s4 %12
+    << { b'1 } \\ { r4 as g es } >>
+    b c8 d es b s4
+    << { c'1 } \\ { r4 b a! f } >> %15
+    c d8 e f c s4
+    << { c'1 } \\ { r4 b a! f } >>
+    c d8 e f c s4
+    << { d'1 } \\ { r4 c b g } >>
+    d e8 fis g d b g %20
+    << { d''1 } \\ { r4 c b g } >>
+    d e8 fis g d b g
+    es''!16 f,! g f es' f, g f d' f, g f d' f, g f
+    es' f, g f es' f, g f d' f, g f d' f, g f
+    r g a g r g es' g, r f g f r f d' f, %25
+    r es f es r es c' es, r d es d r d b' d,
+    r c d c r c a' c, r b c b r b g' b,
+    r a b a r a f' a, \lh \voiceOne r g a g r g es' g,
+    r f g f r f d' f, r es f es r es c' es,
+    r f g a \rh \oneVoice b c d es f b, c d es f g a %30
+    << { b2 } \\ { r8 as16 g as8 f } >> g16 es b' g es' b g es
+    << { b'2 } \\ { r8 as16 g as8 f } >> g r es r
+    \voiceOne g r b r es16 b as g f es d es \oneVoice
+    << { c'2 } \\ { r8 b16 a b8 g } >> a16 f c' a f' c a f
+    << { c'2 } \\ { r8 b16 a b8 g } >> a r f r %35
+    \voiceOne a r c r f16 c b a g f e f \oneVoice
+    r es f es c' es, f es r f g f d' f, g f
+    r g a g es' g, a g r f g f d' f, g f
+    r es f es c' es, f es r d es d b' d, es d
+    r c d c a' c, d c r b c b g' b, c b %40
+    r a b a f' a, b a r g a g es' g, a g
+    <a c es>1
+    s
+    << {
+      a'4 b~ b8 a c4 %44
+      r16 c b a b4 r16 b a g a4
+      <f b>2
+    } \\ {
+      es!4 f2. %44
+      f f8 es
+      d2
+    } >> \tuplet 3/2 8 { a'16[ es c] es' c a d[ b f] b f d
+    a' f c es'[ c a] } << { <f b>2.\fermata } \\ { d } >> \bar "|." %47 finis
+  }
+}
