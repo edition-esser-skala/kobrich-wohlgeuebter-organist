@@ -5286,3 +5286,67 @@ ToccataXIChords = {
     a' f c es'[ c a] } << { <f b>2.\fermata } \\ { d } >> \bar "|." %47 finis
   }
 }
+
+ToccataXIIChords = {
+  \relative c' {
+    \clef treble
+    \key h \major \time 4/4
+    <fis h dis>1
+    << { ais4 cis e <e, ais> } \\ { cis ais' cis cis, } >>
+    <dis fis h>1
+    \lh \voiceOne r16 fis, dis fis r h fis h \rh \oneVoice r dis h dis r fis dis fis
+    \voiceOne r h fis h r dis h dis r fis dis fis r h fis h %5
+    r fis dis fis r dis h dis r h fis h \oneVoice r fis dis fis
+    << {
+      ais4 cis e <ais, cis> %7
+      <h dis>2 <dis fis>
+      q1
+      e4 \once \oneVoice r e \once \oneVoice r %10
+      <cis e> \once \oneVoice r q \once \oneVoice r
+      <h! dis> \once \oneVoice r <h dis> \once \oneVoice r
+    } \\ {
+      cis, ais' cis e, %7
+      fis2 h
+      his1
+      cis4 s cis s %10
+      ais! s ais s
+      fis s fis s
+    } >>
+    gis8 ais16 h cis dis e fis gis fis e dis cis h ais gis %13
+    fis8 gis16 ais h cis dis e fis e dis cis h ais gis fis
+    e8 fis16 gis ais h cis dis e dis cis h ais gis fis e %15
+    dis8 e16 fis gis ais h cis dis cis h ais gis fis e dis
+    << {
+      gis2 gis %17
+      eis fis4 <ais cis>
+      fis'2~ fis4 e~
+      e2~ e4 dis~ %20
+      dis2~ dis4 cis~
+      cis2~ cis4 h
+      gis2 ais
+      h cis
+      r16 fis, gis ais h cis dis e fis2 %25
+      r16 cis his cis dis cis \hA his cis r cis his cis dis cis \hA his cis
+      <d eis gis>2~ gis4 fis~
+      fis e!2 dis4~
+      dis cis2 h4
+      h2 <e, ais> %30
+    } \\ {
+      r16 cis his cis \hA his cis \hA his cis r cis his cis \hA his cis \hA his cis %17
+      d2 cis4-\critnote fis
+      r a gis2
+      r4 gis fis2 %20
+      r4 fis e2
+      r4 e dis2
+      r16 fis e dis cis h ais gis r gis' fis e dis cis h ais
+      r ais' gis fis e dis cis h r h' ais gis fis e dis cis
+      dis4 r r16 e' dis cis h a gis \hA a %25
+      gis2 gis
+      h ais!4. ais8
+      gis4. gis8 fis4. fis8
+      e4. e8 dis4. dis8
+      cis2 cis %30
+    } >>
+    <dis fis h>1\fermata \bar "|." %31 finis
+  }
+}

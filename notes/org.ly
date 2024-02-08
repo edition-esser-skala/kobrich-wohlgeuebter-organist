@@ -4751,3 +4751,65 @@ ToccataXIOrgano = {
     q\fermata \bar "|." %43 finis
   }
 }
+
+ToccataXIIOrgano = {
+  \relative c {
+    \clef bass
+    \key h \major \time 4/4
+    <h h'>1
+    q
+    q
+    \voiceTwo h8 r dis r fis r h r
+    \rh dis r fis r h r dis r %5
+    h r fis r dis r \lh \oneVoice h r
+    << {
+      h1~ %7
+      h2 a
+    } \\ {
+      h,1~ %7
+      h
+    } >>
+    <gis gis'>
+    r16 cis' his cis cis, cis' \hA his cis r cis his cis cis, cis' \hA his cis %10
+    r fis, eis fis fis, fis' \hA eis fis r fis eis fis fis, fis' \hA eis fis
+    r h ais h h, h' ais h r h ais h h, h' ais h
+    << {
+      r4 e r e %13
+      r dis r dis
+      r cis r cis %15
+      r h h2
+      gis gis
+      <gis h!> ais
+    } \\ {
+      e2 cis' %13
+      dis, h'
+      cis, ais' %15
+      h, r4 h
+      e2 e
+      eis fis4 e
+    } >>
+    dis16 h' fis h dis, h' fis h e, h' gis h e, h' gis h
+    cis, ais'! e ais cis, ais' e ais dis, ais' fis ais dis, ais' fis ais %20
+    h, gis' dis gis h, gis' dis gis cis, gis' e gis cis, gis' e gis
+    ais, fis' cis fis ais, fis' cis fis h, fis' dis fis h, fis' dis fis
+    e2 << {
+      fis
+      r4 gis ais2
+      r4 h2. %25
+      gis4 \once \oneVoice r gis \once \oneVoice r
+      <gis h>2 fis
+      fis fis
+      fis fis
+    } \\ {
+      r4 fis, %23
+      gis2 r4 ais
+      h2 dis %25
+      e4 s e s
+      eis2 fis,
+      fis fis
+      fis fis
+    } >>
+    <fis fis'>1 %30
+    <h dis fis>\fermata \bar "|." %31 finis
+  }
+}
