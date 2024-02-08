@@ -731,20 +731,34 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.9" "Toccata IX:na"
+  %   \addTocEntry
+  %   \paper { page-count = #2 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataIXChords }
+  %         \new Staff = "LH" { \ToccataIXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
   \bookpart {
-    \section "3.9" "Toccata IX:na"
+    \section "3.10" "Toccata X:ma"
     \addTocEntry
-    \paper { page-count = #2 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataIXChords }
-          \new Staff = "LH" { \ToccataIXOrgano }
+          \new Staff = "RH" { \ToccataXChords }
+          \new Staff = "LH" { \ToccataXOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

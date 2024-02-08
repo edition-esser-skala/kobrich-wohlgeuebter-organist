@@ -5141,3 +5141,70 @@ ToccataIXChords = {
     } >> \bar "|." %47 finis
   }
 }
+
+ToccataXChords = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4
+    << { <e a>2. } \\ { cis } >> a'4
+    cis,8 a' d, a' cis, a' d, a'
+    << { e4 fis e fis } \\ { cis d cis d } >>
+    <h dis fis a>1
+    r16 h ais h cis h ais h dis h fis' \hA dis a' fis \hA dis h %5
+    r e dis e fis e dis e gis e h' gis e' h gis e
+    r h ais h cis h ais h dis h fis' \hA dis a' fis \hA dis h
+    r e dis e fis e dis e gis e h' gis e' h gis e
+    <e gis h d!>1
+    cis'8 e d cis h cis d h %10
+    cis e d cis h cis d h
+    << {
+      cis e d cis h cis d h %12
+      cis e d cis h cis d h
+      cis a g fis
+    } \\ {
+      a cis h a gis a h gis %12
+      a cis h a gis a h gis
+      a r s4
+    } >> e8 fis g e
+    fis a g fis e fis g e %15
+    << {
+      fis a g fis e fis g e
+      fis a g fis e fis g e
+    } \\ {
+      d fis e d cis d e cis %16
+      d fis e d cis d e cis
+    } >>
+    dis h' a gis! fis gis a fis %18
+    gis h a gis fis gis a fis
+    << {
+      gis h a gis fis gis a fis %20
+      gis h a gis fis gis a fis
+    } \\ {
+      e gis fis e dis e fis dis %20
+      e gis fis e dis e fis dis
+    } >>
+    gis e' d! cis h cis d h
+    cis e d cis h cis d h
+    << {
+      cis e d cis h cis d h %24
+      cis e d cis h cis d h
+    } \\ {
+      a cis h a gis a h gis %24
+      a cis h a gis a h gis
+    } >>
+    cis16 a h cis d e fis gis a e cis a e' cis a e
+    cis' a e cis a' e cis a << {
+      r h' ais h cis h ais h %27
+      r h ais h cis h ais h
+    } \\ {
+      fis2 %27
+      fis
+    } >> fis'16 e d cis h a gis fis
+    gis e a e d' e, cis' e, gis e a e d' e, cis' e,
+    << { gis e a8~ a gis a4. } \\ { s8 \mvTrh e4.-\critnote cis } >> a'8 %30
+    cis, a' d, a' cis, a' d, a'
+    << { e4 fis e fis } \\ { cis d cis d } >>
+    <e gis h d>1
+    <e a cis>\fermata \bar "|." %34 finis
+  }
+}

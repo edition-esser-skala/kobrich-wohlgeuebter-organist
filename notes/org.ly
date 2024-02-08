@@ -4610,3 +4610,62 @@ ToccataIXOrgano = {
     } >> \bar "|." %47 finis
   }
 }
+
+ToccataXOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4
+    << {
+      a'2. \once \oneVoice r4
+      e fis e fis
+    } \\ {
+      a,2. s4
+      a1
+    } >>
+    a16 a' gis a a, a' gis a a, a' gis a a, a' gis a
+    <a fis dis h>1
+    << {
+      <dis, fis>4 \once \oneVoice r q r %5
+      gis \once \oneVoice r gis \once \oneVoice r
+      <dis fis> \once \oneVoice r q \once \oneVoice r
+      gis \once \oneVoice r gis \once \oneVoice r
+    } \\ {
+      h,4 s h s %5
+      e s e s
+      h s h s
+      e s e s
+    } >>
+    <e gis h>1
+    a16 e' cis e h e a, e' gis, e' a, e' h e gis, e' %10
+    a, e' cis e h e a, e' gis, e' a, e' h e gis, e'
+    e, e' e, e' e, e' e, e' e, e' e, e' e, e' e, e'
+    e, e' e, e' e, e' e, e' e, e' e, e' e, e' e, e'
+    a,, a' fis a e a d, a' cis, a' d, a' e a cis, a'
+    d, a' fis a e a d, a' cis, a' d, a' e a cis, a' %15
+    a, a' a, a' a, a' a, a' a, a' a, a' a, a' a, a'
+    a, a' a, a' a, a' a, a' a, a' a, a' a, a' a, a'
+    h, h' gis! h fis h e, h' dis, h' e, h' fis h dis, h'
+    e, h' gis h fis h e, h' dis, h' e, h' fis h dis, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h' %20
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    e, e' cis e h e a, e' gis, e' a, e' h e gis, e'
+    a, e' cis e h e a, e' gis, e' a, e' h e gis, e'
+    e, e' e, e' e, e' e, e' e, e' e, e' e, e' e, e'
+    e, e' e, e' e, e' e, e' e, e' e, e' e, e' e, e' %25
+    <a, a,>2 r
+    r <d, d,>
+    q~ q
+    << {
+      h'8 cis gis a h cis gis a %29
+      h cis h4 a4. \once \oneVoice r8
+      e4 fis e fis
+    } \\ {
+      e1~ %29
+      e2 a,4. s8
+      a1
+    } >>
+    a16 a' gis a a, a' gis a a, a' gis a a, a' gis a %32
+    <a a,>1
+    <a e cis a>\fermata \bar "|." %34 finis
+  }
+}
