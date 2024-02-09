@@ -4912,3 +4912,126 @@ ToccataXIIIOrgano = {
     <es g b>\fermata \bar "|." %57 finis
   }
 }
+
+ToccataXIVOrgano = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4
+    << {
+      e1~
+      e~
+      e~
+      e~
+      e %5
+      <e gis>~
+      q~
+      q~
+      q~
+      q %10
+      r4 cis' ais2
+      h1
+      r16 fis gis ais h fis gis ais h fis h dis h fis h dis
+      <dis, fis>2 h'~
+      <dis, fis h>1~ %15
+      q~
+      q
+      h'2~ h
+    } \\ {
+      e,,1~
+      e~
+      e~
+      e~
+      e~ %5
+      e~
+      e~
+      e~
+      e~
+      e %10
+      cis'
+      h~
+      h2~ <h dis>
+      h~ h~
+      h1~ %15
+      h~
+      h
+      gis'2~ gis
+    } >>
+    r16 a gis a e a cis, a' << {
+      r cis, e a r cis, e a
+      h2~ h %20
+    } \\ {
+      a,4 a
+      gis'2~ gis %20
+    } >>
+    r16 a gis a e a cis, a' << {
+      r cis, e a r cis, e a
+      cis2~ cis
+    } \\ {
+      a,4 a
+      ais'2~ ais
+    } >>
+    r16 h ais h fis h dis, h' << {
+      r dis, fis h r dis, fis h %23
+      cis2~ cis
+    } \\ {
+      h,4 h %23
+      ais'2~ ais
+    } >>
+    r16 h ais h fis h dis, h' << {
+      r dis, fis h r dis, fis h %25
+      dis2~ dis
+    } \\ {
+      h,4 h %25
+      his'2~ his
+    } >>
+    r16 cis his cis gis cis eis, cis' << {
+      r eis, gis cis r eis, gis cis
+      dis2~ dis
+    } \\ {
+      cis,4 cis
+      his'2~ his
+    } >>
+    r16 cis his cis gis cis eis, cis' << {
+      r eis, gis cis r eis, gis cis %20
+      fis2~ fis
+    } \\ {
+      cis,4 cis %29
+      dis'2~ dis
+    } >>
+    r16 e! dis e h e gis, e' << {
+      r gis, h e r gis, h e
+      fis2~ fis
+    } \\ {
+      e,4 e
+      dis'2~ dis
+    } >>
+    r16 e dis e h e gis, e' << { r gis, h e r gis, h e } \\ { e,4 e } >>
+    <a cis>1
+    <gis h> %35
+    <fis a>
+    e8 fis gis a h,16 h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h'
+    h, h' h, h' h, h' h, h' h, h' h, h' h, h' h, h' %40
+    << { ais2 } \\ { cis, } >> h'4 h,
+    << {
+      s1
+      gis'~
+      gis~
+      gis~ %45
+      gis~
+      gis
+      fis
+      gis\fermata
+    } \\ {
+      <e e,>1~ %42
+      q~
+      q~
+      q~ %45
+      q~
+      q~
+      q~
+      q
+    } >> \bar "|." %49 finis
+  }
+}

@@ -791,15 +791,31 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.13" "Toccata XIII:za"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXIIIChords }
+  %         \new Staff = "LH" { \ToccataXIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "3.13" "Toccata XIII:za"
+    \section "3.14" "Toccata XIV:ta"
     \addTocEntry
+    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXIIIChords }
-          \new Staff = "LH" { \ToccataXIIIOrgano }
+          \new Staff = "RH" { \ToccataXIVChords }
+          \new Staff = "LH" { \ToccataXIVOrgano }
         >>
       >>
       \layout { }
