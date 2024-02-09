@@ -5085,3 +5085,65 @@ ToccataXVOrgano = {
     q\fermata \bar "|." %23 finis
   }
 }
+
+ToccataXVIOrgano = {
+  \relative c {
+    \clef bass
+    \key g \dorian \time 4/4
+    << {
+      <g' b d>1
+      <b d>4 c16 es d c d8. b16 c4
+      b a g2~
+      g g4 a8 c
+      c2 b4 g %5
+      g4. c8 c2
+      b b4 c8 es~
+      es4 c8 a b2
+      c4~ c16 a b c b4~ b16 g a b
+      a4~ a16 fis g a g2~ %10
+      g4 f! cis d16 e f g
+      a4. g8 a2
+      b c~
+      c b~
+      b a~ %15
+      <fis a> s
+      g a
+      d16 d c d a c b a b b a b fis a g fis
+    } \\ {
+      g,1~-\pedale
+      g~
+      g~
+      g4 b c2
+      d4 <fis a> g h, %5
+      c es f a
+      b, d es2
+      f r4 d
+      c f b, es
+      a, d g,2 %10
+      a1~
+      a2 fis'
+      g c,
+      f! b,
+      es a, %15
+      d g4 f
+      es e d2
+      d1
+    } \\ {
+      s1
+      \voiceFour g
+      g2 s
+    } >>
+    g8 f! es d <cis cis'>2 %19
+    r16 cis e g b! cis b g e b' g e cis g' e \hA cis %20
+    << {
+      d1~
+      d2 r8 g g g
+    } \\ {
+      d,1~ %21
+      d2 g
+    } >>
+    <g g'>1~
+    q~
+    q\fermata \bar "|." %25 finis
+  }
+}

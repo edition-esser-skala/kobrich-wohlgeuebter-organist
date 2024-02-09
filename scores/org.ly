@@ -822,15 +822,31 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.15" "Toccata XV:ta"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXVChords }
+  %         \new Staff = "LH" { \ToccataXVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3.15" "Toccata XV:ta"
+    \section "3.16" "Toccata XVI:sta"
     \addTocEntry
+    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXVChords }
-          \new Staff = "LH" { \ToccataXVOrgano }
+          \new Staff = "RH" { \ToccataXVIChords }
+          \new Staff = "LH" { \ToccataXVIOrgano }
         >>
       >>
       \layout { }

@@ -5591,3 +5591,66 @@ ToccataXVChords = {
     <h, e gis>1\fermata \bar "|." %23 finis
   }
 }
+
+ToccataXVIChords = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 4/4
+    <g' b>1
+    r16 d' c b a c b a b g fis g es g fis g
+    d g fis g c, g' fis g b, g b d g d g b
+    d g, b d g f! es d << {
+      es2~
+      es8 d16 es d c d c b4 s %5
+    } \\ {
+      r8 a16 b c b a g
+      fis4 a g d'8 r %5
+    } \\ {
+      s2
+      s r8 g16 f g f es d %5
+    } >>
+    << {
+      es2 r8 f16 es f es d c %6
+      d2 r8 es16 d es d c b
+      a8 c16 b a g f es r f g a b4~
+      b16 b a b a4~ a16 a g a g4~
+      g16 g fis g fis4 r8 g16 f e f e d %10
+      cis8 h16 a d e f g a8 g f4
+      e2^\critnote
+    } \\ {
+      r8 c'16 b c b a g a4 f %6
+      f8 b16 a b a g f g2
+      s d4-\critnote r16 f es d
+      es4~ es16 c d es d4~ d16 b c d
+      c4~ c16 a b c b2 %10
+      s4 a e'~ e8 d~
+      d c16 h  c4
+    } >> d16 e fis g a b c d %12
+    b g d' b g' d << {
+      b'8 r16 b a b c b a g %13
+      a2 r16 a g a b a g a
+      g2 r16 g fis g a g fis g %15
+    } \\ {
+      r16 d es2 %13
+      r16 es d es f es d es d2
+      r16 d c d es d c d c2 %15
+    } >>
+    a'16 g fis es d c b a b g' b, g' h, as' \hA h, \hA as'
+    c, g' c, g' c, g' c, g' << { fis2 g16 } \\ { r16 d c! d a c b a b b a b } >>
+    fis a g fis g d' c d a c b a
+    << {
+      b2 <b e!> %19
+      <b e>1~ %20
+      e8 d4 c b a8~
+      a g4 fis8 g d f d
+      es g c8. a16 <g h>2
+    } \\ {
+      g2 g g1 %19
+      fis8. g16 es8. fis16 d8. es16 c8. d16 %20
+      b8. c16 a4 h2
+      c8 es4 fis8 d2
+    } >>
+    <a c fis>1
+    <h g'>\fermata \bar "|." %25 finis
+  }
+}
