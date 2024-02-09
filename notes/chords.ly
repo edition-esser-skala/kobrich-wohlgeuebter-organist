@@ -5530,3 +5530,64 @@ ToccataXIVChords = {
     <h e gis>\fermata \bar "|." %49 finis
   }
 }
+
+ToccataXVChords = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4
+    << {
+      g'1
+      a~
+      a8 g16 fis g4 <gis h>2
+      \oneVoice r16 e gis h gis e gis h \voiceOne <a c>2
+      q q_~ %5
+      \voiceTwo a4 gis \voiceOne r8 cis16 e a8 <e g>_~
+      \voiceTwo e4 d \voiceOne r8 d16 fis h8 <fis a>_~
+      \voiceTwo fis4 e \voiceOne a~ a8 <e g>_~
+      \voiceTwo e4 d \voiceOne g~ g8 <d fis>_~
+      \voiceTwo d4 cis \voiceOne fis~ fis8 <cis e>_~ %10
+      \voiceTwo cis4 h~ h8 a16 gis a4~
+      a8 g16 fis g8 a16 g fis2
+      gis8 fis16 e e2 \voiceOne <a c>4_~
+      \voiceTwo a8 g16 fis g4~ g8 a16 h \once \slurNeutral \appoggiatura cis? h8 a16 g
+      fis4. f8 f\trill e16 \hA f f8\trill e16 \hA f %15
+      e2 e4 dis
+      \voiceOne r8 g h e dis4 e
+      a, g fis2^\critnote
+      gis4 f'8 f e4 <h d>8 q
+      <a c>1 %20
+      h2 a4 <e gis>
+      fis gis <dis fis a>2
+    } \\ {
+      e1~
+      e2 dis
+      e2 e
+      s e
+      f fis %5
+      \voiceOne h \voiceTwo r16 a8. a4
+      \voiceOne fis'2 \voiceTwo r16 h,8. h4
+      \voiceOne g'2 \voiceTwo r16 a, cis e a,4
+      \voiceOne fis'2 \voiceTwo r16 g, h d g,4
+      \voiceOne e'2 \voiceTwo r16 fis, ais cis fis,4 %10
+      \voiceOne d'2 cis
+      dis4 e~ e8 d16 cis d4~
+      d a d8 c16 h s4
+      h2 e~
+      e8 d16 cis d2.~ %15
+      d8 c16 h c h a g fis2 \voiceTwo
+      e2 r8 h' r16 e, g h
+      r h, dis fis e4~ e dis
+      e gis a e
+      e8 f-! e-! dis-! e-! f-! e-! dis-! %20
+      a'4 gis dis h
+      dis e h2
+    } \\ {
+      s1*10 %10
+      s2 \once \override Rest.X-offset = #2 a''4\rest r8 fis16 e
+      s2 \voiceFour \once \override Rest.X-offset = #1 a,,4\rest h8\rest h'16 a
+      s1*5 %17
+      s2 \voiceThree \once \override Rest.X-offset = #2 e'4\rest h8 a
+    } >>
+    <h, e gis>1\fermata \bar "|." %23 finis
+  }
+}

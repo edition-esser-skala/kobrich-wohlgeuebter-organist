@@ -5035,3 +5035,53 @@ ToccataXIVOrgano = {
     } >> \bar "|." %49 finis
   }
 }
+
+ToccataXVOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4
+    <e h'>1
+    <fis a>
+    << {
+      h2 d! %3
+      d r16 e, a c h a gis a
+      f2 s %5
+      r8 h e d! e2
+    } \\ {
+      e,2 d! %3
+      d s
+      f, dis' %5
+      e cis'
+    } >>
+    d16 d, fis a d8 cis << { d2 } \\ { h } >> %7
+    e16 e, g h e8 d << { e2 } \\ { cis } >>
+    d16 d, fis a d8 cis << { d2 } \\ { h } >>
+    cis16 cis, e g cis8 h << {
+      cis2 %10
+      h s
+      h1~
+      h4 c!8 h16 a gis4 a16 h c d
+      e4. e16 d cis2
+      a4. d8 h2 %15
+      a r8 fis h a
+      g!2 a4 g
+      fis8. dis16 e fis g a h2
+      h4 d!8 d c4 gis8 gis
+    } \\ {
+      ais2 %10
+      r8 h,16 cis d cis d e fis2
+      h,1
+      e
+      e2 cis
+      d gis %15
+      a, h~
+      h1~
+      h2 r4 h
+      e1
+    } >>
+    a8-! f-! e-! dis-! e-! f-! e-! dis-! %20
+    << { e2 fis4 e } \\ { r e, e2 } >>
+    <e e'>1~
+    q\fermata \bar "|." %23 finis
+  }
+}

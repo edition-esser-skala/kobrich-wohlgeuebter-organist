@@ -806,20 +806,35 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.14" "Toccata XIV:ta"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #5 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXIVChords }
+  %         \new Staff = "LH" { \ToccataXIVOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "3.14" "Toccata XIV:ta"
+    \section "3.15" "Toccata XV:ta"
     \addTocEntry
-    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXIVChords }
-          \new Staff = "LH" { \ToccataXIVOrgano }
+          \new Staff = "RH" { \ToccataXVChords }
+          \new Staff = "LH" { \ToccataXVOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }
