@@ -5750,3 +5750,84 @@ ToccataXVIIChords = {
     <e g c>1\fermata \bar "|." %39 finis
   }
 }
+
+ToccataXVIIIChords = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4
+    <f a d>1
+    << { f4 } \\ { d } >> e8 cis d f g e
+    f d f a d a << {
+      b4 %3
+      r8 gis a4. fis8 g4
+      r8 b a g~ g f16 e d f a d~ %5
+      d8 cis16 h cis d \hA cis d e2~
+      e8 d16 cis d4~ d8 c16 b c4~
+      c <b f>~ q8 a16 g a4
+      r16 a g a b4~ b a8 g
+      r h16 c d c h a r8 f' e16 d c h %10
+      cis d \hA cis d e4~ e8 d16 e d c h a
+      h c h c d4~ d8 c16 d c b a g
+      a b a \hA b c4~ c8 b16 c \hA b a g f
+      c'1~
+      c~ %15
+      c4 r s2
+      d1~
+      d4 r s2
+      e1
+      gis,8 e a4~ a8 g16 fis g4 %20
+      g16 a g a b8 a16 g g8 f16 g f4
+      f16 g f g a8 g16 f f8 e16 f e8 g
+      g4 f d' cis
+      <e b'>2 a
+      e8 e16 f a g f e f4 d %25
+      cis8 cis16 d \once \slurNeutral \appoggiatura f e8 d16 cis d8 f16 g \once \slurNeutral \appoggiatura b? a8 g16 f
+      e8 e16 f \once \slurNeutral \appoggiatura a g8 f16 e f4 e8 d~
+      d cis16 h \hA cis d e8~ e d16 cis d e f8~
+      f e16 d e f g8~ g f16 e f4~
+      f8 e16 d e4~ e8 d16 cis d4~ %30
+      d8 cis16 h cis4 d2
+    } \\ {
+      r8 f, %3
+      e4. e8 d4. d8
+      cis4. e8 d4 s %5
+      e2 r16 d' cis b a b a g
+      f2 e
+      d c
+      d e16 c e g e4
+      f2 gis4 r %10
+      a r16 g a g f2
+      g4 r16 f g f e2
+      s4 r16 es f es d2
+      e8 f16 g f8 g16 a b a \hA b g a g a f
+      e8 f16 g f8 g16 a b a \hA b g a g a f %15
+      fis8 d16 fis g d g b c d, a' c b d, \hA b' d
+      fis,8 g16 a g8 a16 b c \hA b c a b a \hA b g
+      gis8 e16 gis a e a c h e, h' d c e, c' e
+      gis,8 a16 h a8 h16 c d c d h c h c a
+      s4 e2. %20
+      e4 g8 f16 e e8 d16 e d4~
+      d f8 e16 d d8 c16 d c8 e
+      e4 d f e
+      cis'2 r8 d16 e f8 e16 d
+      a1 %25
+      g2 a~
+      a r8 d b f
+      e4. r16 g f4. r16 a
+      g4. r16 b a4. b16 a
+      g4. a16 g f4. g16 f %30
+      e2 fis
+    } \\ {
+      s4 %3
+      s1*4 %7
+      s2. \voiceFour c16\rest c f e
+      s4 c16\rest a' g f s2
+      s1*21 %30
+      \once \override Rest.X-offset = #2 c4\rest c8\rest g' s2
+    } >>
+    r16 fis es' \hA fis, g8 d' d,16 fis a d d, g b d %32
+    r fis, es' \hA fis, g8 d' d,16 fis a d d, g b d
+    <cis, e! g>1
+    <d fis>\fermata \bar "|." %35 finis
+  }
+}

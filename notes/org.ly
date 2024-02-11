@@ -5217,3 +5217,84 @@ ToccataXVIIOrgano = {
     <c c'>1\fermata \bar "|." %39 finis
   }
 }
+
+ToccataXVIIIOrgano = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 4/4
+    << {
+      d'1
+      <a f>4 g8 e f a b g
+      <f a>2.
+    } \\ {
+      d1~
+      d
+      d2.
+    } >> r8 d'
+    cis4 c h! b
+    << { a2 a } \\ { a,4. cis8 d2 } \\ { s \once \override Rest.X-offset = #3 f4\rest f } >> %5
+    << {
+      a2~ a~
+      a4 r a2
+      s f~
+      f4 g~ g8. e16 a4~
+      a f8 d'~ d4 c!16 h! a gis %10
+      a1
+      g!
+      f2 f4 g8 b~
+      b4 a8. f16 e4 f
+      g a8. f16 e4 f %15
+      a b8 g fis8. a16 g8. b16
+      a4 b8. g16 fis4 g
+      h c8. a16 gis8. h!16 a8. c16
+      h!4 c8. a16 gis4 a
+      h! c h2 %20
+      cis a
+      h! g4. b8
+    } \\ {
+      a,2 cis %6
+      d4 d16 e f g r4 a,16 b! c! a
+      b a b c d c d e r4 f,8 a
+      b4 g8 b c4 <cis e>
+      d2 e %10
+      r4 cis d f
+      r h,! c e
+      r a, b2
+      c1~
+      c %15
+      d~
+      d
+      e~
+      e~
+      e2 e4. d8 %20
+      cis2 d4~ d16 e d c
+      h!2 c4. b8
+    } >>
+    r16 a' a, a' r a a, a' r a a, a' r a a, a' %23
+    << { g2 } \\ { g, } >> f'4 d
+    << {
+      a'1 %25
+      e8 e16 f g8 f16 e a2~
+      a r8 b b h
+      a1~
+      a~
+      a~ %30
+      a2 a
+      c!4 b fis g
+      c b fis g
+      <e g>1
+    } \\ {
+      cis4 a d8 d16 e f8 e16 d %25
+      a2 f'8 d16 e f8 e16 d
+      cis8 cis16 d e8 d16 cis d4 g8 gis
+      a,1~
+      a~
+      a~ %30
+      a2 d
+      d1~
+      d
+      d
+    } >>
+    <d fis a>1\fermata \bar "|." %35 finis
+  }
+}

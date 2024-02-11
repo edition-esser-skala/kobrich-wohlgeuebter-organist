@@ -853,15 +853,30 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.17" "Toccata XVII:ma"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXVIIChords }
+  %         \new Staff = "LH" { \ToccataXVIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "3.17" "Toccata XVII:ma"
+    \section "3.18" "Toccata XVIII:va"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXVIIChords }
-          \new Staff = "LH" { \ToccataXVIIOrgano }
+          \new Staff = "RH" { \ToccataXVIIIChords }
+          \new Staff = "LH" { \ToccataXVIIIOrgano }
         >>
       >>
       \layout { }
