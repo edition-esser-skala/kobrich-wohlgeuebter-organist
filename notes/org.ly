@@ -5147,3 +5147,73 @@ ToccataXVIOrgano = {
     q\fermata \bar "|." %25 finis
   }
 }
+
+ToccataXVIIOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4
+    << { g'2 as4 h } \\ { c,2~ c } >>
+    r8 c16 d es d es c << { d8 d16 es f es f d } \\ { r g,8.~ g4 } >>
+    es'8 c16 d es d es c d8 g g, g'
+    c, c'16 b! c b as g f4. as8
+    b16 b, b' as b as g f es4. g8 %5
+    as16 as, as' g as g f es d4. f8
+    g, g' g, g' g, g' g, g'
+    << {
+      r4 c2 b!4 %8
+      fis g cis2
+    } \\ {
+      c,2 d %8
+      d1
+    } >>
+    d'16 d, d' es! d c b a g8 \rh \voiceTwo g'16 as? g f es d %10
+    c h c d es c d es \oneVoice f \lh f, \rh f' g \voiceTwo f es d c \lh \oneVoice
+    b a b c d b c d es es, es' f es d c b
+    a g \hA a b c a b c d d, d' es d c b a
+    << { <b d>2 <a d> } \\ { g fis } >>
+    r8 g16 a b a b g << { a8 a16 b c b c a } \\ { r d,8.~ d4 } >> %15
+    b'8 g16 a b \hA a b g a8 d d, d'
+    g,4 g, c8 c'16 b! c b a g
+    f4 f, b8 b'16 a b \hA a g f
+    es4 es, a8 a'16 g \hA a g fis e
+    d4 d, g8 g' g,16 a b c %20
+    d4 d, << {
+      r8 g'16 f! g4~
+      g2 d8 d16 es f es f d
+    } \\ {
+      g,4 es'!8 h %21
+      c c16 d es d es c r g8.~ g4
+    } >>
+    c8 c'16 d es d es c d8 g, g, g'
+    c, as'! g fis g, g' g, g'
+    g, g' g, g' g, g' g, g' %25
+    << { f2 } \\ { f, } >> es'!16 c' g c es, c' g c
+    f, c' as! c f, c' as c fis, d' a d \hA fis, d' \hA a d
+    << {
+      d4 r8 f es4 r8 es %28
+      h4 r8 h c4 r8 c
+      d4 r8 d es4 r8 es %30
+      f
+    } \\ {
+      g,1~ %28
+      g~
+      g %30
+      f8
+    } >> r r4 r2
+    << { g8 } \\ { g, } >> r \tuplet 3/2 8 { d''16 f, g as![ g f] } << { f2 } \\ { f, } >> %32
+    <es' g>1
+    << { f2 } \\ { f, } >> g'4 g,
+    as'!2 << {
+      a %35
+      g g8 g16 as b! as b g
+      as8 c c c c e,16 f g f g e
+      f8 as g as h2
+    } \\ {
+      fis2 %35
+      r4 g, c2~
+      c1~
+      c
+    } >>
+    <c c'>1\fermata \bar "|." %39 finis
+  }
+}

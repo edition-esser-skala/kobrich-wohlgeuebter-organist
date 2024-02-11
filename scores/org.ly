@@ -837,20 +837,35 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.16" "Toccata XVI:sta"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #5 }
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXVIChords }
+  %         \new Staff = "LH" { \ToccataXVIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3.16" "Toccata XVI:sta"
+    \section "3.17" "Toccata XVII:ma"
     \addTocEntry
-    \paper { systems-per-page = #5 }
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXVIChords }
-          \new Staff = "LH" { \ToccataXVIOrgano }
+          \new Staff = "RH" { \ToccataXVIIChords }
+          \new Staff = "LH" { \ToccataXVIIOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
