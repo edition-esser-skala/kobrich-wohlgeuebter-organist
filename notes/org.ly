@@ -5298,3 +5298,79 @@ ToccataXVIIIOrgano = {
     <d fis a>1\fermata \bar "|." %35 finis
   }
 }
+
+ToccataXIXOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4
+    << {
+      a'1~
+      a~
+      a~
+      a~
+      a2 <fis a c> %5
+      e' s
+      s r16 c h c h gis a h
+      a e' d e d h c d c c h c h gis a h
+      a2 s4 d
+      s c s b %10
+    } \\ {
+      a,1~
+      a~
+      a~
+      a~
+      a2 dis %5
+      e c'4 gis
+      e16 a gis a e h' a h e,2~
+      e1
+      r4 a, d16 d' c! d b a g b
+      c, c' b c a g f a b, b' a \hA b g f e g %10
+    } >>
+    a, a' g a f a d, a' cis, a' a, a' d, a' f a
+    a, a' g a f a d, a' cis, a' a, a' d, a' f a
+    g, g' f g e g c, e f, f' e f d f b, d
+    e, e' d e cis e a, cis <d d,>2
+    e16 e' dis e c e a, e' << { e2 } \\ { gis,4 a } >> %15
+    e16 e' dis e c e a, e' << { e2 } \\ { gis,4 a } >>
+    d,!16 d' cis d h d g, d' << { d2 } \\ { fis,4 g } >>
+    d16 d' cis d h d g, d' << { d2 } \\ { fis,4 g } >>
+    << {
+      c1~
+      c4 h8 g a fis g h %20
+      a4 h8 a16 g a4 d~
+      d gis, a2~
+      a4 f g2~
+      g4 e f2~
+      f4 d e2 %25
+    } \\ {
+      c1
+      d~ %20
+      d
+      e2_\critnote r4 a,
+      d2 r4 g,
+      c2 r4 f,
+      h2 r4 e, %25
+    } >>
+    a16 a' gis a e a c, a' a, a' gis a e a c, a'
+    << {
+      r2 d~ %27
+      d4 gis, a c
+      h16 e d e h d c h c e d e a, c h a
+      gis4 d'16 h a gis a4 c16 e d c %30
+      h4 c h d
+      c a gis h
+      a16 c d h c a h gis a c d h c a h gis
+    } \\ {
+      d1 %27
+      e~
+      e~
+      e~ %30
+      e~
+      e~
+      e
+    } >>
+    a16 e a f a c, a' dis, <e e,>2
+    << { r8 a a a } \\ { a,2 } >> a16 a' gis a a, a' gis a %35
+    <a a,>1\fermata \bar "|." %36 finis
+  }
+}

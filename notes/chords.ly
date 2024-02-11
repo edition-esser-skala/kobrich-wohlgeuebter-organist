@@ -5831,3 +5831,75 @@ ToccataXVIIIChords = {
     <d fis>\fermata \bar "|." %35 finis
   }
 }
+
+ToccataXIXChords = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4
+    <e a c>1
+    e16 h' d h e, a c a d, gis h gis c, e a c,
+    << { <d gis>2 <e a> } \\ { h c } >>
+    e'16 d c h c h a gis a e fis gis a h c d
+    e a, c e a e c a << { <a c>2 } \\ { <fis dis> } >> %5
+    << { <gis h> } \\ { e } >> e16 a gis a e h' a h
+    e, c' h c e, d' c d e, e' d e d h c d
+    c c h c h gis a h a e' d e d h c d
+    << {
+      r a' gis a g e f g f4 g16 a b g %9
+      e4 f16 g a f d4 e16 f g e %10
+      cis8 e d f e g f a
+      cis, e d f e g f a~
+      a4 g2 f4~
+      f e~ e8 d16 c! h c h a
+      h4 c h16 e dis e c e a, c %15
+      h4 c h16 e dis e c e a, c
+      a4 h a16 d cis d h d g, h
+      a4 h
+    } \\ {
+      c4 e16 cis d e d2 %9
+      c b %10
+      a1~
+      a
+      b2 a
+      g f
+      gis4 a s2 %15
+      gis4 a s2
+      fis4 g s2
+      fis4 g
+    } >> a16 d cis d h d g, h %18
+    e, a gis a c a e' c a c e a a e c' a
+    \appoggiatura g fis8 e16 d g d h g c a d c \appoggiatura c h8 a16 g %20
+    \appoggiatura g fis8 e16 d << {
+      g4~ g8 f16 e r8 h'16 a %21
+      r8 h e16 d c h r8 e a16 g f e
+      f2 r8 d g16 f e d
+      e2 r8 c f16 e d c
+      d2 r8 h e16 d c h %25
+      <c a>4 \once \oneVoice r q \once \oneVoice r
+      r16 d c d h c a h r d c d h c a h
+      gis e' d e h d c h c e d e a, c h a
+    } \\ {
+      d,4~ d f %21
+      gis2 c
+      r8 a d16 c h a h2
+      r8 g c16 h a g a2
+      r8 f h16 a gis fis gis2 %25
+      e4 s e s
+      f2 f
+      s4 e2.
+    } >>
+    gis4 gis16 h a gis a4 << { c } \\ { r16 e, d c } >>
+    h' e d e h d c h c e d e a, c h a %30
+    gis8 e << { a4. gis8 h4 } \\ { e,2. } >>
+    a8 e << { c'4. h8 d4 } \\ { e,2. } >>
+    c'16 e f d e c d h c e f d e c d h
+    << {
+      c8 c c c c4 h %34
+      cis8 e d cis <a d>4 <gis h d>
+    } \\ {
+      a8 a a a a4. gis8 %34
+      a g f e f4 e
+    } >>
+    <e a cis>1\fermata \bar "|." %36 finis
+  }
+}

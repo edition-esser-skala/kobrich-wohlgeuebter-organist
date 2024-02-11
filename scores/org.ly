@@ -868,15 +868,30 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.18" "Toccata XVIII:va"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXVIIIChords }
+  %         \new Staff = "LH" { \ToccataXVIIIOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "3.18" "Toccata XVIII:va"
+    \section "3.19" "Toccata XIX:na"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXVIIIChords }
-          \new Staff = "LH" { \ToccataXVIIIOrgano }
+          \new Staff = "RH" { \ToccataXIXChords }
+          \new Staff = "LH" { \ToccataXIXOrgano }
         >>
       >>
       \layout { }
