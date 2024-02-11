@@ -883,19 +883,36 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.19" "Toccata XIX:na"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new PianoStaff <<
+  %         \set PianoStaff.instrumentName = "org"
+  %         \new Staff = "RH" { \ToccataXIXChords }
+  %         \new Staff = "LH" { \ToccataXIXOrgano }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "3.19" "Toccata XIX:na"
+    \section "3.20" "Toccata XX:ma"
     \addTocEntry
     \score { %\articulate
       <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = "org"
-          \new Staff = "RH" { \ToccataXIXChords }
-          \new Staff = "LH" { \ToccataXIXOrgano }
+          \new Staff = "RH" { \ToccataXXChords }
+          \new Staff = "LH" { \ToccataXXOrgano }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 100 }
     }
+    \noPageBreak
+    \markup { \vspace #1.5 \fontsize #3 \italic \fill-line { "" "IL FINE." "" } }
   }
 }

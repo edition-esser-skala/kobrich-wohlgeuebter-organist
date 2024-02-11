@@ -5903,3 +5903,81 @@ ToccataXIXChords = {
     <e a cis>1\fermata \bar "|." %36 finis
   }
 }
+
+ToccataXXChords = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4
+    << {
+      <fis h>1~
+      fis8 g fis h ais cis h d
+      cis e d fis e g fis e
+      d e d cis d fis gis ais
+      h2 g8 e fis g %5
+      a2 fis8 d e fis
+      g2 e8 cis d e
+      fis2 d~
+      d8 cis16 h a8 <gis h>_~ \voiceTwo gis4 fis~
+      fis8 eis4. \voiceOne ais8 cis dis eis %10
+      fis2 d8 h cis d
+      e!2 cis8 a h cis
+      d2 h8 gis a h
+      cis2 cis
+      d!4. cis8 h2 %15
+      cis8 e4.~ e8 d16 cis h8 a
+      gis4 e'8 d cis16 a h cis d8 cis
+      h e4 d8 cis16 a h cis d8 cis
+      h e fis gis a2
+      fis8 h, cis d e2 %20
+      r8 fis4 e8 d2
+      cis r4 r8 e~
+      e4. d8~ d4. cis8
+      <h g!>2 <h gis eis>~
+      h8 ais16 gis ais4 <fis h>8 c' a \hA c %25
+      h4 g8 h a a fis a
+      g2 fis
+      cis' dis
+      <cis e>1
+      <h dis>2 <ais e> %30
+    } \\ {
+      d,1~
+      d8 e d d cis e d h'
+      ais cis h d cis e d cis
+      h cis h ais h r r4
+      r8 dis e fis e r r4 %5
+      r8 cis d e d r r4
+      r8 h cis d cis r r4
+      r8 ais h cis r h16 a gis8 fis
+      eis2 \voiceOne a
+      gis \voiceTwo fis8 r r4 %10
+      r8 ais h cis h r r4
+      r8 gis a h a r r4
+      r8 fis gis a gis r r4
+      r8 eis fis gis a2
+      h4. a8 a4. gis8 %15
+      a4. g8 fis2
+      r8 e~ e2.~
+      e1
+      s2 r8 cis' d e
+      d r r4 r8 gis, a h %20
+      cis2~ cis4 h~
+      h8 ais fis ais g!2
+      fis e
+      d d
+      r4 r8 e dis4 s %25
+      s2.. fis8~
+      fis4 e dis2
+      ais' h
+      <fis ais>1
+      fis2 cis %30
+    } \\ {
+      s1*9
+      r4 cis'8 h s2 %10
+      s1*10 %20
+      s4 \voiceFour fis fis2
+      s1*5 %26
+      s2 \voiceThree r8 h h h
+    } >>
+    <h fis dis>1\fermata \bar "|." %31 finis
+  }
+}

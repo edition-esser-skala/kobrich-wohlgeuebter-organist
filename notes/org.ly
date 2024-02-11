@@ -5374,3 +5374,75 @@ ToccataXIXOrgano = {
     <a a,>1\fermata \bar "|." %36 finis
   }
 }
+
+ToccataXXOrgano = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4
+    << {
+      h'1~
+      h~
+      h~
+      h2 h8 r r4
+      r8 h4.~ h8 r r4 %5
+      r8 a4.~ a8 r r4
+      r8 g4.~ g8 r r4
+      r8 fis'4. h,2~
+      h8 a16 gis fis8 eis fis gis a h
+      cis2 cis8 r r4 %10
+      \oneVoice r8 fis, gis ais \voiceOne h r r4
+      \oneVoice r8 e, fis gis \voiceOne a r r4
+      \oneVoice r8 d, e fis \voiceOne gis r r4
+    } \\ {
+      h,1~
+      h~
+      h~
+      h2 h8 r r4
+      r8 h cis dis e r r4 %5
+      r8 a, h cis d r r4
+      r8 g, a h cis r r4
+      r8 fis gis ais r4 h,
+      cis1
+      r4 cis fis8 r r4 %10
+      s2 h,8 r r4
+      s2 a8 r r4
+      s2 gis8 r r4
+    } >>
+    r8 cis dis eis fis fis e fis
+    d h cis d e e d e %15
+    << {
+      a2 a4 d %16
+      h cis8 h a16 fis gis a h8 a
+      gis4 cis8 h a16 fis gis a h8 a
+      gis r r4 r8 a4.~
+      a8 r r4 r8 e'4.~ %20
+      e4 cis s2
+      s r8 e d cis
+      r d cis h r cis h ais
+      h2 <gis h>
+      cis h8 a! dis a %25
+      g! g e g fis4 dis8 fis
+      e8. fis16 g8 a h2
+      h1~
+      h~
+      h %30
+    } \\ {
+      cis,8 a h cis d2 %16
+      e1~
+      e~
+      e8 r r4 r8 a, h cis
+      d r r4 r8 e fis gis %20
+      a4 ais h8 h,16 cis d8 e
+      fis1~
+      fis
+      g!2 eis
+      fis h,~ %25
+      h1~
+      h~
+      h~
+      h~
+      h %30
+    } >>
+    <h dis fis h>1\fermata \bar "|." %31 finis
+  }
+}
