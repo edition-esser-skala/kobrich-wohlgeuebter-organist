@@ -5,8 +5,8 @@
 #(set-global-staff-size 17.82)
 
 \paper {
-  outer-margin = 1.5\cm
-  inner-margin = 1.5\cm
+  outer-margin = 1.3\cm
+  inner-margin = 1.7\cm
   top-system-spacing.basic-distance = #10
   top-system-spacing.minimum-distance = #10
   top-markup-spacing.basic-distance = #0
